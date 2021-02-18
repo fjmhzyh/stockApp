@@ -1,0 +1,933 @@
+2021-02-15 16:40:57,314 ERROR 1432 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: app is not defined
+    at AppBootHook.serverDidReady (G:\stockApp\app.js:36:5)
+    at Object.callFn (G:\stockApp\node_modules\egg-core\lib\utils\index.js:44:21)
+    at G:\stockApp\node_modules\egg-core\lib\lifecycle.js:207:23
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+
+pid: 1432
+hostname: DESKTOP-N4N2JFL
+
+2021-02-15 16:41:00,428 ERROR 12756 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: app is not defined
+    at AppBootHook.serverDidReady (G:\stockApp\app.js:36:5)
+    at Object.callFn (G:\stockApp\node_modules\egg-core\lib\utils\index.js:44:21)
+    at G:\stockApp\node_modules\egg-core\lib\lifecycle.js:207:23
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+
+pid: 12756
+hostname: DESKTOP-N4N2JFL
+
+2021-02-15 16:53:33,468 ERROR 6588 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'components' of undefined
+    at AppBootHook.serverDidReady (G:\stockApp\app.js:34:63)
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+    at async G:\stockApp\node_modules\egg-core\lib\lifecycle.js:207:11
+
+pid: 6588
+hostname: DESKTOP-N4N2JFL
+
+2021-02-15 16:59:54,822 ERROR 12460 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'components' of undefined
+    at AppBootHook.serverDidReady (G:\stockApp\app.js:34:63)
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+    at async G:\stockApp\node_modules\egg-core\lib\lifecycle.js:207:11
+
+pid: 12460
+hostname: DESKTOP-N4N2JFL
+
+2021-02-15 20:34:56,611 ERROR 12252 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Cannot set property 'page' of undefined
+    at createOptions (G:\stockApp\app.js:71:21)
+    at AppBootHook.serverDidReady (G:\stockApp\app.js:33:48)
+    at Object.callFn (G:\stockApp\node_modules\egg-core\lib\utils\index.js:44:21)
+    at G:\stockApp\node_modules\egg-core\lib\lifecycle.js:207:23
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+
+pid: 12252
+hostname: DESKTOP-N4N2JFL
+
+2021-02-15 20:34:59,623 ERROR 6648 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Cannot set property 'page' of undefined
+    at createOptions (G:\stockApp\app.js:71:21)
+    at AppBootHook.serverDidReady (G:\stockApp\app.js:33:48)
+    at Object.callFn (G:\stockApp\node_modules\egg-core\lib\utils\index.js:44:21)
+    at G:\stockApp\node_modules\egg-core\lib\lifecycle.js:207:23
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+
+pid: 6648
+hostname: DESKTOP-N4N2JFL
+
+2021-02-15 21:16:00,551 ERROR 12544 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: item is not defined
+    at AppBootHook.serverDidReady (G:\stockApp\app.js:54:9)
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+    at async G:\stockApp\node_modules\egg-core\lib\lifecycle.js:207:11
+
+pid: 12544
+hostname: DESKTOP-N4N2JFL
+
+2021-02-15 21:16:03,169 ERROR 13080 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: item is not defined
+    at AppBootHook.serverDidReady (G:\stockApp\app.js:54:9)
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+    at async G:\stockApp\node_modules\egg-core\lib\lifecycle.js:207:11
+
+pid: 13080
+hostname: DESKTOP-N4N2JFL
+
+2021-02-15 21:16:47,215 ERROR 12412 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: item is not defined
+    at AppBootHook.serverDidReady (G:\stockApp\app.js:54:9)
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+    at async G:\stockApp\node_modules\egg-core\lib\lifecycle.js:207:11
+
+pid: 12412
+hostname: DESKTOP-N4N2JFL
+
+2021-02-15 21:18:11,580 ERROR 11464 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: item is not defined
+    at AppBootHook.serverDidReady (G:\stockApp\app.js:54:9)
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+    at async G:\stockApp\node_modules\egg-core\lib\lifecycle.js:207:11
+
+pid: 11464
+hostname: DESKTOP-N4N2JFL
+
+2021-02-15 21:19:04,622 ERROR 17080 [-/127.0.0.1/-/1ms GET /] nodejs.ReferenceError: item is not defined
+    at AppBootHook.serverDidReady (G:\stockApp\app.js:54:9)
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+    at async G:\stockApp\node_modules\egg-core\lib\lifecycle.js:207:11
+
+pid: 17080
+hostname: DESKTOP-N4N2JFL
+
+2021-02-15 21:19:27,280 ERROR 7356 [-/127.0.0.1/-/1ms GET /] nodejs.ER_BAD_NULL_ERRORError: ER_BAD_NULL_ERROR: Column 'issue_time' cannot be null
+    at Query.Sequence._packetToError (G:\stockApp\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (G:\stockApp\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (G:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (G:\stockApp\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (G:\stockApp\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (G:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (G:\stockApp\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (G:\stockApp\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:223:5)
+    at addChunk (_stream_readable.js:309:12)
+    at readableAddChunk (_stream_readable.js:290:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:181:23)
+    --------------------
+    at Pool.query (G:\stockApp\node_modules\mysql\lib\Pool.js:199:23)
+    at G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (G:\stockApp\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (G:\stockApp\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (G:\stockApp\node_modules\co\index.js:65:19)
+    at G:\stockApp\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (G:\stockApp\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as query] (G:\stockApp\node_modules\co\index.js:30:15)
+    at RDSClient.proto.insert (G:\stockApp\node_modules\ali-rds\lib\operator.js:141:21)
+    at proto.insert.next (<anonymous>)
+    at onFulfilled (G:\stockApp\node_modules\co\index.js:65:19)
+    sql: INSERT INTO `stock`(`code`, `name`, `price`, `issue_time`, `issue_days`, `stock_rise_2020`, `stock_rank_2020`) VALUES('300677', '英科医疗', '235.27', NULL, 1301, 1482.340025094053, 4)
+code: "ER_BAD_NULL_ERROR"
+errno: 1048
+sqlMessage: "Column 'issue_time' cannot be null"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `stock`(`code`, `name`, `price`, `issue_time`, `issue_days`, `stock_rise_2020`, `stock_rank_2020`) VALUES('300677', '英科医疗', '235.27', NULL, 1301, 1482.340025094053, 4)"
+name: "ER_BAD_NULL_ERRORError"
+pid: 7356
+hostname: DESKTOP-N4N2JFL
+
+2021-02-15 21:23:54,775 ERROR 18944 [-/127.0.0.1/-/0ms GET /] nodejs.ER_BAD_NULL_ERRORError: ER_BAD_NULL_ERROR: Column 'price' cannot be null
+    at Query.Sequence._packetToError (G:\stockApp\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (G:\stockApp\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (G:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (G:\stockApp\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (G:\stockApp\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (G:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (G:\stockApp\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (G:\stockApp\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:223:5)
+    at addChunk (_stream_readable.js:309:12)
+    at readableAddChunk (_stream_readable.js:290:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:181:23)
+    --------------------
+    at Pool.query (G:\stockApp\node_modules\mysql\lib\Pool.js:199:23)
+    at G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (G:\stockApp\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (G:\stockApp\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (G:\stockApp\node_modules\co\index.js:65:19)
+    at G:\stockApp\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (G:\stockApp\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as query] (G:\stockApp\node_modules\co\index.js:30:15)
+    at RDSClient.proto.insert (G:\stockApp\node_modules\ali-rds\lib\operator.js:141:21)
+    at proto.insert.next (<anonymous>)
+    at onFulfilled (G:\stockApp\node_modules\co\index.js:65:19)
+    sql: INSERT INTO `stock`(`code`, `name`, `price`, `issue_time`, `issue_days`, `stock_rise_2020`, `stock_rank_2020`) VALUES('002735', '王子新材', NULL, '20141203', 2262, 98.84931506849315, 353)
+code: "ER_BAD_NULL_ERROR"
+errno: 1048
+sqlMessage: "Column 'price' cannot be null"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `stock`(`code`, `name`, `price`, `issue_time`, `issue_days`, `stock_rise_2020`, `stock_rank_2020`) VALUES('002735', '王子新材', NULL, '20141203', 2262, 98.84931506849315, 353)"
+name: "ER_BAD_NULL_ERRORError"
+pid: 18944
+hostname: DESKTOP-N4N2JFL
+
+2021-02-17 14:47:46,623 ERROR 3952 nodejs.TypeError: Cannot read property 'mysql' of undefined
+    at updateStock (G:\stockApp\app.js:67:32)
+    at AppBootHook.serverDidReady (G:\stockApp\app.js:34:7)
+    at Object.callFn (G:\stockApp\node_modules\egg-core\lib\utils\index.js:44:21)
+    at G:\stockApp\node_modules\egg-core\lib\lifecycle.js:207:23
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+
+pid: 3952
+hostname: DESKTOP-N4N2JFL
+
+2021-02-17 14:47:46,629 ERROR 3952 nodejs.TypeError: Cannot read property 'mysql' of undefined
+    at updateStock (G:\stockApp\app.js:67:32)
+    at AppBootHook.serverDidReady (G:\stockApp\app.js:34:7)
+    at Object.callFn (G:\stockApp\node_modules\egg-core\lib\utils\index.js:44:21)
+    at G:\stockApp\node_modules\egg-core\lib\lifecycle.js:207:23
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+
+pid: 3952
+hostname: DESKTOP-N4N2JFL
+
+2021-02-17 14:47:49,466 ERROR 13292 nodejs.TypeError: Cannot read property 'mysql' of undefined
+    at updateStock (G:\stockApp\app.js:67:32)
+    at AppBootHook.serverDidReady (G:\stockApp\app.js:34:7)
+    at Object.callFn (G:\stockApp\node_modules\egg-core\lib\utils\index.js:44:21)
+    at G:\stockApp\node_modules\egg-core\lib\lifecycle.js:207:23
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+
+pid: 13292
+hostname: DESKTOP-N4N2JFL
+
+2021-02-17 14:47:49,472 ERROR 13292 nodejs.TypeError: Cannot read property 'mysql' of undefined
+    at updateStock (G:\stockApp\app.js:67:32)
+    at AppBootHook.serverDidReady (G:\stockApp\app.js:34:7)
+    at Object.callFn (G:\stockApp\node_modules\egg-core\lib\utils\index.js:44:21)
+    at G:\stockApp\node_modules\egg-core\lib\lifecycle.js:207:23
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+
+pid: 13292
+hostname: DESKTOP-N4N2JFL
+
+2021-02-17 14:50:34,093 ERROR 8744 nodejs.TypeError: Cannot read property 'datas' of undefined
+    at AppBootHook.updateStock (G:\stockApp\app.js:73:40)
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+
+pid: 8744
+hostname: DESKTOP-N4N2JFL
+
+2021-02-17 14:50:34,099 ERROR 8744 nodejs.TypeError: Cannot read property 'datas' of undefined
+    at AppBootHook.updateStock (G:\stockApp\app.js:73:40)
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+
+pid: 8744
+hostname: DESKTOP-N4N2JFL
+
+2021-02-17 15:18:04,227 ERROR 10288 nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, POST http://www.iwencai.com/unifiedwap/unified-wap/v2/stock-pick/find -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (G:\stockApp\node_modules\urllib\lib\urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/unifiedwap/unified-wap/v2/stock-pick/find"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5011,"keepAliveSocket":false,"requestUrls":["http://www.iwencai.com/unifiedwap/unified-wap/v2/stock-pick/find"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 10288
+hostname: DESKTOP-N4N2JFL
+
+2021-02-17 15:25:31,951 ERROR 3308 nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, POST http://www.iwencai.com/unifiedwap/unified-wap/v2/stock-pick/find -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (G:\stockApp\node_modules\urllib\lib\urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/unifiedwap/unified-wap/v2/stock-pick/find"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5018,"keepAliveSocket":false,"requestUrls":["http://www.iwencai.com/unifiedwap/unified-wap/v2/stock-pick/find"],"timing":null,"remoteAddress":"183.131.2.244","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 3308
+hostname: DESKTOP-N4N2JFL
+
+2021-02-17 15:27:38,673 ERROR 3716 [-/127.0.0.1/-/0ms GET /] nodejs.ResponseTimeoutError: Response timeout for 5000ms, POST http://ai.iwencai.com/urp/v7/landing/getDataList -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (G:\stockApp\node_modules\urllib\lib\urllib.js:960:15)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ResponseTimeoutError"
+requestId: 1
+data: undefined
+path: "/urp/v7/landing/getDataList"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":8095,"keepAliveSocket":false,"requestUrls":["http://ai.iwencai.com/urp/v7/landing/getDataList"],"timing":null,"remoteAddress":"183.131.2.248","remotePort":80,"socketHandledRequests":1,"socketHandledResponses":0}
+pid: 3716
+hostname: DESKTOP-N4N2JFL
+
+2021-02-17 15:50:39,797 ERROR 3592 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Invalid character in header content ["referer"], POST http://www.iwencai.com/unifiedwap/unified-wap/v2/stock-pick/find -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":0,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 0, socketHandledResponses: 0)
+headers: {}
+    at ClientRequest.setHeader (_http_outgoing.js:488:3)
+    at new ClientRequest (_http_client.js:221:14)
+    at Object.request (http.js:44:10)
+    at Object.requestWithCallback (G:\stockApp\node_modules\urllib\lib\urllib.js:1009:19)
+    at G:\stockApp\node_modules\urllib\lib\urllib.js:161:13
+    at new Promise (<anonymous>)
+    at Object.request (G:\stockApp\node_modules\urllib\lib\urllib.js:160:10)
+    at HttpClient.request.HttpClient.curl (G:\stockApp\node_modules\urllib\lib\httpclient.js:45:17)
+    at HttpClient.request (G:\stockApp\node_modules\urllib\lib\httpclient2.js:28:39)
+    at HttpClient.request (G:\stockApp\node_modules\egg\lib\core\httpclient.js:45:18)
+    at Application.curl (G:\stockApp\node_modules\egg\lib\egg.js:283:28)
+    at AppBootHook.serverDidReady (G:\stockApp\app.js:33:37)
+    at Object.callFn (G:\stockApp\node_modules\egg-core\lib\utils\index.js:44:21)
+    at G:\stockApp\node_modules\egg-core\lib\lifecycle.js:207:23
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+code: "ERR_INVALID_CHAR"
+data: undefined
+path: "/unifiedwap/unified-wap/v2/stock-pick/find"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":6,"keepAliveSocket":false,"requestUrls":["http://www.iwencai.com/unifiedwap/unified-wap/v2/stock-pick/find"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":0,"socketHandledResponses":0}
+pid: 3592
+hostname: DESKTOP-N4N2JFL
+
+2021-02-17 15:50:42,690 ERROR 10268 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Invalid character in header content ["referer"], POST http://www.iwencai.com/unifiedwap/unified-wap/v2/stock-pick/find -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":0,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 0, socketHandledResponses: 0)
+headers: {}
+    at ClientRequest.setHeader (_http_outgoing.js:488:3)
+    at new ClientRequest (_http_client.js:221:14)
+    at Object.request (http.js:44:10)
+    at Object.requestWithCallback (G:\stockApp\node_modules\urllib\lib\urllib.js:1009:19)
+    at G:\stockApp\node_modules\urllib\lib\urllib.js:161:13
+    at new Promise (<anonymous>)
+    at Object.request (G:\stockApp\node_modules\urllib\lib\urllib.js:160:10)
+    at HttpClient.request.HttpClient.curl (G:\stockApp\node_modules\urllib\lib\httpclient.js:45:17)
+    at HttpClient.request (G:\stockApp\node_modules\urllib\lib\httpclient2.js:28:39)
+    at HttpClient.request (G:\stockApp\node_modules\egg\lib\core\httpclient.js:45:18)
+    at Application.curl (G:\stockApp\node_modules\egg\lib\egg.js:283:28)
+    at AppBootHook.serverDidReady (G:\stockApp\app.js:33:37)
+    at Object.callFn (G:\stockApp\node_modules\egg-core\lib\utils\index.js:44:21)
+    at G:\stockApp\node_modules\egg-core\lib\lifecycle.js:207:23
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+code: "ERR_INVALID_CHAR"
+data: undefined
+path: "/unifiedwap/unified-wap/v2/stock-pick/find"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":6,"keepAliveSocket":false,"requestUrls":["http://www.iwencai.com/unifiedwap/unified-wap/v2/stock-pick/find"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":0,"socketHandledResponses":0}
+pid: 10268
+hostname: DESKTOP-N4N2JFL
+
+2021-02-17 20:34:42,543 ERROR 11976 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: app is not defined
+    at AppBootHook.serverDidReady (G:\stockApp\app.js:33:5)
+    at Object.callFn (G:\stockApp\node_modules\egg-core\lib\utils\index.js:44:21)
+    at G:\stockApp\node_modules\egg-core\lib\lifecycle.js:207:23
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+
+pid: 11976
+hostname: DESKTOP-N4N2JFL
+
+2021-02-17 20:34:51,425 ERROR 9952 [-/127.0.0.1/-/1ms GET /] nodejs.ReferenceError: app is not defined
+    at AppBootHook.serverDidReady (G:\stockApp\app.js:33:5)
+    at Object.callFn (G:\stockApp\node_modules\egg-core\lib\utils\index.js:44:21)
+    at G:\stockApp\node_modules\egg-core\lib\lifecycle.js:207:23
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+
+pid: 9952
+hostname: DESKTOP-N4N2JFL
+
+2021-02-17 22:56:07,294 ERROR 20024 [intro.js] server render bundle error, try client render, the server render error ReferenceError: columns is not defined
+    at Intro.render (evalmachine.<anonymous>:481:16)
+    at processChild (G:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3134:18)
+    at resolve (G:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (G:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (G:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3373:29)
+    at Object.renderToString (G:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3988:27)
+    at Engine.renderToString (G:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:133:27)
+    at Engine.renderElement (G:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:110:17)
+    at Engine.app.react.render (G:\stockApp\node_modules\egg-webpack-react\app.js:29:24)
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+    at async Engine.renderPage (G:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (G:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (G:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.index (G:\stockApp\app\controller\intro\intro.js:6:7)
+2021-02-17 22:56:07,569 ERROR 20024 [intro.js] server render bundle error, try client render, the server render error ReferenceError: columns is not defined
+    at Intro.render (evalmachine.<anonymous>:481:16)
+    at processChild (G:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3134:18)
+    at resolve (G:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (G:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (G:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3373:29)
+    at Object.renderToString (G:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3988:27)
+    at Engine.renderToString (G:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:133:27)
+    at Engine.renderElement (G:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:110:17)
+    at Engine.app.react.render (G:\stockApp\node_modules\egg-webpack-react\app.js:29:24)
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+    at async Engine.renderPage (G:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (G:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (G:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.index (G:\stockApp\app\controller\intro\intro.js:6:7)
+2021-02-17 22:56:17,502 ERROR 20024 [intro.js] server render bundle error, try client render, the server render error TypeError: showTotal is not a function
+    at Pagination.render (G:\stockApp\node_modules\rc-pagination\lib\Pagination.js:601:12)
+    at processChild (G:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3134:18)
+    at resolve (G:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (G:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (G:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3373:29)
+    at Object.renderToString (G:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3988:27)
+    at Engine.renderToString (G:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:133:27)
+    at Engine.renderElement (G:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:110:17)
+    at Engine.app.react.render (G:\stockApp\node_modules\egg-webpack-react\app.js:29:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+    at async Engine.renderPage (G:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (G:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (G:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.index (G:\stockApp\app\controller\intro\intro.js:6:7)
+2021-02-17 23:07:40,100 ERROR 12024 nodejs.TypeError: this.ctx.db.query is not a function
+    at ArticeService.getStock (G:\stockApp\app\service\article.js:13:41)
+    at IntroController.list (G:\stockApp\app\controller\intro\intro.js:11:40)
+    at Object.callFn (G:\stockApp\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (G:\stockApp\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (G:\stockApp\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (G:\stockApp\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (G:\stockApp\node_modules\koa-compose\index.js:44:32)
+    at next (G:\stockApp\node_modules\koa-compose\index.js:45:18)
+    at G:\stockApp\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (G:\stockApp\node_modules\koa-compose\index.js:44:32)
+    at G:\stockApp\node_modules\koa-compose\index.js:36:12
+    at dispatch (G:\stockApp\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (G:\stockApp\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (G:\stockApp\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at Object.<anonymous> (G:\stockApp\app\middleware\access.js:9:5)
+
+pid: 12024
+hostname: DESKTOP-N4N2JFL
+
+2021-02-17 23:08:51,019 ERROR 19660 nodejs.TypeError: Cannot read property 'select' of undefined
+    at ArticeService.getStock (G:\stockApp\app\service\article.js:13:44)
+    at IntroController.list (G:\stockApp\app\controller\intro\intro.js:11:40)
+    at Object.callFn (G:\stockApp\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (G:\stockApp\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (G:\stockApp\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (G:\stockApp\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (G:\stockApp\node_modules\koa-compose\index.js:44:32)
+    at next (G:\stockApp\node_modules\koa-compose\index.js:45:18)
+    at G:\stockApp\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (G:\stockApp\node_modules\koa-compose\index.js:44:32)
+    at G:\stockApp\node_modules\koa-compose\index.js:36:12
+    at dispatch (G:\stockApp\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (G:\stockApp\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (G:\stockApp\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at Object.<anonymous> (G:\stockApp\app\middleware\access.js:9:5)
+
+pid: 19660
+hostname: DESKTOP-N4N2JFL
+
+2021-02-17 23:09:10,707 ERROR 19660 nodejs.TypeError: Cannot read property 'select' of undefined
+    at ArticeService.getStock (G:\stockApp\app\service\article.js:13:44)
+    at IntroController.list (G:\stockApp\app\controller\intro\intro.js:11:40)
+    at Object.callFn (G:\stockApp\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (G:\stockApp\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (G:\stockApp\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (G:\stockApp\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (G:\stockApp\node_modules\koa-compose\index.js:44:32)
+    at next (G:\stockApp\node_modules\koa-compose\index.js:45:18)
+    at G:\stockApp\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (G:\stockApp\node_modules\koa-compose\index.js:44:32)
+    at G:\stockApp\node_modules\koa-compose\index.js:36:12
+    at dispatch (G:\stockApp\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (G:\stockApp\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (G:\stockApp\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at Object.<anonymous> (G:\stockApp\app\middleware\access.js:9:5)
+
+pid: 19660
+hostname: DESKTOP-N4N2JFL
+
+2021-02-18 10:12:06,851 ERROR 12820 [intro.js] server render bundle error, try client render, the server render error TypeError: Cannot read property 'bind' of undefined
+    at new Intro (evalmachine.<anonymous>:519:31)
+    at processChild (G:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:2995:14)
+    at resolve (G:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (G:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (G:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3373:29)
+    at Object.renderToString (G:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3988:27)
+    at Engine.renderToString (G:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:133:27)
+    at Engine.renderElement (G:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:110:17)
+    at Engine.app.react.render (G:\stockApp\node_modules\egg-webpack-react\app.js:29:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+    at async Engine.renderPage (G:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (G:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (G:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.index (G:\stockApp\app\controller\intro\intro.js:6:7)
+2021-02-18 10:12:07,811 ERROR 12820 [intro.js] server render bundle error, try client render, the server render error TypeError: Cannot read property 'bind' of undefined
+    at new Intro (evalmachine.<anonymous>:519:31)
+    at processChild (G:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:2995:14)
+    at resolve (G:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (G:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (G:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3373:29)
+    at Object.renderToString (G:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3988:27)
+    at Engine.renderToString (G:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:133:27)
+    at Engine.renderElement (G:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:110:17)
+    at Engine.app.react.render (G:\stockApp\node_modules\egg-webpack-react\app.js:29:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+    at async Engine.renderPage (G:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (G:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (G:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.index (G:\stockApp\app\controller\intro\intro.js:6:7)
+2021-02-18 11:35:04,490 ERROR 16720 [-/::1/-/10030ms GET /api/list?page=2&pageSize=30] nodejs.EHOSTUNREACHError: connect EHOSTUNREACH 116.62.226.6:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1134:16)
+    --------------------
+    at Protocol._enqueue (G:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (G:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (G:\stockApp\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (G:\stockApp\node_modules\mysql\lib\Pool.js:48:16)
+    at G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.releaseConnection (G:\stockApp\node_modules\mysql\lib\Pool.js:157:10)
+    at Pool._removeConnection (G:\stockApp\node_modules\mysql\lib\Pool.js:277:8)
+    at Pool._purgeConnection (G:\stockApp\node_modules\mysql\lib\Pool.js:258:8)
+    at Ping.onOperationComplete (G:\stockApp\node_modules\mysql\lib\Pool.js:101:12)
+    at Ping.<anonymous> (G:\stockApp\node_modules\mysql\lib\Connection.js:526:10)
+    at Ping._callback (G:\stockApp\node_modules\mysql\lib\Connection.js:488:16)
+    at Ping.Sequence.end (G:\stockApp\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at G:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:404:18
+    sql: SELECT * FROM `stock` WHERE `id` = 1 LIMIT 0, 1
+errno: "EHOSTUNREACH"
+code: "EHOSTUNREACH"
+syscall: "connect"
+address: "116.62.226.6"
+port: 3306
+fatal: true
+name: "EHOSTUNREACHError"
+pid: 16720
+hostname: DESKTOP-N4N2JFL
+
+2021-02-18 11:35:30,816 ERROR 16720 [-/::1/-/1ms GET /api/list?page=1&pageSize=30] nodejs.EHOSTUNREACHError: connect EHOSTUNREACH 116.62.226.6:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1134:16)
+    --------------------
+    at Protocol._enqueue (G:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (G:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (G:\stockApp\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (G:\stockApp\node_modules\mysql\lib\Pool.js:48:16)
+    at G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (G:\stockApp\node_modules\mysql\lib\Pool.js:202:8)
+    at G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (G:\stockApp\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (G:\stockApp\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    sql: SELECT * FROM `stock` WHERE `id` = 1 LIMIT 0, 1
+errno: "EHOSTUNREACH"
+code: "EHOSTUNREACH"
+syscall: "connect"
+address: "116.62.226.6"
+port: 3306
+fatal: true
+name: "EHOSTUNREACHError"
+pid: 16720
+hostname: DESKTOP-N4N2JFL
+
+2021-02-18 12:13:17,943 ERROR 16720 [-/::1/-/10005ms GET /api/list?page=1&pageSize=30] nodejs.PROTOCOL_SEQUENCE_TIMEOUTError: Handshake inactivity timeout
+    at Handshake.<anonymous> (G:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:160:17)
+    at Handshake.emit (events.js:223:5)
+    at Handshake._onTimeout (G:\stockApp\node_modules\mysql\lib\protocol\sequences\Sequence.js:124:8)
+    at Timer._onTimeout (G:\stockApp\node_modules\mysql\lib\protocol\Timer.js:32:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+    --------------------
+    at Protocol._enqueue (G:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (G:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (G:\stockApp\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (G:\stockApp\node_modules\mysql\lib\Pool.js:48:16)
+    at G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (G:\stockApp\node_modules\mysql\lib\Pool.js:202:8)
+    at G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (G:\stockApp\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (G:\stockApp\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    sql: SELECT * FROM `stock` WHERE `id` = 1 LIMIT 0, 1
+code: "PROTOCOL_SEQUENCE_TIMEOUT"
+fatal: true
+timeout: 10000
+name: "PROTOCOL_SEQUENCE_TIMEOUTError"
+pid: 16720
+hostname: DESKTOP-N4N2JFL
+
+2021-02-18 15:24:52,881 ERROR 16720 [-/::1/-/10016ms GET /api/list?page=1&pageSize=30] nodejs.EHOSTUNREACHError: connect EHOSTUNREACH 116.62.226.6:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1134:16)
+    --------------------
+    at Protocol._enqueue (G:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (G:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (G:\stockApp\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (G:\stockApp\node_modules\mysql\lib\Pool.js:48:16)
+    at G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.releaseConnection (G:\stockApp\node_modules\mysql\lib\Pool.js:157:10)
+    at Pool._removeConnection (G:\stockApp\node_modules\mysql\lib\Pool.js:277:8)
+    at Pool._purgeConnection (G:\stockApp\node_modules\mysql\lib\Pool.js:258:8)
+    at Ping.onOperationComplete (G:\stockApp\node_modules\mysql\lib\Pool.js:101:12)
+    at Ping.<anonymous> (G:\stockApp\node_modules\mysql\lib\Connection.js:526:10)
+    at Ping._callback (G:\stockApp\node_modules\mysql\lib\Connection.js:488:16)
+    at Ping.Sequence.end (G:\stockApp\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at G:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:404:18
+    sql: SELECT * FROM `stock` WHERE `id` = 1 LIMIT 0, 1
+errno: "EHOSTUNREACH"
+code: "EHOSTUNREACH"
+syscall: "connect"
+address: "116.62.226.6"
+port: 3306
+fatal: true
+name: "EHOSTUNREACHError"
+pid: 16720
+hostname: DESKTOP-N4N2JFL
+
+2021-02-18 15:24:59,879 ERROR 16720 [-/::1/-/5ms GET /api/list?page=1&pageSize=30] nodejs.EHOSTUNREACHError: connect EHOSTUNREACH 116.62.226.6:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1134:16)
+    --------------------
+    at Protocol._enqueue (G:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (G:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (G:\stockApp\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (G:\stockApp\node_modules\mysql\lib\Pool.js:48:16)
+    at G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (G:\stockApp\node_modules\mysql\lib\Pool.js:202:8)
+    at G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (G:\stockApp\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (G:\stockApp\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    sql: SELECT * FROM `stock` WHERE `id` = 1 LIMIT 0, 1
+errno: "EHOSTUNREACH"
+code: "EHOSTUNREACH"
+syscall: "connect"
+address: "116.62.226.6"
+port: 3306
+fatal: true
+name: "EHOSTUNREACHError"
+pid: 16720
+hostname: DESKTOP-N4N2JFL
+
+2021-02-18 15:25:29,574 ERROR 16720 [-/::1/-/10010ms GET /api/list?page=1&pageSize=30] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (G:\stockApp\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:312:28)
+    at Socket.emit (events.js:223:5)
+    at Socket._onTimeout (net.js:474:8)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+    --------------------
+    at Protocol._enqueue (G:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (G:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (G:\stockApp\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (G:\stockApp\node_modules\mysql\lib\Pool.js:48:16)
+    at G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (G:\stockApp\node_modules\mysql\lib\Pool.js:202:8)
+    at G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (G:\stockApp\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (G:\stockApp\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    sql: SELECT * FROM `stock` WHERE `id` = 1 LIMIT 0, 1
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+name: "ETIMEDOUTError"
+pid: 16720
+hostname: DESKTOP-N4N2JFL
+
+2021-02-18 15:26:11,551 ERROR 16720 [-/::1/-/10012ms GET /api/list?page=1&pageSize=30] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (G:\stockApp\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:312:28)
+    at Socket.emit (events.js:223:5)
+    at Socket._onTimeout (net.js:474:8)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+    --------------------
+    at Protocol._enqueue (G:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (G:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (G:\stockApp\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (G:\stockApp\node_modules\mysql\lib\Pool.js:48:16)
+    at G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (G:\stockApp\node_modules\mysql\lib\Pool.js:202:8)
+    at G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (G:\stockApp\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (G:\stockApp\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    sql: SELECT * FROM `stock` WHERE `id` = 1 LIMIT 0, 1
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+name: "ETIMEDOUTError"
+pid: 16720
+hostname: DESKTOP-N4N2JFL
+
+2021-02-18 15:26:36,571 ERROR 16720 [-/::1/-/5ms GET /api/list?page=1&pageSize=30] nodejs.EHOSTUNREACHError: connect EHOSTUNREACH 116.62.226.6:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1134:16)
+    --------------------
+    at Protocol._enqueue (G:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (G:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (G:\stockApp\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (G:\stockApp\node_modules\mysql\lib\Pool.js:48:16)
+    at G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (G:\stockApp\node_modules\mysql\lib\Pool.js:202:8)
+    at G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (G:\stockApp\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (G:\stockApp\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    sql: SELECT * FROM `stock` WHERE `id` = 1 LIMIT 0, 1
+errno: "EHOSTUNREACH"
+code: "EHOSTUNREACH"
+syscall: "connect"
+address: "116.62.226.6"
+port: 3306
+fatal: true
+name: "EHOSTUNREACHError"
+pid: 16720
+hostname: DESKTOP-N4N2JFL
+
+2021-02-18 15:26:53,299 ERROR 16720 [-/undefined/-/10021ms GET /api/list?page=1&pageSize=30] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (G:\stockApp\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:312:28)
+    at Socket.emit (events.js:223:5)
+    at Socket._onTimeout (net.js:474:8)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+    --------------------
+    at Protocol._enqueue (G:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (G:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (G:\stockApp\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (G:\stockApp\node_modules\mysql\lib\Pool.js:48:16)
+    at G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (G:\stockApp\node_modules\mysql\lib\Pool.js:202:8)
+    at G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (G:\stockApp\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (G:\stockApp\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    sql: SELECT * FROM `stock` WHERE `id` = 1 LIMIT 0, 1
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+headerSent: true
+name: "ETIMEDOUTError"
+pid: 16720
+hostname: DESKTOP-N4N2JFL
+
+2021-02-18 15:26:56,496 ERROR 16720 [-/::1/-/10009ms GET /api/list?page=1&pageSize=30] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (G:\stockApp\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:312:28)
+    at Socket.emit (events.js:223:5)
+    at Socket._onTimeout (net.js:474:8)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+    --------------------
+    at Protocol._enqueue (G:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (G:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (G:\stockApp\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (G:\stockApp\node_modules\mysql\lib\Pool.js:48:16)
+    at G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as getConnection] (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at Pool.query (G:\stockApp\node_modules\mysql\lib\Pool.js:202:8)
+    at G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (G:\stockApp\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (G:\stockApp\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    sql: SELECT * FROM `stock` WHERE `id` = 1 LIMIT 0, 1
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+name: "ETIMEDOUTError"
+pid: 16720
+hostname: DESKTOP-N4N2JFL
+
+2021-02-18 15:29:04,476 ERROR 16720 [-/undefined/-/65476ms GET /api/list?page=1&pageSize=30] nodejs.PROTOCOL_CONNECTION_LOSTError: Connection lost: The server closed the connection.
+    at Protocol.end (G:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:112:13)
+    at Socket.<anonymous> (G:\stockApp\node_modules\mysql\lib\Connection.js:94:28)
+    at Socket.<anonymous> (G:\stockApp\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:228:7)
+    at endReadableNT (_stream_readable.js:1185:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+    --------------------
+    at Pool.query (G:\stockApp\node_modules\mysql\lib\Pool.js:199:23)
+    at G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (G:\stockApp\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (G:\stockApp\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (G:\stockApp\node_modules\co\index.js:65:19)
+    at G:\stockApp\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (G:\stockApp\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as query] (G:\stockApp\node_modules\co\index.js:30:15)
+    at RDSClient.proto.select (G:\stockApp\node_modules\ali-rds\lib\operator.js:100:21)
+    at proto.select.next (<anonymous>)
+    at onFulfilled (G:\stockApp\node_modules\co\index.js:65:19)
+    sql: SELECT * FROM `stock` ORDER BY `three_year_average_rise` DESC, `five_year_average_rise` DESC
+fatal: true
+code: "PROTOCOL_CONNECTION_LOST"
+headerSent: true
+name: "PROTOCOL_CONNECTION_LOSTError"
+pid: 16720
+hostname: DESKTOP-N4N2JFL
+
+2021-02-18 17:36:46,087 ERROR 15996 [-/::1/-/1278ms GET /api/list?page=1&pageSize=30&sort=three&type=three] nodejs.ER_TOO_LONG_IDENTError: ER_TOO_LONG_IDENT: Identifier name 'select * from stock where stock_rise_2019>0 and stock_rise_2018>0 
+              ORDER BY id DESC LI' is too long
+              ORDER BY id DESC LI' is too long
+    at Query.Sequence._packetToError (G:\stockApp\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (G:\stockApp\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (G:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (G:\stockApp\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (G:\stockApp\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (G:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (G:\stockApp\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (G:\stockApp\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:223:5)
+    at addChunk (_stream_readable.js:309:12)
+    at readableAddChunk (_stream_readable.js:290:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:181:23)
+    --------------------
+    at Pool.query (G:\stockApp\node_modules\mysql\lib\Pool.js:199:23)
+    at G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (G:\stockApp\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (G:\stockApp\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (G:\stockApp\node_modules\co\index.js:65:19)
+    at G:\stockApp\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (G:\stockApp\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as query] (G:\stockApp\node_modules\co\index.js:30:15)
+    at RDSClient.proto.count (G:\stockApp\node_modules\ali-rds\lib\operator.js:77:27)
+    at proto.count.next (<anonymous>)
+    at onFulfilled (G:\stockApp\node_modules\co\index.js:65:19)
+    sql: SELECT COUNT(*) as count FROM `select * from stock where stock_rise_2019>0 and stock_rise_2018>0 
+              ORDER BY id DESC LIMIT 0, 30;`
+code: "ER_TOO_LONG_IDENT"
+errno: 1059
+sqlMessage: "Identifier name 'select * from stock where stock_rise_2019>0 and stock_rise_2018>0 \n              ORDER BY id DESC LI' is too long"
+sqlState: "42000"
+index: 0
+sql: "SELECT COUNT(*) as count FROM `select * from stock where stock_rise_2019>0 and stock_rise_2018>0 \n              ORDER BY id DESC LIMIT 0, 30;`"
+name: "ER_TOO_LONG_IDENTError"
+pid: 15996
+hostname: DESKTOP-N4N2JFL
+
+2021-02-18 19:12:43,974 ERROR 5924 [-/::1/-/83ms GET /api/list?page=2&pageSize=30&sort=three&type=three] nodejs.TypeError: Cannot read property 'count(*)' of undefined
+    at ArticeService.getStock (G:\stockApp\app\service\article.js:49:24)
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+    at async IntroController.list (G:\stockApp\app\controller\intro\intro.js:15:21)
+
+pid: 5924
+hostname: DESKTOP-N4N2JFL
+
+2021-02-18 19:24:46,104 ERROR 2472 [-/::1/-/70ms GET /api/list?page=1&pageSize=30&sort=three&type=one] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-1, 29' at line 1
+    at Query.Sequence._packetToError (G:\stockApp\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (G:\stockApp\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (G:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (G:\stockApp\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (G:\stockApp\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (G:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (G:\stockApp\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (G:\stockApp\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:223:5)
+    at addChunk (_stream_readable.js:309:12)
+    at readableAddChunk (_stream_readable.js:290:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:181:23)
+    --------------------
+    at Pool.query (G:\stockApp\node_modules\mysql\lib\Pool.js:199:23)
+    at G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (G:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (G:\stockApp\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (G:\stockApp\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (G:\stockApp\node_modules\co\index.js:65:19)
+    at G:\stockApp\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (G:\stockApp\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as query] (G:\stockApp\node_modules\co\index.js:30:15)
+    at RDSClient.proto.select (G:\stockApp\node_modules\ali-rds\lib\operator.js:100:21)
+    at proto.select.next (<anonymous>)
+    at onFulfilled (G:\stockApp\node_modules\co\index.js:65:19)
+    sql: SELECT * FROM `stock` ORDER BY `id` DESC LIMIT -1, 29
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-1, 29' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM `stock` ORDER BY `id` DESC LIMIT -1, 29"
+name: "ER_PARSE_ERRORError"
+pid: 2472
+hostname: DESKTOP-N4N2JFL
+

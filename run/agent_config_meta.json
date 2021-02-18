@@ -1,0 +1,369 @@
+{
+  "siteFile": {
+    "/favicon.ico": "G:\\stockApp\\config\\config.default.js"
+  },
+  "logger": {
+    "consoleLevel": "G:\\stockApp\\config\\config.default.js",
+    "dir": "G:\\stockApp\\config\\config.default.js",
+    "encoding": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+    "env": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+    "level": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "G:\\stockApp\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "G:\\stockApp\\config\\config.default.js",
+    "dir": "G:\\stockApp\\config\\config.default.js",
+    "maxAge": "G:\\stockApp\\config\\config.local.js",
+    "dynamic": "G:\\stockApp\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "G:\\stockApp\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "G:\\stockApp\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "G:\\stockApp\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "keys": "G:\\stockApp\\config\\config.default.js",
+  "middleware": "G:\\stockApp\\config\\config.default.js",
+  "reactssr": {
+    "layout": "G:\\stockApp\\config\\config.default.js",
+    "injectCss": "G:\\stockApp\\config\\config.local.js",
+    "doctype": "G:\\stockApp\\node_modules\\egg-view-react-ssr\\config\\config.default.js",
+    "manifest": "G:\\stockApp\\node_modules\\egg-view-react-ssr\\config\\config.default.js",
+    "injectHeadRegex": "G:\\stockApp\\node_modules\\egg-view-react-ssr\\config\\config.default.js",
+    "injectBodyRegex": "G:\\stockApp\\node_modules\\egg-view-react-ssr\\config\\config.default.js",
+    "injectJs": "G:\\stockApp\\node_modules\\egg-view-react-ssr\\config\\config.default.js",
+    "crossorigin": "G:\\stockApp\\node_modules\\egg-view-react-ssr\\config\\config.default.js",
+    "injectRes": "G:\\stockApp\\node_modules\\egg-view-react-ssr\\config\\config.default.js",
+    "mergeLocals": "G:\\stockApp\\node_modules\\egg-view-react-ssr\\config\\config.default.js",
+    "fallbackToClient": "G:\\stockApp\\node_modules\\egg-view-react-ssr\\config\\config.default.js",
+    "afterRender": "G:\\stockApp\\node_modules\\egg-view-react-ssr\\config\\config.default.js"
+  },
+  "mysql": {
+    "client": {
+      "host": "G:\\stockApp\\config\\config.default.js",
+      "port": "G:\\stockApp\\config\\config.default.js",
+      "user": "G:\\stockApp\\config\\config.default.js",
+      "password": "G:\\stockApp\\config\\config.default.js",
+      "database": "G:\\stockApp\\config\\config.default.js"
+    },
+    "app": "G:\\stockApp\\config\\config.default.js",
+    "agent": "G:\\stockApp\\config\\config.default.js",
+    "default": {
+      "database": "G:\\stockApp\\node_modules\\egg-mysql\\config\\config.default.js",
+      "connectionLimit": "G:\\stockApp\\node_modules\\egg-mysql\\config\\config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "G:\\stockApp\\config\\config.local.js",
+    "ignoreDirs": "G:\\stockApp\\config\\config.local.js",
+    "fastReady": "G:\\stockApp\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "G:\\stockApp\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "G:\\stockApp\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideIgnore": "G:\\stockApp\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "webpack": {
+    "browser": "G:\\stockApp\\config\\config.local.js",
+    "webpackConfigList": "G:\\stockApp\\config\\config.local.js",
+    "port": "G:\\stockApp\\node_modules\\egg-webpack\\config\\config.default.js",
+    "proxy": {
+      "host": "G:\\stockApp\\node_modules\\egg-webpack\\config\\config.default.js",
+      "match": "G:\\stockApp\\node_modules\\egg-webpack\\config\\config.default.js"
+    }
+  },
+  "security": {
+    "domainWhiteList": "G:\\stockApp\\config\\config.local.js",
+    "protocolWhiteList": "G:\\stockApp\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "G:\\stockApp\\node_modules\\egg-security\\config\\config.default.js",
+    "csrf": {
+      "enable": "G:\\stockApp\\node_modules\\egg-security\\config\\config.default.js",
+      "type": "G:\\stockApp\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "G:\\stockApp\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "G:\\stockApp\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "G:\\stockApp\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "G:\\stockApp\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "G:\\stockApp\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "G:\\stockApp\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "G:\\stockApp\\node_modules\\egg-security\\config\\config.default.js",
+      "refererWhiteList": "G:\\stockApp\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xframe": {
+      "enable": "G:\\stockApp\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "G:\\stockApp\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "G:\\stockApp\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "G:\\stockApp\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "G:\\stockApp\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "G:\\stockApp\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "G:\\stockApp\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "G:\\stockApp\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "G:\\stockApp\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "G:\\stockApp\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "G:\\stockApp\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "G:\\stockApp\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "G:\\stockApp\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "G:\\stockApp\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "G:\\stockApp\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "G:\\stockApp\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "G:\\stockApp\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "G:\\stockApp\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "G:\\stockApp\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "G:\\stockApp\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "G:\\stockApp\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "helper": {
+    "shtml": "G:\\stockApp\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "G:\\stockApp\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "G:\\stockApp\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "G:\\stockApp\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "G:\\stockApp\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "G:\\stockApp\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "G:\\stockApp\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "G:\\stockApp\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "G:\\stockApp\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "G:\\stockApp\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "G:\\stockApp\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieDomain": "G:\\stockApp\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "G:\\stockApp\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "G:\\stockApp\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "G:\\stockApp\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "G:\\stockApp\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "G:\\stockApp\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "G:\\stockApp\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "G:\\stockApp\\node_modules\\egg-schedule\\config\\config.default.js"
+  },
+  "multipart": {
+    "mode": "G:\\stockApp\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "G:\\stockApp\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "G:\\stockApp\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "G:\\stockApp\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "G:\\stockApp\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "G:\\stockApp\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "G:\\stockApp\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "G:\\stockApp\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "G:\\stockApp\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "G:\\stockApp\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "G:\\stockApp\\node_modules\\egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "G:\\stockApp\\node_modules\\egg-multipart\\config\\config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "G:\\stockApp\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "G:\\stockApp\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "G:\\stockApp\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "G:\\stockApp\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "G:\\stockApp\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "G:\\stockApp\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "G:\\stockApp\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "view": {
+    "root": "G:\\stockApp\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "G:\\stockApp\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "G:\\stockApp\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "G:\\stockApp\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": {
+      ".js": "G:\\stockApp\\node_modules\\egg-view-react-ssr\\config\\config.default.js",
+      ".jsx": "G:\\stockApp\\node_modules\\egg-view-react-ssr\\config\\config.default.js"
+    }
+  },
+  "cors": "G:\\stockApp\\node_modules\\egg-cors\\config\\config.default.js",
+  "webpackreact": "G:\\stockApp\\node_modules\\egg-webpack-react\\config\\config.default.js",
+  "env": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+  "name": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+  "cookies": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+  "maxIpsCount": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+    "version": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+    "description": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+    "scripts": {
+      "clean": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "build": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "debug": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "dev": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "start": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "backend": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "lint": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "fix": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "ii": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "changelog": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js"
+    },
+    "dependencies": {
+      "antd": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "axios": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "egg": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "egg-cors": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "egg-logger": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "egg-mysql": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "egg-validate": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-react-ssr": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "extend": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "history": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "lodash": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "lodash-id": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "lowdb": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "mockjs": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "moment": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "react": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "react-dom": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "react-loadable": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "react-redux": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "react-router": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "react-router-config": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "react-router-dom": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "react-router-redux": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "redux": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "shortid": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "@easy-team/easywebpack-cli": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "@easy-team/easywebpack-react": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "conventional-changelog-cli": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "egg-webpack": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "egg-webpack-react": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "eslint-config-egg": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "eslint-plugin-react": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "ip": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "service-worker-register": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "node-sass": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "sass-loader": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js"
+    },
+    "ci": {
+      "version": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "url": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js"
+    },
+    "author": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+    "license": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+    "homepage": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+    "webpack": {
+      "loaders": {
+        "scss": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js"
+      }
+    }
+  },
+  "baseDir": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+    "textLimit": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+    "strict": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "depth": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js"
+    },
+    "onerror": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+    "logging": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "port": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "G:\\stockApp\\node_modules\\egg\\config\\config.default.js"
+}

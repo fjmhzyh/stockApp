@@ -1,0 +1,51 @@
+.easy-intro-title {
+  margin: 40px auto;
+  text-align: center;
+}
+
+.easy-intro-info {
+  font-size: 16px;
+  width: 85%;
+  margin: auto;
+}
+
+.red{
+	color: red;
+}
+
+.green{
+	color: green;
+}
+
+
+body{
+	width: auto  !important;
+	height: auto !important;
+	padding: 20px;
+	background: #f0f2f5 !important;
+}
+
+#app{
+	overflow: hidden;
+  background: #fff;
+}
+
+#stock-app{
+	padding: 30px;
+	min-height: 900px;
+	overflow: hidden;
+	background: #fff;
+}
+
+
+.search-bar{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.my-select{
+	width: 240px;
+}
+
+.my-radio{
+	margin-left: 30px !important;
+}

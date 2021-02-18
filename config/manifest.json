@@ -1,0 +1,27 @@
+{
+  "common.css": "/public/css/common.css",
+  "common.js": "/public/js/chunk/common.js",
+  "common.css.map": "/public/css/common.css.map",
+  "common.js.map": "/public/js/chunk/common.js.map",
+  "intro.js": "/public/js/chunk/intro.js",
+  "intro.js.map": "/public/js/chunk/intro.js.map",
+  "runtime.js": "/public/js/runtime.js",
+  "runtime.js.map": "/public/js/runtime.js.map",
+  "deps": {
+    "intro.js": {
+      "js": [
+        "/public/js/runtime.js",
+        "/public/js/chunk/common.js",
+        "/public/js/chunk/intro.js"
+      ],
+      "css": [
+        "/public/css/common.css"
+      ]
+    }
+  },
+  "info": {
+    "publicPath": "/public/",
+    "buildPath": "\\public",
+    "mapped": true
+  }
+}
