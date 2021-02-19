@@ -7,7 +7,7 @@ module.exports = app => {
     }
 
     async list(ctx){
-      // console.log('pageSize', ctx.query)
+      console.log('pageSize', ctx.query)
     	const result = await this.service.article.getStock(ctx.query);
     	this.ctx.body = result;
     }

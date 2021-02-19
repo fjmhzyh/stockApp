@@ -6,7 +6,7 @@ const Query = require('../lib/db/query');
 
 
 function getSort(sort) {
-  var sort = sort?sort:'one';
+  var sort = sort?sort.trim():'one';
   return sortMap[sort]
 }
 const sortMap = {
@@ -19,7 +19,7 @@ const sortMap = {
 
 
 function getSortForSql(sort) {
-  var sort = sort?sort:'one';
+  var sort = sort?sort.trim():'one';
   var sortMapForSql = {
     'one':  'id ASC',
     'three': 'three_year_average_rise DESC',
@@ -37,12 +37,13 @@ module.exports = class ArticeService extends egg.Service {
     this.colllection = new Collection(ctx.db, 'article');
   }
   async getStock(params) {
-    var { page, size,sort,type,marketType } = params;
+    var { page, size, sort, type,marketType, time } = params;
     var pageSize = size?size:20;
     var offset = (page-1)*pageSize>0?(page-1)*pageSize-1: 0;
     const market = await this.app.mysql.get('stock', { id: 1 });
 
     var marketTypeFilter = '';
+    var timeFilter = '';
 
     if(marketType == 'hu'){
       marketTypeFilter = "and code REGEXP '^6'";
@@ -52,10 +53,18 @@ module.exports = class ArticeService extends egg.Service {
       marketTypeFilter = "and code REGEXP '^3|^0'";
     }
 
+    if(time == 'above5'){
+      timeFilter =  'and issue_time < 20160000';
+    }
+
+    if(time == 'bleow5'){
+      timeFilter = 'and issue_time > 20160000';
+    }
+
     if(type == 'three'){
-      var sql = `select * from stock where stock_rise_2019>0 and stock_rise_2018>0 ${marketTypeFilter}
+      var sql = `select * from stock where stock_rise_2019>0 and stock_rise_2018>0 ${timeFilter} ${marketTypeFilter}
               ORDER BY ${getSortForSql(sort)} LIMIT ${offset}, ${page == 1?pageSize-1:pageSize};`
-      var countSql = `select count(*) from stock where stock_rise_2019>0 and stock_rise_2018>0 ${marketTypeFilter};`
+      var countSql = `select count(*) from stock where stock_rise_2019>0 and stock_rise_2018>0 ${timeFilter} ${marketTypeFilter};`
       const stockList = await this.app.mysql.query(sql);
       const total = await this.app.mysql.query(countSql);
       this.app.logger.info('------------three', total)
@@ -68,10 +77,10 @@ module.exports = class ArticeService extends egg.Service {
 
     if(type == 'five'){
       sql = `select * from stock where stock_rise_2019>0 and stock_rise_2018>0 and stock_rise_2017>0 and stock_rise_2016>0 
-              ${marketTypeFilter} ORDER BY ${getSortForSql(sort)} LIMIT ${offset}, ${page == 1?pageSize-1:pageSize};`
+              ${marketTypeFilter} ${timeFilter} ORDER BY ${getSortForSql(sort)} LIMIT ${offset}, ${page == 1?pageSize-1:pageSize};`
 
       countSql = `select count(*) from stock where stock_rise_2019>0 and stock_rise_2018>0 and 
-                  stock_rise_2017>0 and stock_rise_2016>0 ${marketTypeFilter};`
+                  stock_rise_2017>0 and stock_rise_2016>0 ${marketTypeFilter} ${timeFilter};`
       const stockList = await this.app.mysql.query(sql);
       const total = await this.app.mysql.query(countSql);
       this.app.logger.info('------------five', total)

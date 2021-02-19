@@ -261,9 +261,10 @@ class Intro extends Component {
 
 
   fetchData = ()=>{
-    var { page, pageSize, sort, type, marketType} = this.state
+    var { page, pageSize, sort, type, marketType, time} = this.state
     request
-    .get(`${window.location.origin}/api/list?page=${page}&pageSize=${pageSize}&sort=${sort}&type=${type}&marketType=${marketType}`)
+    .get(`${window.location.origin}/api/list?page=${page}&pageSize=${pageSize}&sort=${sort}
+      &type=${type}&marketType=${marketType}&time=${time}`)
     .then(res=>{
       this.setState({
         list:res.data.list,
@@ -275,7 +276,7 @@ class Intro extends Component {
 
 
   sortChange =(val)=>{
-    this.setState({sort: val}, ()=>{
+    this.setState({sort: val.trim()}, ()=>{
       this.fetchData()
     })
   }
