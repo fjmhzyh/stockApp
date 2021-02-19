@@ -44,6 +44,8 @@ class Intro extends Component {
     list: [],
     sort:'three',
     type: 'one',
+    marketType: 'all',
+    time: 'all',
     total: 500,
     rank: '',
     visible:false,
@@ -187,7 +189,7 @@ class Intro extends Component {
 
 
   showModal = (item) => {
-    console.log('item', item)
+    // console.log('item', item)
     var chartData = this.convertData(item);
     this.setState({visible: true, chartData: chartData}, ()=>{
       setTimeout(()=>{
@@ -259,12 +261,9 @@ class Intro extends Component {
 
 
   fetchData = ()=>{
-    var page = this.state.page;
-    var pageSize = this.state.pageSize;
-    var sort = this.state.sort;
-    var type = this.state.type;
+    var { page, pageSize, sort, type, marketType} = this.state
     request
-    .get(`${window.location.origin}/api/list?page=${page}&pageSize=${pageSize}&sort=${sort}&type=${type}`)
+    .get(`${window.location.origin}/api/list?page=${page}&pageSize=${pageSize}&sort=${sort}&type=${type}&marketType=${marketType}`)
     .then(res=>{
       this.setState({
         list:res.data.list,
@@ -287,14 +286,25 @@ class Intro extends Component {
     })
   }  
 
+  onMarketChange = (event)=>{
+    this.setState({marketType: event.target.value}, ()=>{
+      this.fetchData()
+    })
+  }  
+
+  onTimeChange = (event)=>{
+    this.setState({time: event.target.value}, ()=>{
+      this.fetchData()
+    })
+  }
+
   render() {
-    const data = this.state.list;
-    const sort = this.state.sort;
-    const type = this.state.type;
+
+    const { list, sort ,type, marketType, time} = this.state;
 
     const chartData = this.state.chartData;
 
-    console.log('chartData', chartData)
+    // console.log('chartData', chartData)
 
     var test =[
       { type: '序列1', year: '1991', value: 3 },
@@ -351,8 +361,20 @@ class Intro extends Component {
             <Radio.Button value="three">近三年均为正收益</Radio.Button>
             <Radio.Button value="five">近五年均为正收益</Radio.Button>
           </Radio.Group>
+
+          <Radio.Group className="my-radio" buttonStyle="solid" value={marketType} onChange={this.onMarketChange}>
+            <Radio.Button value="all">所有股票</Radio.Button>
+            <Radio.Button value="hu">沪市</Radio.Button>
+            <Radio.Button value="shen">深市</Radio.Button>
+          </Radio.Group>
+
+          <Radio.Group className="my-radio" buttonStyle="solid" value={time} onChange={this.onTimeChange}>
+            <Radio.Button value="all">所有股票</Radio.Button>
+            <Radio.Button value="bleow5">上市五年以内</Radio.Button>
+            <Radio.Button value="above5">上市五年以上</Radio.Button>
+          </Radio.Group>
         </div>
-        <Table columns={this.columns} dataSource={data} pagination={pagination} rowKey={record => record.code} 
+        <Table columns={this.columns} dataSource={list} pagination={pagination} rowKey={record => record.code} 
             scroll={{ x: 3000, y: 600}} sticky/>
       </div>
 

@@ -3087,3 +3087,147 @@ hostname: DESKTOP-N4N2JFL
 2021-02-19 15:01:49,592 INFO 15244 [egg-watcher:application] watcher start success
 2021-02-19 15:01:49,712 INFO 15244 [egg-mysql] instance[0] status OK, rds currentTime: Fri Feb 19 2021 15:01:49 GMT+0800 (GMT+08:00)
 2021-02-19 15:01:49,720 INFO 15244 [egg:core] dump config after ready, 6ms
+2021-02-19 15:01:52,005 INFO 6796 [egg:logger] init all loggers with options: {"dir":"D:\\stockApp\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"stockApp-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-19 15:01:52,030 INFO 6796 [egg-multipart] stream mode enable
+2021-02-19 15:01:52,031 INFO 6796 [egg-mysql] connecting Pika@116.62.226.6:3306/stock
+2021-02-19 15:01:52,156 INFO 6796 [egg-static] starting static serve /public/ -> D:\stockApp\public
+2021-02-19 15:01:52,159 INFO 6796 [egg-security] use csrf middleware
+2021-02-19 15:01:52,159 INFO 6796 [egg-security] use methodnoallow middleware
+2021-02-19 15:01:52,160 INFO 6796 [egg-security] use noopen middleware
+2021-02-19 15:01:52,160 INFO 6796 [egg-security] use nosniff middleware
+2021-02-19 15:01:52,161 INFO 6796 [egg-security] use xssProtection middleware
+2021-02-19 15:01:52,161 INFO 6796 [egg-security] use xframe middleware
+2021-02-19 15:01:52,162 INFO 6796 [egg-security] use dta middleware
+2021-02-19 15:01:52,162 INFO 6796 [egg-security] compose 7 middlewares into one security middleware
+2021-02-19 15:01:52,171 INFO 6796 [egg:core] dump config after load, 4ms
+2021-02-19 15:01:52,185 INFO 6796 [egg-watcher:application] watcher start success
+2021-02-19 15:01:52,312 INFO 6796 [egg-mysql] instance[0] status OK, rds currentTime: Fri Feb 19 2021 15:01:52 GMT+0800 (GMT+08:00)
+2021-02-19 15:01:52,320 INFO 6796 [egg:core] dump config after ready, 6ms
+2021-02-19 16:25:30,472 INFO 7828 [egg:logger] init all loggers with options: {"dir":"D:\\stockApp\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"stockApp-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-19 16:25:30,496 INFO 7828 [egg-multipart] stream mode enable
+2021-02-19 16:25:30,497 INFO 7828 [egg-mysql] connecting Pika@116.62.226.6:3306/stock
+2021-02-19 16:25:30,618 INFO 7828 [egg-static] starting static serve /public/ -> D:\stockApp\public
+2021-02-19 16:25:30,619 INFO 7828 [egg-security] use csrf middleware
+2021-02-19 16:25:30,621 INFO 7828 [egg-security] use methodnoallow middleware
+2021-02-19 16:25:30,621 INFO 7828 [egg-security] use noopen middleware
+2021-02-19 16:25:30,622 INFO 7828 [egg-security] use nosniff middleware
+2021-02-19 16:25:30,622 INFO 7828 [egg-security] use xssProtection middleware
+2021-02-19 16:25:30,623 INFO 7828 [egg-security] use xframe middleware
+2021-02-19 16:25:30,623 INFO 7828 [egg-security] use dta middleware
+2021-02-19 16:25:30,623 INFO 7828 [egg-security] compose 7 middlewares into one security middleware
+2021-02-19 16:25:30,633 INFO 7828 [egg:core] dump config after load, 5ms
+2021-02-19 16:25:30,648 INFO 7828 [egg-watcher:application] watcher start success
+2021-02-19 16:25:30,688 INFO 7828 [egg-mysql] instance[0] status OK, rds currentTime: Fri Feb 19 2021 16:25:30 GMT+0800 (GMT+08:00)
+2021-02-19 16:25:30,697 INFO 7828 [egg:core] dump config after ready, 7ms
+2021-02-19 16:25:32,978 INFO 7176 [egg:logger] init all loggers with options: {"dir":"D:\\stockApp\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"stockApp-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-19 16:25:33,001 INFO 7176 [egg-multipart] stream mode enable
+2021-02-19 16:25:33,002 INFO 7176 [egg-mysql] connecting Pika@116.62.226.6:3306/stock
+2021-02-19 16:25:33,123 INFO 7176 [egg-static] starting static serve /public/ -> D:\stockApp\public
+2021-02-19 16:25:33,125 INFO 7176 [egg-security] use csrf middleware
+2021-02-19 16:25:33,125 INFO 7176 [egg-security] use methodnoallow middleware
+2021-02-19 16:25:33,126 INFO 7176 [egg-security] use noopen middleware
+2021-02-19 16:25:33,126 INFO 7176 [egg-security] use nosniff middleware
+2021-02-19 16:25:33,127 INFO 7176 [egg-security] use xssProtection middleware
+2021-02-19 16:25:33,127 INFO 7176 [egg-security] use xframe middleware
+2021-02-19 16:25:33,127 INFO 7176 [egg-security] use dta middleware
+2021-02-19 16:25:33,127 INFO 7176 [egg-security] compose 7 middlewares into one security middleware
+2021-02-19 16:25:33,137 INFO 7176 [egg:core] dump config after load, 5ms
+2021-02-19 16:25:33,148 INFO 7176 [egg-watcher:application] watcher start success
+2021-02-19 16:25:33,187 INFO 7176 [egg-mysql] instance[0] status OK, rds currentTime: Fri Feb 19 2021 16:25:33 GMT+0800 (GMT+08:00)
+2021-02-19 16:25:33,196 INFO 7176 [egg:core] dump config after ready, 7ms
+2021-02-19 16:38:10,995 INFO 11884 [egg:logger] init all loggers with options: {"dir":"D:\\stockApp\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"stockApp-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-19 16:38:11,019 INFO 11884 [egg-multipart] stream mode enable
+2021-02-19 16:38:11,020 INFO 11884 [egg-mysql] connecting Pika@116.62.226.6:3306/stock
+2021-02-19 16:38:11,138 INFO 11884 [egg-static] starting static serve /public/ -> D:\stockApp\public
+2021-02-19 16:38:11,140 INFO 11884 [egg-security] use csrf middleware
+2021-02-19 16:38:11,141 INFO 11884 [egg-security] use methodnoallow middleware
+2021-02-19 16:38:11,141 INFO 11884 [egg-security] use noopen middleware
+2021-02-19 16:38:11,142 INFO 11884 [egg-security] use nosniff middleware
+2021-02-19 16:38:11,142 INFO 11884 [egg-security] use xssProtection middleware
+2021-02-19 16:38:11,143 INFO 11884 [egg-security] use xframe middleware
+2021-02-19 16:38:11,143 INFO 11884 [egg-security] use dta middleware
+2021-02-19 16:38:11,143 INFO 11884 [egg-security] compose 7 middlewares into one security middleware
+2021-02-19 16:38:11,157 INFO 11884 [egg:core] dump config after load, 7ms
+2021-02-19 16:38:11,170 INFO 11884 [egg-watcher:application] watcher start success
+2021-02-19 16:38:11,231 INFO 11884 [egg-mysql] instance[0] status OK, rds currentTime: Fri Feb 19 2021 16:38:11 GMT+0800 (GMT+08:00)
+2021-02-19 16:38:11,239 INFO 11884 [egg:core] dump config after ready, 6ms
+2021-02-19 16:43:53,788 INFO 1440 [egg:logger] init all loggers with options: {"dir":"D:\\stockApp\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"stockApp-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-19 16:43:53,841 INFO 1440 [egg-multipart] stream mode enable
+2021-02-19 16:43:53,843 INFO 1440 [egg-mysql] connecting Pika@116.62.226.6:3306/stock
+2021-02-19 16:43:53,969 INFO 1440 [egg-static] starting static serve /public/ -> D:\stockApp\public
+2021-02-19 16:43:53,971 INFO 1440 [egg-security] use csrf middleware
+2021-02-19 16:43:53,972 INFO 1440 [egg-security] use methodnoallow middleware
+2021-02-19 16:43:53,972 INFO 1440 [egg-security] use noopen middleware
+2021-02-19 16:43:53,973 INFO 1440 [egg-security] use nosniff middleware
+2021-02-19 16:43:53,973 INFO 1440 [egg-security] use xssProtection middleware
+2021-02-19 16:43:53,973 INFO 1440 [egg-security] use xframe middleware
+2021-02-19 16:43:53,974 INFO 1440 [egg-security] use dta middleware
+2021-02-19 16:43:53,974 INFO 1440 [egg-security] compose 7 middlewares into one security middleware
+2021-02-19 16:43:53,985 INFO 1440 [egg:core] dump config after load, 5ms
+2021-02-19 16:43:53,998 INFO 1440 [egg-watcher:application] watcher start success
+2021-02-19 16:43:54,147 INFO 1440 [egg-mysql] instance[0] status OK, rds currentTime: Fri Feb 19 2021 16:43:54 GMT+0800 (GMT+08:00)
+2021-02-19 16:43:54,155 INFO 1440 [egg:core] dump config after ready, 6ms
+2021-02-19 17:06:29,356 INFO 7228 [egg:logger] init all loggers with options: {"dir":"D:\\stockApp\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"stockApp-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-19 17:06:29,379 INFO 7228 [egg-multipart] stream mode enable
+2021-02-19 17:06:29,381 INFO 7228 [egg-mysql] connecting Pika@116.62.226.6:3306/stock
+2021-02-19 17:06:29,492 INFO 7228 [egg-static] starting static serve /public/ -> D:\stockApp\public
+2021-02-19 17:06:29,494 INFO 7228 [egg-security] use csrf middleware
+2021-02-19 17:06:29,494 INFO 7228 [egg-security] use methodnoallow middleware
+2021-02-19 17:06:29,495 INFO 7228 [egg-security] use noopen middleware
+2021-02-19 17:06:29,495 INFO 7228 [egg-security] use nosniff middleware
+2021-02-19 17:06:29,496 INFO 7228 [egg-security] use xssProtection middleware
+2021-02-19 17:06:29,496 INFO 7228 [egg-security] use xframe middleware
+2021-02-19 17:06:29,496 INFO 7228 [egg-security] use dta middleware
+2021-02-19 17:06:29,496 INFO 7228 [egg-security] compose 7 middlewares into one security middleware
+2021-02-19 17:06:29,506 INFO 7228 [egg:core] dump config after load, 5ms
+2021-02-19 17:06:29,519 INFO 7228 [egg-watcher:application] watcher start success
+2021-02-19 17:06:29,730 INFO 7228 [egg-mysql] instance[0] status OK, rds currentTime: Fri Feb 19 2021 17:06:29 GMT+0800 (GMT+08:00)
+2021-02-19 17:06:29,738 INFO 7228 [egg:core] dump config after ready, 5ms
+2021-02-19 17:06:31,775 INFO 13424 [egg:logger] init all loggers with options: {"dir":"D:\\stockApp\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"stockApp-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-19 17:06:31,799 INFO 13424 [egg-multipart] stream mode enable
+2021-02-19 17:06:31,801 INFO 13424 [egg-mysql] connecting Pika@116.62.226.6:3306/stock
+2021-02-19 17:06:31,927 INFO 13424 [egg-static] starting static serve /public/ -> D:\stockApp\public
+2021-02-19 17:06:31,929 INFO 13424 [egg-security] use csrf middleware
+2021-02-19 17:06:31,929 INFO 13424 [egg-security] use methodnoallow middleware
+2021-02-19 17:06:31,930 INFO 13424 [egg-security] use noopen middleware
+2021-02-19 17:06:31,930 INFO 13424 [egg-security] use nosniff middleware
+2021-02-19 17:06:31,931 INFO 13424 [egg-security] use xssProtection middleware
+2021-02-19 17:06:31,931 INFO 13424 [egg-security] use xframe middleware
+2021-02-19 17:06:31,931 INFO 13424 [egg-security] use dta middleware
+2021-02-19 17:06:31,932 INFO 13424 [egg-security] compose 7 middlewares into one security middleware
+2021-02-19 17:06:31,942 INFO 13424 [egg:core] dump config after load, 5ms
+2021-02-19 17:06:31,952 INFO 13424 [egg-watcher:application] watcher start success
+2021-02-19 17:06:32,013 INFO 13424 [egg-mysql] instance[0] status OK, rds currentTime: Fri Feb 19 2021 17:06:32 GMT+0800 (GMT+08:00)
+2021-02-19 17:06:32,023 INFO 13424 [egg:core] dump config after ready, 8ms
+2021-02-19 17:09:18,350 INFO 3648 [egg:logger] init all loggers with options: {"dir":"D:\\stockApp\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"stockApp-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-19 17:09:18,374 INFO 3648 [egg-multipart] stream mode enable
+2021-02-19 17:09:18,375 INFO 3648 [egg-mysql] connecting Pika@116.62.226.6:3306/stock
+2021-02-19 17:09:18,498 INFO 3648 [egg-static] starting static serve /public/ -> D:\stockApp\public
+2021-02-19 17:09:18,501 INFO 3648 [egg-security] use csrf middleware
+2021-02-19 17:09:18,501 INFO 3648 [egg-security] use methodnoallow middleware
+2021-02-19 17:09:18,502 INFO 3648 [egg-security] use noopen middleware
+2021-02-19 17:09:18,503 INFO 3648 [egg-security] use nosniff middleware
+2021-02-19 17:09:18,503 INFO 3648 [egg-security] use xssProtection middleware
+2021-02-19 17:09:18,504 INFO 3648 [egg-security] use xframe middleware
+2021-02-19 17:09:18,504 INFO 3648 [egg-security] use dta middleware
+2021-02-19 17:09:18,504 INFO 3648 [egg-security] compose 7 middlewares into one security middleware
+2021-02-19 17:09:18,518 INFO 3648 [egg:core] dump config after load, 7ms
+2021-02-19 17:09:18,532 INFO 3648 [egg-watcher:application] watcher start success
+2021-02-19 17:09:18,840 INFO 3648 [egg-mysql] instance[0] status OK, rds currentTime: Fri Feb 19 2021 17:09:18 GMT+0800 (GMT+08:00)
+2021-02-19 17:09:18,848 INFO 3648 [egg:core] dump config after ready, 6ms
+2021-02-19 17:10:41,640 INFO 16976 [egg:logger] init all loggers with options: {"dir":"D:\\stockApp\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"stockApp-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-19 17:10:41,665 INFO 16976 [egg-multipart] stream mode enable
+2021-02-19 17:10:41,666 INFO 16976 [egg-mysql] connecting Pika@116.62.226.6:3306/stock
+2021-02-19 17:10:41,785 INFO 16976 [egg-static] starting static serve /public/ -> D:\stockApp\public
+2021-02-19 17:10:41,787 INFO 16976 [egg-security] use csrf middleware
+2021-02-19 17:10:41,788 INFO 16976 [egg-security] use methodnoallow middleware
+2021-02-19 17:10:41,788 INFO 16976 [egg-security] use noopen middleware
+2021-02-19 17:10:41,789 INFO 16976 [egg-security] use nosniff middleware
+2021-02-19 17:10:41,790 INFO 16976 [egg-security] use xssProtection middleware
+2021-02-19 17:10:41,791 INFO 16976 [egg-security] use xframe middleware
+2021-02-19 17:10:41,791 INFO 16976 [egg-security] use dta middleware
+2021-02-19 17:10:41,791 INFO 16976 [egg-security] compose 7 middlewares into one security middleware
+2021-02-19 17:10:41,802 INFO 16976 [egg:core] dump config after load, 4ms
+2021-02-19 17:10:41,828 INFO 16976 [egg-watcher:application] watcher start success
+2021-02-19 17:10:41,906 INFO 16976 [egg-mysql] instance[0] status OK, rds currentTime: Fri Feb 19 2021 17:10:41 GMT+0800 (GMT+08:00)
+2021-02-19 17:10:41,918 INFO 16976 [egg:core] dump config after ready, 9ms

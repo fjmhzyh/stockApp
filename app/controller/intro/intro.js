@@ -7,12 +7,8 @@ module.exports = app => {
     }
 
     async list(ctx){
-  		const page = ctx.query.page;
-      const pageSize = ctx.query.pageSize;
-      const sort = ctx.query.sort;
-      const type = ctx.query.type;
       // console.log('pageSize', ctx.query)
-    	const result = await this.service.article.getStock(page, pageSize, sort, type);
+    	const result = await this.service.article.getStock(ctx.query);
     	this.ctx.body = result;
     }
 

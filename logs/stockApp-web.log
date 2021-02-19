@@ -4383,3 +4383,296 @@ SyntaxError: D:\stockApp\app\web\page\intro\index.jsx: Unexpected token (162:8)
 2021-02-19 15:00:14,721 INFO 7352 [-/::1/-/84ms GET /api/list?page=1&pageSize=30&sort=rank3&type=three] [access] ::1: - GET /api/list?page=1&pageSize=30&sort=rank3&type=three HTTP/200 21133 http://localhost:7001/ 84 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
 2021-02-19 15:00:27,128 INFO 7352 ------------three [ RowDataPacket { 'count(*)': 62 } ]
 2021-02-19 15:00:27,131 INFO 7352 [-/::1/-/106ms GET /api/list?page=3&pageSize=30&sort=rank3&type=three] [access] ::1: - GET /api/list?page=3&pageSize=30&sort=rank3&type=three HTTP/200 2841 http://localhost:7001/ 105 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 15:01:55,671 INFO 6796 [-/::1/-/2023ms GET /] [access] ::1: - GET / HTTP/200 12270 http://localhost:7001/ 2018 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 15:01:56,470 INFO 6796 [-/::1/-/50ms GET /api/list?page=1&pageSize=30&sort=three&type=one] [access] ::1: - GET /api/list?page=1&pageSize=30&sort=three&type=one HTTP/200 21161 http://localhost:7001/ 48 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 15:01:58,571 INFO 6796 [-/::1/-/43ms GET /api/list?page=1&pageSize=30&sort=rank3&type=one] [access] ::1: - GET /api/list?page=1&pageSize=30&sort=rank3&type=one HTTP/200 21158 http://localhost:7001/ 43 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 15:01:59,866 INFO 6796 ------------three [ RowDataPacket { 'count(*)': 62 } ]
+2021-02-19 15:01:59,867 INFO 6796 [-/::1/-/68ms GET /api/list?page=1&pageSize=30&sort=rank3&type=three] [access] ::1: - GET /api/list?page=1&pageSize=30&sort=rank3&type=three HTTP/200 21156 http://localhost:7001/ 67 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 15:07:05,676 INFO 6796 ------------three [ RowDataPacket { 'count(*)': 62 } ]
+2021-02-19 15:07:05,679 INFO 6796 [-/::1/-/79ms GET /api/list?page=1&pageSize=30&sort=rank5&type=three] [access] ::1: - GET /api/list?page=1&pageSize=30&sort=rank5&type=three HTTP/200 21075 http://localhost:7001/ 77 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 15:07:14,998 INFO 6796 ------------three [ RowDataPacket { 'count(*)': 62 } ]
+2021-02-19 15:07:14,999 INFO 6796 [-/::1/-/70ms GET /api/list?page=1&pageSize=30&sort=rank3&type=three] [access] ::1: - GET /api/list?page=1&pageSize=30&sort=rank3&type=three HTTP/200 21156 http://localhost:7001/ 69 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 15:07:16,943 INFO 6796 ------------three [ RowDataPacket { 'count(*)': 62 } ]
+2021-02-19 15:07:16,944 INFO 6796 [-/::1/-/180ms GET /api/list?page=1&pageSize=30&sort=rank5&type=three] [access] ::1: - GET /api/list?page=1&pageSize=30&sort=rank5&type=three HTTP/200 21075 http://localhost:7001/ 180 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 15:08:26,364 INFO 6796 ------------three [ RowDataPacket { 'count(*)': 62 } ]
+2021-02-19 15:08:26,365 INFO 6796 [-/::1/-/78ms GET /api/list?page=2&pageSize=30&sort=rank5&type=three] [access] ::1: - GET /api/list?page=2&pageSize=30&sort=rank5&type=three HTTP/200 21905 http://localhost:7001/ 77 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 15:08:29,809 INFO 6796 [-/::1/-/87ms GET /api/list?page=2&pageSize=30&sort=rank5&type=one] [access] ::1: - GET /api/list?page=2&pageSize=30&sort=rank5&type=one HTTP/200 355473 http://localhost:7001/ 82 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 15:08:33,157 INFO 6796 [-/::1/-/43ms GET /api/list?page=1&pageSize=30&sort=rank5&type=one] [access] ::1: - GET /api/list?page=1&pageSize=30&sort=rank5&type=one HTTP/200 21076 http://localhost:7001/ 43 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 15:09:43,014 INFO 6796 [-/::1/-/85ms GET /api/list?page=2&pageSize=30&sort=rank5&type=one] [access] ::1: - GET /api/list?page=2&pageSize=30&sort=rank5&type=one HTTP/200 355473 http://localhost:7001/ 79 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 15:10:53,181 INFO 6796 [-/::1/-/83ms GET /api/list?page=2&pageSize=30&sort=rank3&type=one] [access] ::1: - GET /api/list?page=2&pageSize=30&sort=rank3&type=one HTTP/200 355473 http://localhost:7001/ 79 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 15:10:57,316 INFO 6796 [-/::1/-/49ms GET /api/list?page=1&pageSize=30&sort=rank3&type=one] [access] ::1: - GET /api/list?page=1&pageSize=30&sort=rank3&type=one HTTP/200 21158 http://localhost:7001/ 49 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 15:12:45,729 INFO 6796 [-/::1/-/457ms GET /api/list?page=1&pageSize=30&sort=three&type=one] [access] ::1: - GET /api/list?page=1&pageSize=30&sort=three&type=one HTTP/200 21161 http://localhost:7001/ 456 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 15:15:43,773 INFO 6796 [-/::1/-/152ms GET /api/list?page=2&pageSize=30&sort=three&type=one] [access] ::1: - GET /api/list?page=2&pageSize=30&sort=three&type=one HTTP/200 355473 http://localhost:7001/ 145 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 15:16:43,150 INFO 6796 ------------three [ RowDataPacket { 'count(*)': 62 } ]
+2021-02-19 15:16:43,151 INFO 6796 [-/::1/-/66ms GET /api/list?page=2&pageSize=30&sort=three&type=three] [access] ::1: - GET /api/list?page=2&pageSize=30&sort=three&type=three HTTP/200 21850 http://localhost:7001/ 65 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 15:16:45,361 INFO 6796 ------------three [ RowDataPacket { 'count(*)': 62 } ]
+2021-02-19 15:16:45,362 INFO 6796 [-/::1/-/65ms GET /api/list?page=1&pageSize=30&sort=three&type=three] [access] ::1: - GET /api/list?page=1&pageSize=30&sort=three&type=three HTTP/200 21143 http://localhost:7001/ 64 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 15:19:06,625 INFO 6796 ------------three [ RowDataPacket { 'count(*)': 62 } ]
+2021-02-19 15:19:06,626 INFO 6796 [-/::1/-/71ms GET /api/list?page=2&pageSize=30&sort=three&type=three] [access] ::1: - GET /api/list?page=2&pageSize=30&sort=three&type=three HTTP/200 21850 http://localhost:7001/ 71 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 15:20:20,009 INFO 6796 [-/::1/-/98ms GET /] [access] ::1: - GET / HTTP/200 12522 http://localhost:7001/ 97 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 15:20:20,919 INFO 6796 [-/::1/-/150ms GET /api/list?page=1&pageSize=30&sort=three&type=one] [access] ::1: - GET /api/list?page=1&pageSize=30&sort=three&type=one HTTP/200 21161 http://localhost:7001/ 149 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 15:20:34,271 INFO 6796 [-/::1/-/65ms GET /] [access] ::1: - GET / HTTP/200 12522 http://localhost:7001/ 65 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 15:20:35,022 INFO 6796 [-/::1/-/42ms GET /api/list?page=1&pageSize=30&sort=three&type=one] [access] ::1: - GET /api/list?page=1&pageSize=30&sort=three&type=one HTTP/200 21161 http://localhost:7001/ 41 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 15:20:47,252 INFO 6796 [-/::1/-/686ms GET /] [access] ::1: - GET / HTTP/200 12522 http://localhost:7001/ 686 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 15:20:48,219 INFO 6796 [-/::1/-/60ms GET /api/list?page=1&pageSize=30&sort=three&type=one] [access] ::1: - GET /api/list?page=1&pageSize=30&sort=three&type=one HTTP/200 21161 http://localhost:7001/ 59 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 15:21:40,289 INFO 6796 [-/::1/-/64ms GET /] [access] ::1: - GET / HTTP/200 12519 http://localhost:7001/ 63 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 15:21:41,170 INFO 6796 [-/::1/-/82ms GET /api/list?page=1&pageSize=30&sort=three&type=one] [access] ::1: - GET /api/list?page=1&pageSize=30&sort=three&type=one HTTP/200 21161 http://localhost:7001/ 80 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 15:22:09,816 INFO 6796 [-/::1/-/136ms GET /api/list?page=2&pageSize=30&sort=three&type=one] [access] ::1: - GET /api/list?page=2&pageSize=30&sort=three&type=one HTTP/200 355473 http://localhost:7001/ 128 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 15:22:11,635 INFO 6796 [-/::1/-/50ms GET /api/list?page=1&pageSize=30&sort=three&type=one] [access] ::1: - GET /api/list?page=1&pageSize=30&sort=three&type=one HTTP/200 21161 http://localhost:7001/ 48 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 15:32:01,979 INFO 6796 [-/::1/-/100ms GET /api/list?page=2&pageSize=30&sort=three&type=one] [access] ::1: - GET /api/list?page=2&pageSize=30&sort=three&type=one HTTP/200 355473 http://localhost:7001/ 95 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 15:35:52,634 INFO 6796 [-/::1/-/282ms GET /api/list?page=3&pageSize=30&sort=three&type=one] [access] ::1: - GET /api/list?page=3&pageSize=30&sort=three&type=one HTTP/200 355473 http://localhost:7001/ 276 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 15:37:12,605 INFO 6796 [-/::1/-/68ms GET /api/list?page=1&pageSize=30&sort=three&type=one] [access] ::1: - GET /api/list?page=1&pageSize=30&sort=three&type=one HTTP/200 21161 http://localhost:7001/ 68 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 15:37:47,212 INFO 6796 [-/::1/-/200ms GET /api/list?page=2&pageSize=30&sort=three&type=one] [access] ::1: - GET /api/list?page=2&pageSize=30&sort=three&type=one HTTP/200 355473 http://localhost:7001/ 194 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 15:39:07,083 INFO 6796 [-/::1/-/101ms GET /api/list?page=2&pageSize=30&sort=rank3&type=one] [access] ::1: - GET /api/list?page=2&pageSize=30&sort=rank3&type=one HTTP/200 355473 http://localhost:7001/ 95 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 15:39:11,138 INFO 6796 [-/::1/-/58ms GET /api/list?page=1&pageSize=30&sort=rank3&type=one] [access] ::1: - GET /api/list?page=1&pageSize=30&sort=rank3&type=one HTTP/200 21158 http://localhost:7001/ 57 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 15:39:25,905 INFO 6796 [-/::1/-/43ms GET /api/list?page=1&pageSize=30&sort=rank5&type=one] [access] ::1: - GET /api/list?page=1&pageSize=30&sort=rank5&type=one HTTP/200 21076 http://localhost:7001/ 41 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 15:42:04,350 INFO 6796 [-/::1/-/224ms GET /api/list?page=2&pageSize=30&sort=rank5&type=one] [access] ::1: - GET /api/list?page=2&pageSize=30&sort=rank5&type=one HTTP/200 355473 http://localhost:7001/ 217 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 15:43:10,160 INFO 6796 [-/::1/-/108ms GET /api/list?page=3&pageSize=30&sort=rank5&type=one] [access] ::1: - GET /api/list?page=3&pageSize=30&sort=rank5&type=one HTTP/200 355473 http://localhost:7001/ 101 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 16:11:33,368 INFO 6796 [-/::1/-/92ms GET /api/list?page=3&pageSize=30&sort=one&type=one] [access] ::1: - GET /api/list?page=3&pageSize=30&sort=one&type=one HTTP/200 355473 http://localhost:7001/ 87 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 16:11:43,068 INFO 6796 [-/::1/-/62ms GET /api/list?page=1&pageSize=30&sort=one&type=one] [access] ::1: - GET /api/list?page=1&pageSize=30&sort=one&type=one HTTP/200 21223 http://localhost:7001/ 62 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 16:11:50,243 INFO 6796 [-/::1/-/95ms GET /api/list?page=2&pageSize=30&sort=one&type=one] [access] ::1: - GET /api/list?page=2&pageSize=30&sort=one&type=one HTTP/200 355473 http://localhost:7001/ 90 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 16:12:00,115 INFO 6796 [-/::1/-/98ms GET /api/list?page=17&pageSize=30&sort=one&type=one] [access] ::1: - GET /api/list?page=17&pageSize=30&sort=one&type=one HTTP/200 355473 http://localhost:7001/ 91 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 16:12:02,398 INFO 6796 [-/::1/-/98ms GET /api/list?page=16&pageSize=30&sort=one&type=one] [access] ::1: - GET /api/list?page=16&pageSize=30&sort=one&type=one HTTP/200 355473 http://localhost:7001/ 91 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 16:12:03,516 INFO 6796 [-/::1/-/102ms GET /api/list?page=15&pageSize=30&sort=one&type=one] [access] ::1: - GET /api/list?page=15&pageSize=30&sort=one&type=one HTTP/200 355473 http://localhost:7001/ 94 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 16:12:04,514 INFO 6796 [-/::1/-/101ms GET /api/list?page=14&pageSize=30&sort=one&type=one] [access] ::1: - GET /api/list?page=14&pageSize=30&sort=one&type=one HTTP/200 355473 http://localhost:7001/ 97 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 16:12:11,185 INFO 6796 [-/::1/-/91ms GET /api/list?page=13&pageSize=30&sort=one&type=one] [access] ::1: - GET /api/list?page=13&pageSize=30&sort=one&type=one HTTP/200 355473 http://localhost:7001/ 85 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 16:12:12,513 INFO 6796 [-/::1/-/122ms GET /api/list?page=12&pageSize=30&sort=one&type=one] [access] ::1: - GET /api/list?page=12&pageSize=30&sort=one&type=one HTTP/200 355473 http://localhost:7001/ 117 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 16:15:47,736 INFO 6796 [-/::1/-/83ms GET /api/list?page=10&pageSize=30&sort=one&type=one] [access] ::1: - GET /api/list?page=10&pageSize=30&sort=one&type=one HTTP/200 355473 http://localhost:7001/ 77 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 16:15:50,920 INFO 6796 [-/::1/-/187ms GET /api/list?page=9&pageSize=30&sort=one&type=one] [access] ::1: - GET /api/list?page=9&pageSize=30&sort=one&type=one HTTP/200 355473 http://localhost:7001/ 181 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 16:20:13,114 ERROR 6796 [intro.js] server render bundle error, try client render, the server render error TypeError: Cannot read property 'name' of undefined
+    at Intro.render (evalmachine.<anonymous>:807:40)
+    at processChild (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3134:18)
+    at resolve (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3373:29)
+    at Object.renderToString (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3988:27)
+    at Engine.renderToString (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:133:27)
+    at Engine.renderElement (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:110:17)
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:29:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.index (D:\stockApp\app\controller\intro\intro.js:6:7)
+2021-02-19 16:20:13,116 INFO 6796 [-/::1/-/70ms GET /] [access] ::1: - GET / HTTP/200 856 http://localhost:7001/ 69 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 16:20:28,241 INFO 6796 [-/::1/-/998ms GET /] [access] ::1: - GET / HTTP/200 12519 http://localhost:7001/ 997 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 16:20:29,202 INFO 6796 [-/::1/-/54ms GET /api/list?page=1&pageSize=30&sort=three&type=one] [access] ::1: - GET /api/list?page=1&pageSize=30&sort=three&type=one HTTP/200 21161 http://localhost:7001/ 53 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 16:35:36,344 ERROR 7176 [intro.js] server render bundle error, try client render, the server render error ReferenceError: onMarketChange is not defined
+    at Intro.render (evalmachine.<anonymous>:922:17)
+    at processChild (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3134:18)
+    at resolve (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3373:29)
+    at Object.renderToString (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3988:27)
+    at Engine.renderToString (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:133:27)
+    at Engine.renderElement (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:110:17)
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:29:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.index (D:\stockApp\app\controller\intro\intro.js:6:7)
+2021-02-19 16:35:36,350 INFO 7176 [-/::1/-/2110ms GET /] [access] ::1: - GET / HTTP/200 856 http://localhost:7001/ 2106 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 16:37:21,806 INFO 7176 [-/::1/-/784ms GET /] [access] ::1: - GET / HTTP/200 13299 http://localhost:7001/ 782 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 16:37:22,732 INFO 7176 [-/::1/-/76ms GET /api/list?page=1&pageSize=30&sort=three&type=one&marketType=all] [access] ::1: - GET /api/list?page=1&pageSize=30&sort=three&type=one&marketType=all HTTP/200 21161 http://localhost:7001/ 74 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 16:45:07,813 INFO 1440 [-/::1/-/85ms GET /api/list?page=2&pageSize=30&sort=three&type=one&marketType=all] [access] ::1: - GET /api/list?page=2&pageSize=30&sort=three&type=one&marketType=all HTTP/200 14851 http://localhost:7001/ 79 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 16:45:19,250 INFO 1440 [-/::1/-/96ms GET /api/list?page=2&pageSize=30&sort=one&type=one&marketType=all] [access] ::1: - GET /api/list?page=2&pageSize=30&sort=one&type=one&marketType=all HTTP/200 14902 http://localhost:7001/ 96 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 16:45:23,232 INFO 1440 [-/::1/-/72ms GET /api/list?page=2&pageSize=30&sort=rank5&type=one&marketType=all] [access] ::1: - GET /api/list?page=2&pageSize=30&sort=rank5&type=one&marketType=all HTTP/200 14800 http://localhost:7001/ 71 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 16:45:27,875 INFO 1440 [-/::1/-/69ms GET /api/list?page=3&pageSize=30&sort=rank5&type=one&marketType=all] [access] ::1: - GET /api/list?page=3&pageSize=30&sort=rank5&type=one&marketType=all HTTP/200 14817 http://localhost:7001/ 67 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 16:45:32,455 INFO 1440 [-/::1/-/83ms GET /api/list?page=4&pageSize=30&sort=rank5&type=one&marketType=all] [access] ::1: - GET /api/list?page=4&pageSize=30&sort=rank5&type=one&marketType=all HTTP/200 14838 http://localhost:7001/ 83 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 16:45:38,548 INFO 1440 [-/::1/-/62ms GET /api/list?page=5&pageSize=30&sort=rank5&type=one&marketType=all] [access] ::1: - GET /api/list?page=5&pageSize=30&sort=rank5&type=one&marketType=all HTTP/200 14829 http://localhost:7001/ 61 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 16:45:43,116 INFO 1440 [-/::1/-/69ms GET /api/list?page=6&pageSize=30&sort=rank5&type=one&marketType=all] [access] ::1: - GET /api/list?page=6&pageSize=30&sort=rank5&type=one&marketType=all HTTP/200 14842 http://localhost:7001/ 69 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 16:45:49,673 INFO 1440 [-/::1/-/172ms GET /api/list?page=5&pageSize=30&sort=rank5&type=one&marketType=all] [access] ::1: - GET /api/list?page=5&pageSize=30&sort=rank5&type=one&marketType=all HTTP/200 14829 http://localhost:7001/ 172 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 16:50:23,419 INFO 1440 [-/::1/-/62ms GET /api/list?page=1&pageSize=30&sort=rank5&type=one&marketType=all] [access] ::1: - GET /api/list?page=1&pageSize=30&sort=rank5&type=one&marketType=all HTTP/200 14046 http://localhost:7001/ 61 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 16:50:44,862 INFO 1440 [-/::1/-/61ms GET /api/list?page=1&pageSize=30&sort=one&type=one&marketType=all] [access] ::1: - GET /api/list?page=1&pageSize=30&sort=one&type=one&marketType=all HTTP/200 14141 http://localhost:7001/ 59 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 16:50:46,704 INFO 1440 [-/::1/-/61ms GET /api/list?page=2&pageSize=30&sort=one&type=one&marketType=all] [access] ::1: - GET /api/list?page=2&pageSize=30&sort=one&type=one&marketType=all HTTP/200 14902 http://localhost:7001/ 60 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 16:50:47,878 INFO 1440 [-/::1/-/66ms GET /api/list?page=3&pageSize=30&sort=one&type=one&marketType=all] [access] ::1: - GET /api/list?page=3&pageSize=30&sort=one&type=one&marketType=all HTTP/200 14864 http://localhost:7001/ 65 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 16:50:53,727 INFO 1440 [-/::1/-/154ms GET /api/list?page=2&pageSize=30&sort=one&type=one&marketType=all] [access] ::1: - GET /api/list?page=2&pageSize=30&sort=one&type=one&marketType=all HTTP/200 14902 http://localhost:7001/ 154 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 16:50:57,618 INFO 1440 [-/::1/-/69ms GET /api/list?page=1&pageSize=30&sort=one&type=one&marketType=all] [access] ::1: - GET /api/list?page=1&pageSize=30&sort=one&type=one&marketType=all HTTP/200 14141 http://localhost:7001/ 67 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 16:51:04,923 INFO 1440 [-/::1/-/67ms GET /api/list?page=2&pageSize=30&sort=one&type=one&marketType=all] [access] ::1: - GET /api/list?page=2&pageSize=30&sort=one&type=one&marketType=all HTTP/200 14902 http://localhost:7001/ 65 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 16:51:10,648 INFO 1440 [-/::1/-/63ms GET /api/list?page=3&pageSize=30&sort=one&type=one&marketType=all] [access] ::1: - GET /api/list?page=3&pageSize=30&sort=one&type=one&marketType=all HTTP/200 14864 http://localhost:7001/ 63 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 16:54:04,655 ERROR 1440 [intro.js] server render bundle error, try client render, the server render error Error: Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: D:\stockApp\app\web\page\intro\index.jsx: Identifier 'data' has already been declared (307:12)
+
+[0m [90m 305 |[39m     [36mconst[39m marketType [33m=[39m [36mthis[39m[33m.[39mstate[33m.[39mmarketType[33m;[39m[0m
+[0m [90m 306 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 307 |[39m     [36mconst[39m { data[33m,[39m sort [33m,[39mtype[33m,[39m marketType[33m,[39m time} [33m=[39m [36mthis[39m[33m.[39mstate[33m;[39m[0m
+[0m [90m     |[39m             [31m[1m^[22m[39m[0m
+[0m [90m 308 |[39m[0m
+[0m [90m 309 |[39m     [36mconst[39m chartData [33m=[39m [36mthis[39m[33m.[39mstate[33m.[39mchartData[33m;[39m[0m
+[0m [90m 310 |[39m[0m
+    at Object._raise (D:\stockApp\node_modules\@babel\parser\lib\index.js:776:17)
+    at Object.raiseWithData (D:\stockApp\node_modules\@babel\parser\lib\index.js:769:17)
+    at Object.raise (D:\stockApp\node_modules\@babel\parser\lib\index.js:737:17)
+    at ScopeHandler.checkRedeclarationInScope (D:\stockApp\node_modules\@babel\parser\lib\index.js:1392:12)
+    at ScopeHandler.declareName (D:\stockApp\node_modules\@babel\parser\lib\index.js:1358:12)
+    at Object.checkLVal (D:\stockApp\node_modules\@babel\parser\lib\index.js:9742:24)
+    at Object.checkLVal (D:\stockApp\node_modules\@babel\parser\lib\index.js:9759:16)
+    at Object.parseVarId (D:\stockApp\node_modules\@babel\parser\lib\index.js:12531:10)
+    at Object.parseVar (D:\stockApp\node_modules\@babel\parser\lib\index.js:12506:12)
+    at Object.parseVarStatement (D:\stockApp\node_modules\@babel\parser\lib\index.js:12321:10)
+    at Object.parseStatementContent (D:\stockApp\node_modules\@babel\parser\lib\index.js:11913:21)
+    at Object.parseStatement (D:\stockApp\node_modules\@babel\parser\lib\index.js:11846:17)
+    at Object.parseBlockOrModuleBlockBody (D:\stockApp\node_modules\@babel\parser\lib\index.js:12428:25)
+    at Object.parseBlockBody (D:\stockApp\node_modules\@babel\parser\lib\index.js:12419:10)
+    at Object.parseBlock (D:\stockApp\node_modules\@babel\parser\lib\index.js:12403:10)
+    at Object.parseFunctionBody (D:\stockApp\node_modules\@babel\parser\lib\index.js:11389:24)
+    at Object../node_modules/babel-loader/lib/index.js?{"envName":"node","cacheDirectory":"C:\\Users\\QSYF03\\AppData\\Local\\Temp\\easywebpack\\stockApp\\dev\\cache\\server\\babel-loader"}!./node_modules/react-entry-template-loader/index.js?templateFile=,renderMode=ssr!./app/web/page/intro/index.jsx (evalmachine.<anonymous>:96:7)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at evalmachine.<anonymous>:84:18
+    at evalmachine.<anonymous>:87:10
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:24:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.index (D:\stockApp\app\controller\intro\intro.js:6:7)
+2021-02-19 16:54:04,658 INFO 1440 [-/::1/-/55ms GET /public/a0f3634d69d578b9a5c9.hot-update.json] [access] ::1: - GET /public/a0f3634d69d578b9a5c9.hot-update.json HTTP/200 856 http://localhost:7001/ 21 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 16:54:10,828 ERROR 1440 [intro.js] server render bundle error, try client render, the server render error Error: Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: D:\stockApp\app\web\page\intro\index.jsx: Identifier 'data' has already been declared (307:12)
+
+[0m [90m 305 |[39m     [36mconst[39m marketType [33m=[39m [36mthis[39m[33m.[39mstate[33m.[39mmarketType[33m;[39m[0m
+[0m [90m 306 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 307 |[39m     [36mconst[39m { data[33m,[39m sort [33m,[39mtype[33m,[39m marketType[33m,[39m time} [33m=[39m [36mthis[39m[33m.[39mstate[33m;[39m[0m
+[0m [90m     |[39m             [31m[1m^[22m[39m[0m
+[0m [90m 308 |[39m[0m
+[0m [90m 309 |[39m     [36mconst[39m chartData [33m=[39m [36mthis[39m[33m.[39mstate[33m.[39mchartData[33m;[39m[0m
+[0m [90m 310 |[39m[0m
+    at Object._raise (D:\stockApp\node_modules\@babel\parser\lib\index.js:776:17)
+    at Object.raiseWithData (D:\stockApp\node_modules\@babel\parser\lib\index.js:769:17)
+    at Object.raise (D:\stockApp\node_modules\@babel\parser\lib\index.js:737:17)
+    at ScopeHandler.checkRedeclarationInScope (D:\stockApp\node_modules\@babel\parser\lib\index.js:1392:12)
+    at ScopeHandler.declareName (D:\stockApp\node_modules\@babel\parser\lib\index.js:1358:12)
+    at Object.checkLVal (D:\stockApp\node_modules\@babel\parser\lib\index.js:9742:24)
+    at Object.checkLVal (D:\stockApp\node_modules\@babel\parser\lib\index.js:9759:16)
+    at Object.parseVarId (D:\stockApp\node_modules\@babel\parser\lib\index.js:12531:10)
+    at Object.parseVar (D:\stockApp\node_modules\@babel\parser\lib\index.js:12506:12)
+    at Object.parseVarStatement (D:\stockApp\node_modules\@babel\parser\lib\index.js:12321:10)
+    at Object.parseStatementContent (D:\stockApp\node_modules\@babel\parser\lib\index.js:11913:21)
+    at Object.parseStatement (D:\stockApp\node_modules\@babel\parser\lib\index.js:11846:17)
+    at Object.parseBlockOrModuleBlockBody (D:\stockApp\node_modules\@babel\parser\lib\index.js:12428:25)
+    at Object.parseBlockBody (D:\stockApp\node_modules\@babel\parser\lib\index.js:12419:10)
+    at Object.parseBlock (D:\stockApp\node_modules\@babel\parser\lib\index.js:12403:10)
+    at Object.parseFunctionBody (D:\stockApp\node_modules\@babel\parser\lib\index.js:11389:24)
+    at Object../node_modules/babel-loader/lib/index.js?{"envName":"node","cacheDirectory":"C:\\Users\\QSYF03\\AppData\\Local\\Temp\\easywebpack\\stockApp\\dev\\cache\\server\\babel-loader"}!./node_modules/react-entry-template-loader/index.js?templateFile=,renderMode=ssr!./app/web/page/intro/index.jsx (evalmachine.<anonymous>:96:7)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at evalmachine.<anonymous>:84:18
+    at evalmachine.<anonymous>:87:10
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:24:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.index (D:\stockApp\app\controller\intro\intro.js:6:7)
+2021-02-19 16:54:10,828 INFO 1440 [-/::1/-/47ms GET /public/a0f3634d69d578b9a5c9.hot-update.json] [access] ::1: - GET /public/a0f3634d69d578b9a5c9.hot-update.json HTTP/200 856 http://localhost:7001/ 15 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 17:06:59,195 INFO 13424 [-/::1/-/2328ms GET /] [access] ::1: - GET / HTTP/200 14109 http://localhost:7001/ 2324 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 17:07:01,997 INFO 13424 [-/::1/-/169ms GET /api/list?page=1&pageSize=30&sort=three&type=one&marketType=all] [access] ::1: - GET /api/list?page=1&pageSize=30&sort=three&type=one&marketType=all HTTP/200 14110 http://localhost:7001/ 168 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 17:07:12,094 INFO 13424 [-/::1/-/282ms GET /api/list?page=1&pageSize=30&sort=three&type=one&marketType=all] [access] ::1: - GET /api/list?page=1&pageSize=30&sort=three&type=one&marketType=all HTTP/200 14110 http://localhost:7001/ 282 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 17:07:24,647 INFO 13424 [-/::1/-/72ms GET /] [access] ::1: - GET / HTTP/200 14109 http://localhost:7001/ 71 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 17:07:25,526 INFO 13424 [-/::1/-/61ms GET /api/list?page=1&pageSize=30&sort=three&type=one&marketType=all] [access] ::1: - GET /api/list?page=1&pageSize=30&sort=three&type=one&marketType=all HTTP/200 14110 http://localhost:7001/ 60 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 17:08:09,438 ERROR 13424 [-/::1/-/85ms GET /api/list?page=1&pageSize=30&sort=three&type=three&marketType=all] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'all
+              ORDER BY three_year_average_rise DESC LIMIT 0, 19' at line 1
+              ORDER BY three_year_average_rise DESC LIMIT 0, 19' at line 1
+    at Query.Sequence._packetToError (D:\stockApp\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\stockApp\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\stockApp\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\stockApp\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\stockApp\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\stockApp\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+    --------------------
+    at Pool.query (D:\stockApp\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\stockApp\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (D:\stockApp\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\stockApp\node_modules\co\index.js:65:19)
+    at D:\stockApp\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (D:\stockApp\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as query] (D:\stockApp\node_modules\co\index.js:30:15)
+    at ArticeService.getStock (D:\stockApp\app\service\article.js:59:46)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async IntroController.list (D:\stockApp\app\controller\intro\intro.js:11:21)
+    sql: select * from stock where stock_rise_2019>0 and stock_rise_2018>0 all
+              ORDER BY three_year_average_rise DESC LIMIT 0, 19;
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'all\n              ORDER BY three_year_average_rise DESC LIMIT 0, 19' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from stock where stock_rise_2019>0 and stock_rise_2018>0 all\n              ORDER BY three_year_average_rise DESC LIMIT 0, 19;"
+name: "ER_PARSE_ERRORError"
+pid: 13424
+hostname: DESKTOP-41PC3A7
+
+2021-02-19 17:09:23,339 INFO 3648 [-/::1/-/1942ms GET /] [access] ::1: - GET / HTTP/200 14109 http://localhost:7001/ 1934 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 17:09:24,365 INFO 3648 [-/::1/-/247ms GET /api/list?page=1&pageSize=30&sort=three&type=one&marketType=all] [access] ::1: - GET /api/list?page=1&pageSize=30&sort=three&type=one&marketType=all HTTP/200 14110 http://localhost:7001/ 246 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 17:09:26,165 INFO 3648 ------------three [ RowDataPacket { 'count(*)': 62 } ]
+2021-02-19 17:09:26,166 INFO 3648 [-/::1/-/311ms GET /api/list?page=1&pageSize=30&sort=three&type=three&marketType=all] [access] ::1: - GET /api/list?page=1&pageSize=30&sort=three&type=three&marketType=all HTTP/200 14095 http://localhost:7001/ 310 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 17:09:29,091 INFO 3648 ------------three [ RowDataPacket { 'count(*)': 62 } ]
+2021-02-19 17:09:29,091 INFO 3648 [-/::1/-/72ms GET /api/list?page=1&pageSize=30&sort=three&type=three&marketType=all] [access] ::1: - GET /api/list?page=1&pageSize=30&sort=three&type=three&marketType=all HTTP/200 14095 http://localhost:7001/ 72 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 17:09:40,817 INFO 3648 ------------three [ RowDataPacket { 'count(*)': 62 } ]
+2021-02-19 17:09:40,818 INFO 3648 [-/::1/-/430ms GET /api/list?page=1&pageSize=30&sort=three&type=three&marketType=all] [access] ::1: - GET /api/list?page=1&pageSize=30&sort=three&type=three&marketType=all HTTP/200 14095 http://localhost:7001/ 429 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 17:09:43,468 ERROR 3648 [-/::1/-/49ms GET /api/list?page=1&pageSize=30&sort=three&type=three&marketType=hu] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '^6
+              ORDER BY three_year_average_rise DESC LIMIT 0, 19' at line 1
+              ORDER BY three_year_average_rise DESC LIMIT 0, 19' at line 1
+    at Query.Sequence._packetToError (D:\stockApp\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\stockApp\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\stockApp\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\stockApp\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\stockApp\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\stockApp\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+    --------------------
+    at Pool.query (D:\stockApp\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\stockApp\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (D:\stockApp\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\stockApp\node_modules\co\index.js:65:19)
+    at D:\stockApp\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (D:\stockApp\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as query] (D:\stockApp\node_modules\co\index.js:30:15)
+    at ArticeService.getStock (D:\stockApp\app\service\article.js:59:46)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async IntroController.list (D:\stockApp\app\controller\intro\intro.js:11:21)
+    sql: select * from stock where stock_rise_2019>0 and stock_rise_2018>0 and code REGEXP ^6
+              ORDER BY three_year_average_rise DESC LIMIT 0, 19;
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '^6\n              ORDER BY three_year_average_rise DESC LIMIT 0, 19' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from stock where stock_rise_2019>0 and stock_rise_2018>0 and code REGEXP ^6\n              ORDER BY three_year_average_rise DESC LIMIT 0, 19;"
+name: "ER_PARSE_ERRORError"
+pid: 3648
+hostname: DESKTOP-41PC3A7
+
+2021-02-19 17:10:41,087 INFO 3648 [-/::1/-/75ms GET /] [access] ::1: - GET / HTTP/200 14109 http://localhost:7001/ 74 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 17:10:42,135 INFO 16976 [-/::1/-/108ms GET /api/list?page=1&pageSize=30&sort=three&type=one&marketType=all] [access] ::1: - GET /api/list?page=1&pageSize=30&sort=three&type=one&marketType=all HTTP/200 14110 http://localhost:7001/ 99 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 17:10:46,369 INFO 16976 ------------three [ RowDataPacket { 'count(*)': 62 } ]
+2021-02-19 17:10:46,370 INFO 16976 [-/::1/-/91ms GET /api/list?page=1&pageSize=30&sort=three&type=three&marketType=all] [access] ::1: - GET /api/list?page=1&pageSize=30&sort=three&type=three&marketType=all HTTP/200 14095 http://localhost:7001/ 90 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 17:10:48,037 INFO 16976 ------------three [ RowDataPacket { 'count(*)': 29 } ]
+2021-02-19 17:10:48,038 INFO 16976 [-/::1/-/86ms GET /api/list?page=1&pageSize=30&sort=three&type=three&marketType=hu] [access] ::1: - GET /api/list?page=1&pageSize=30&sort=three&type=three&marketType=hu HTTP/200 14087 http://localhost:7001/ 85 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+2021-02-19 17:10:52,362 INFO 16976 ------------three [ RowDataPacket { 'count(*)': 62 } ]
+2021-02-19 17:10:52,363 INFO 16976 [-/::1/-/146ms GET /api/list?page=1&pageSize=30&sort=three&type=three&marketType=shen] [access] ::1: - GET /api/list?page=1&pageSize=30&sort=three&type=three&marketType=shen HTTP/200 14095 http://localhost:7001/ 145 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36

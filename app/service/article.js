@@ -36,15 +36,26 @@ module.exports = class ArticeService extends egg.Service {
     this.ctx = ctx;
     this.colllection = new Collection(ctx.db, 'article');
   }
-  async getStock(page, size,sort,type) {
+  async getStock(params) {
+    var { page, size,sort,type,marketType } = params;
     var pageSize = size?size:20;
     var offset = (page-1)*pageSize>0?(page-1)*pageSize-1: 0;
     const market = await this.app.mysql.get('stock', { id: 1 });
 
+    var marketTypeFilter = '';
+
+    if(marketType == 'hu'){
+      marketTypeFilter = "and code REGEXP '^6'";
+    }
+
+    if(marketType == 'shen'){
+      marketTypeFilter = "and code REGEXP '^3|^0'";
+    }
+
     if(type == 'three'){
-      var sql = `select * from stock where stock_rise_2019>0 and stock_rise_2018>0 
+      var sql = `select * from stock where stock_rise_2019>0 and stock_rise_2018>0 ${marketTypeFilter}
               ORDER BY ${getSortForSql(sort)} LIMIT ${offset}, ${page == 1?pageSize-1:pageSize};`
-      var countSql = `select count(*) from stock where stock_rise_2019>0 and stock_rise_2018>0;`
+      var countSql = `select count(*) from stock where stock_rise_2019>0 and stock_rise_2018>0 ${marketTypeFilter};`
       const stockList = await this.app.mysql.query(sql);
       const total = await this.app.mysql.query(countSql);
       this.app.logger.info('------------three', total)
@@ -57,9 +68,10 @@ module.exports = class ArticeService extends egg.Service {
 
     if(type == 'five'){
       sql = `select * from stock where stock_rise_2019>0 and stock_rise_2018>0 and stock_rise_2017>0 and stock_rise_2016>0 
-              ORDER BY ${getSortForSql(sort)} LIMIT ${offset}, ${page == 1?pageSize-1:pageSize};`
+              ${marketTypeFilter} ORDER BY ${getSortForSql(sort)} LIMIT ${offset}, ${page == 1?pageSize-1:pageSize};`
 
-      countSql = `select count(*) from stock where stock_rise_2019>0 and stock_rise_2018>0 and stock_rise_2017>0 and stock_rise_2016>0;`
+      countSql = `select count(*) from stock where stock_rise_2019>0 and stock_rise_2018>0 and 
+                  stock_rise_2017>0 and stock_rise_2016>0 ${marketTypeFilter};`
       const stockList = await this.app.mysql.query(sql);
       const total = await this.app.mysql.query(countSql);
       this.app.logger.info('------------five', total)
