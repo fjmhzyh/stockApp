@@ -2,7 +2,8 @@
 module.exports = app => {
   const { router, controller } = app;
   router.get('/api/list', controller.intro.intro.list);
-  router.get('/intro', controller.intro.intro.index);
+  router.get('/rise', controller.intro.intro.index);
+  router.get('/rank', controller.intro.intro.rank);
   router.get('/*', controller.intro.intro.index);
   router.get('/api/list', controller.intro.intro.list);
 };

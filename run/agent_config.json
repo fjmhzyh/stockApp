@@ -10,13 +10,13 @@
       "domainWhiteList": [
         "http://localhost:9000",
         "http://127.0.0.1:9000",
-        "http://192.168.50.39:9000",
+        "http://192.168.30.11:9000",
         "http://localhost:9001",
         "http://127.0.0.1:9001",
-        "http://192.168.50.39:9001",
+        "http://192.168.30.11:9001",
         "http://localhost:9002",
         "http://127.0.0.1:9002",
-        "http://192.168.50.39:9002"
+        "http://192.168.30.11:9002"
       ],
       "protocolWhiteList": [],
       "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
@@ -85,7 +85,7 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "G:\\stockApp\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
+      "templatePath": "D:\\stockApp\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
@@ -98,8 +98,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "G:\\stockApp\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "G:\\stockApp\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "D:\\stockApp\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "D:\\stockApp\\node_modules\\egg-watcher\\lib\\event-sources\\development"
       }
     },
     "customLogger": {
@@ -122,7 +122,7 @@
       "files": 10,
       "fileExtensions": [],
       "whitelist": null,
-      "tmpdir": "C:\\Users\\fjm\\AppData\\Local\\Temp\\egg-multipart-tmp\\stockApp",
+      "tmpdir": "C:\\Users\\QSYF03\\AppData\\Local\\Temp\\egg-multipart-tmp\\stockApp",
       "cleanSchedule": {
         "cron": "0 30 4 * * *"
       }
@@ -152,7 +152,7 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "G:\\stockApp\\public",
+      "dir": "D:\\stockApp\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
@@ -160,7 +160,7 @@
       "maxAge": 0
     },
     "view": {
-      "root": "G:\\stockApp\\app\\view",
+      "root": "D:\\stockApp\\app\\view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
@@ -171,8 +171,8 @@
     },
     "reactssr": {
       "doctype": "<!doctype html>",
-      "layout": "G:\\stockApp\\app\\web\\view\\layout.html",
-      "manifest": "G:\\stockApp\\config\\manifest.json",
+      "layout": "D:\\stockApp\\app\\web\\view\\layout.html",
+      "manifest": "D:\\stockApp\\config\\manifest.json",
       "injectHeadRegex": "/(<\\/head>)/i",
       "injectBodyRegex": "/(<\\/body>)/i",
       "injectCss": true,
@@ -207,19 +207,25 @@
       },
       "webpackConfigList": [
         {
-          "context": "G:\\stockApp",
+          "context": "D:\\stockApp",
           "entry": {
             "intro": [
               "react-hot-loader/patch",
-              "G:\\stockApp\\node_modules\\webpack-hot-middleware/client?path=http://127.0.0.1:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
-              "G:\\stockApp\\node_modules\\@easy-team\\easywebpack\\utils\\hot.js",
-              "babel-loader?{\"envName\":\"web\",\"cacheDirectory\":\"C:\\\\Users\\\\fjm\\\\AppData\\\\Local\\\\Temp\\\\easywebpack\\\\stockApp\\\\dev\\\\cache\\\\client\\\\babel-loader\"}!react-entry-template-loader?templateFile=,renderMode=ssr!G:\\stockApp\\app\\web\\page\\intro\\index.jsx"
+              "D:\\stockApp\\node_modules\\webpack-hot-middleware/client?path=http://127.0.0.1:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "D:\\stockApp\\node_modules\\@easy-team\\easywebpack\\utils\\hot.js",
+              "babel-loader?{\"envName\":\"web\",\"cacheDirectory\":\"C:\\\\Users\\\\QSYF03\\\\AppData\\\\Local\\\\Temp\\\\easywebpack\\\\stockApp\\\\dev\\\\cache\\\\client\\\\babel-loader\"}!react-entry-template-loader?templateFile=,renderMode=ssr!D:\\stockApp\\app\\web\\page\\intro\\index.jsx"
+            ],
+            "rank": [
+              "react-hot-loader/patch",
+              "D:\\stockApp\\node_modules\\webpack-hot-middleware/client?path=http://127.0.0.1:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "D:\\stockApp\\node_modules\\@easy-team\\easywebpack\\utils\\hot.js",
+              "babel-loader?{\"envName\":\"web\",\"cacheDirectory\":\"C:\\\\Users\\\\QSYF03\\\\AppData\\\\Local\\\\Temp\\\\easywebpack\\\\stockApp\\\\dev\\\\cache\\\\client\\\\babel-loader\"}!react-entry-template-loader?templateFile=,renderMode=ssr!D:\\stockApp\\app\\web\\page\\rank\\index.jsx"
             ]
           },
           "output": {
             "filename": "js/[name].js",
             "chunkFilename": "js/chunk/[name].js",
-            "path": "G:\\stockApp\\public",
+            "path": "D:\\stockApp\\public",
             "publicPath": "/public/"
           },
           "resolve": {
@@ -229,17 +235,17 @@
             ],
             "alias": {
               "react-dom": "@hot-loader/react-dom",
-              "asset": "G:\\stockApp\\app\\web\\asset",
-              "component": "G:\\stockApp\\app\\web\\component",
-              "framework": "G:\\stockApp\\app\\web\\framework"
+              "asset": "D:\\stockApp\\app\\web\\asset",
+              "component": "D:\\stockApp\\app\\web\\component",
+              "framework": "D:\\stockApp\\app\\web\\framework"
             }
           },
           "externals": [],
           "resolveLoader": {
             "modules": [
-              "G:\\stockApp\\node_modules",
-              "G:\\stockApp\\node_modules\\@easy-team\\easywebpack\\lib\\node_modules",
-              "G:\\stockApp\\node_modules\\@easy-team\\easywebpack-react\\node_modules"
+              "D:\\stockApp\\node_modules",
+              "D:\\stockApp\\node_modules\\@easy-team\\easywebpack\\lib\\node_modules",
+              "D:\\stockApp\\node_modules\\@easy-team\\easywebpack-react\\node_modules"
             ]
           },
           "mode": "development",
@@ -264,7 +270,7 @@
                     "loader": "babel-loader",
                     "options": {
                       "envName": "web",
-                      "cacheDirectory": "C:\\Users\\fjm\\AppData\\Local\\Temp\\easywebpack\\stockApp\\dev\\cache\\client\\babel-loader"
+                      "cacheDirectory": "C:\\Users\\QSYF03\\AppData\\Local\\Temp\\easywebpack\\stockApp\\dev\\cache\\client\\babel-loader"
                     }
                   }
                 ]
@@ -272,7 +278,7 @@
               {
                 "test": {},
                 "use": [
-                  "G:\\stockApp\\node_modules\\mini-css-extract-plugin\\dist\\loader.js",
+                  "D:\\stockApp\\node_modules\\mini-css-extract-plugin\\dist\\loader.js",
                   {
                     "options": {
                       "sourceMap": true
@@ -285,7 +291,7 @@
                       "sourceMap": true,
                       "ident": "postcss",
                       "config": {
-                        "path": "G:\\stockApp\\node_modules\\@easy-team\\easywebpack\\config"
+                        "path": "D:\\stockApp\\node_modules\\@easy-team\\easywebpack\\config"
                       }
                     }
                   }
@@ -297,7 +303,7 @@
               {
                 "test": {},
                 "use": [
-                  "G:\\stockApp\\node_modules\\mini-css-extract-plugin\\dist\\loader.js",
+                  "D:\\stockApp\\node_modules\\mini-css-extract-plugin\\dist\\loader.js",
                   {
                     "options": {
                       "sourceMap": true
@@ -310,7 +316,7 @@
                       "sourceMap": true,
                       "ident": "postcss",
                       "config": {
-                        "path": "G:\\stockApp\\node_modules\\@easy-team\\easywebpack\\config"
+                        "path": "D:\\stockApp\\node_modules\\@easy-team\\easywebpack\\config"
                       }
                     }
                   },
@@ -364,7 +370,7 @@
               {
                 "test": "~config~webpack~webpackConfigList~0~module~rules~1~exclude~0",
                 "use": [
-                  "G:\\stockApp\\node_modules\\mini-css-extract-plugin\\dist\\loader.js",
+                  "D:\\stockApp\\node_modules\\mini-css-extract-plugin\\dist\\loader.js",
                   {
                     "options": {
                       "sourceMap": true,
@@ -379,7 +385,7 @@
                       "sourceMap": true,
                       "ident": "postcss",
                       "config": {
-                        "path": "G:\\stockApp\\node_modules\\@easy-team\\easywebpack\\config"
+                        "path": "D:\\stockApp\\node_modules\\@easy-team\\easywebpack\\config"
                       }
                     }
                   }
@@ -391,7 +397,7 @@
               {
                 "test": "~config~webpack~webpackConfigList~0~module~rules~2~exclude~0",
                 "use": [
-                  "G:\\stockApp\\node_modules\\mini-css-extract-plugin\\dist\\loader.js",
+                  "D:\\stockApp\\node_modules\\mini-css-extract-plugin\\dist\\loader.js",
                   {
                     "options": {
                       "sourceMap": true,
@@ -406,7 +412,7 @@
                       "sourceMap": true,
                       "ident": "postcss",
                       "config": {
-                        "path": "G:\\stockApp\\node_modules\\@easy-team\\easywebpack\\config"
+                        "path": "D:\\stockApp\\node_modules\\@easy-team\\easywebpack\\config"
                       }
                     }
                   },
@@ -470,14 +476,14 @@
                 "map": null,
                 "generate": null,
                 "sort": null,
-                "baseDir": "G:\\stockApp",
+                "baseDir": "D:\\stockApp",
                 "host": "http://127.0.0.1:9000",
                 "proxy": true,
-                "buildPath": "G:\\stockApp\\public",
+                "buildPath": "D:\\stockApp\\public",
                 "publicPath": "/public/",
                 "localPublicPath": "/public/",
                 "assets": false,
-                "filepath": "G:\\stockApp\\config\\manifest.json"
+                "filepath": "D:\\stockApp\\config\\manifest.json"
               },
               "isRunned": false,
               "__plugin__": "webpack-manifest-resource-plugin",
@@ -558,14 +564,15 @@
           }
         },
         {
-          "context": "G:\\stockApp",
+          "context": "D:\\stockApp",
           "entry": {
-            "intro": "babel-loader?{\"envName\":\"node\",\"cacheDirectory\":\"C:\\\\Users\\\\fjm\\\\AppData\\\\Local\\\\Temp\\\\easywebpack\\\\stockApp\\\\dev\\\\cache\\\\server\\\\babel-loader\"}!react-entry-template-loader?templateFile=,renderMode=ssr!G:\\stockApp\\app\\web\\page\\intro\\index.jsx"
+            "intro": "babel-loader?{\"envName\":\"node\",\"cacheDirectory\":\"C:\\\\Users\\\\QSYF03\\\\AppData\\\\Local\\\\Temp\\\\easywebpack\\\\stockApp\\\\dev\\\\cache\\\\server\\\\babel-loader\"}!react-entry-template-loader?templateFile=,renderMode=ssr!D:\\stockApp\\app\\web\\page\\intro\\index.jsx",
+            "rank": "babel-loader?{\"envName\":\"node\",\"cacheDirectory\":\"C:\\\\Users\\\\QSYF03\\\\AppData\\\\Local\\\\Temp\\\\easywebpack\\\\stockApp\\\\dev\\\\cache\\\\server\\\\babel-loader\"}!react-entry-template-loader?templateFile=,renderMode=ssr!D:\\stockApp\\app\\web\\page\\rank\\index.jsx"
           },
           "output": {
             "libraryTarget": "commonjs",
             "filename": "[name].js",
-            "path": "G:\\stockApp\\app\\view",
+            "path": "D:\\stockApp\\app\\view",
             "publicPath": "/public/"
           },
           "resolve": {
@@ -574,9 +581,9 @@
               ".js"
             ],
             "alias": {
-              "asset": "G:\\stockApp\\app\\web\\asset",
-              "component": "G:\\stockApp\\app\\web\\component",
-              "framework": "G:\\stockApp\\app\\web\\framework"
+              "asset": "D:\\stockApp\\app\\web\\asset",
+              "component": "D:\\stockApp\\app\\web\\component",
+              "framework": "D:\\stockApp\\app\\web\\framework"
             }
           },
           "externals": [
@@ -584,9 +591,9 @@
           ],
           "resolveLoader": {
             "modules": [
-              "G:\\stockApp\\node_modules",
-              "G:\\stockApp\\node_modules\\@easy-team\\easywebpack\\lib\\node_modules",
-              "G:\\stockApp\\node_modules\\@easy-team\\easywebpack-react\\node_modules"
+              "D:\\stockApp\\node_modules",
+              "D:\\stockApp\\node_modules\\@easy-team\\easywebpack\\lib\\node_modules",
+              "D:\\stockApp\\node_modules\\@easy-team\\easywebpack-react\\node_modules"
             ]
           },
           "mode": "development",
@@ -613,7 +620,7 @@
                     "loader": "babel-loader",
                     "options": {
                       "envName": "node",
-                      "cacheDirectory": "C:\\Users\\fjm\\AppData\\Local\\Temp\\easywebpack\\stockApp\\dev\\cache\\server\\babel-loader"
+                      "cacheDirectory": "C:\\Users\\QSYF03\\AppData\\Local\\Temp\\easywebpack\\stockApp\\dev\\cache\\server\\babel-loader"
                     }
                   }
                 ]
@@ -633,7 +640,7 @@
                     "options": {
                       "ident": "postcss",
                       "config": {
-                        "path": "G:\\stockApp\\node_modules\\@easy-team\\easywebpack\\config"
+                        "path": "D:\\stockApp\\node_modules\\@easy-team\\easywebpack\\config"
                       }
                     }
                   }
@@ -655,7 +662,7 @@
                     "options": {
                       "ident": "postcss",
                       "config": {
-                        "path": "G:\\stockApp\\node_modules\\@easy-team\\easywebpack\\config"
+                        "path": "D:\\stockApp\\node_modules\\@easy-team\\easywebpack\\config"
                       }
                     }
                   },
@@ -723,7 +730,7 @@
                     "options": {
                       "ident": "postcss",
                       "config": {
-                        "path": "G:\\stockApp\\node_modules\\@easy-team\\easywebpack\\config"
+                        "path": "D:\\stockApp\\node_modules\\@easy-team\\easywebpack\\config"
                       }
                     }
                   }
@@ -751,7 +758,7 @@
                     "options": {
                       "ident": "postcss",
                       "config": {
-                        "path": "G:\\stockApp\\node_modules\\@easy-team\\easywebpack\\config"
+                        "path": "D:\\stockApp\\node_modules\\@easy-team\\easywebpack\\config"
                       }
                     }
                   },
@@ -856,6 +863,7 @@
       "dependencies": {
         "antd": "^4.12.3",
         "axios": "^0.19.0",
+        "bizcharts": "^4.1.7",
         "egg": "^2.1.0",
         "egg-cors": "^2.0.0",
         "egg-logger": "^2.4.1",
@@ -914,9 +922,9 @@
         }
       }
     },
-    "baseDir": "G:\\stockApp",
-    "HOME": "C:\\Users\\fjm",
-    "rundir": "G:\\stockApp\\run",
+    "baseDir": "D:\\stockApp",
+    "HOME": "C:\\Users\\QSYF03",
+    "rundir": "D:\\stockApp\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -948,7 +956,7 @@
       "onerror": "<Function onerror>"
     },
     "logger": {
-      "dir": "G:\\stockApp\\logs",
+      "dir": "D:\\stockApp\\logs",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -1029,8 +1037,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "G:\\stockApp\\node_modules\\egg\\config\\plugin.js",
-      "path": "G:\\stockApp\\node_modules\\egg-onerror",
+      "from": "D:\\stockApp\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\stockApp\\node_modules\\egg-onerror",
       "version": "2.1.0"
     },
     "session": {
@@ -1040,8 +1048,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "G:\\stockApp\\node_modules\\egg\\config\\plugin.js",
-      "path": "G:\\stockApp\\node_modules\\egg-session",
+      "from": "D:\\stockApp\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\stockApp\\node_modules\\egg-session",
       "version": "3.2.0"
     },
     "i18n": {
@@ -1051,8 +1059,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "G:\\stockApp\\node_modules\\egg\\config\\plugin.js",
-      "path": "G:\\stockApp\\node_modules\\egg-i18n",
+      "from": "D:\\stockApp\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\stockApp\\node_modules\\egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -1062,8 +1070,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "G:\\stockApp\\node_modules\\egg\\config\\plugin.js",
-      "path": "G:\\stockApp\\node_modules\\egg-watcher",
+      "from": "D:\\stockApp\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\stockApp\\node_modules\\egg-watcher",
       "version": "3.1.1"
     },
     "multipart": {
@@ -1075,8 +1083,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "G:\\stockApp\\node_modules\\egg\\config\\plugin.js",
-      "path": "G:\\stockApp\\node_modules\\egg-multipart",
+      "from": "D:\\stockApp\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\stockApp\\node_modules\\egg-multipart",
       "version": "2.10.3"
     },
     "security": {
@@ -1088,8 +1096,8 @@
         "session"
       ],
       "env": [],
-      "from": "G:\\stockApp\\node_modules\\egg\\config\\plugin.js",
-      "path": "G:\\stockApp\\node_modules\\egg-security",
+      "from": "D:\\stockApp\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\stockApp\\node_modules\\egg-security",
       "version": "2.8.0"
     },
     "development": {
@@ -1103,8 +1111,8 @@
       "env": [
         "local"
       ],
-      "from": "G:\\stockApp\\node_modules\\egg\\config\\plugin.js",
-      "path": "G:\\stockApp\\node_modules\\egg-development",
+      "from": "D:\\stockApp\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\stockApp\\node_modules\\egg-development",
       "version": "2.7.0"
     },
     "logrotator": {
@@ -1116,8 +1124,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "G:\\stockApp\\node_modules\\egg\\config\\plugin.js",
-      "path": "G:\\stockApp\\node_modules\\egg-logrotator",
+      "from": "D:\\stockApp\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\stockApp\\node_modules\\egg-logrotator",
       "version": "3.1.0"
     },
     "schedule": {
@@ -1127,8 +1135,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "G:\\stockApp\\node_modules\\egg\\config\\plugin.js",
-      "path": "G:\\stockApp\\node_modules\\egg-schedule",
+      "from": "D:\\stockApp\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\stockApp\\node_modules\\egg-schedule",
       "version": "3.6.6"
     },
     "static": {
@@ -1138,8 +1146,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "G:\\stockApp\\config\\plugin.js",
-      "path": "G:\\stockApp\\node_modules\\egg-static",
+      "from": "D:\\stockApp\\config\\plugin.js",
+      "path": "D:\\stockApp\\node_modules\\egg-static",
       "version": "2.2.0"
     },
     "jsonp": {
@@ -1151,8 +1159,8 @@
         "security"
       ],
       "env": [],
-      "from": "G:\\stockApp\\node_modules\\egg\\config\\plugin.js",
-      "path": "G:\\stockApp\\node_modules\\egg-jsonp",
+      "from": "D:\\stockApp\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\stockApp\\node_modules\\egg-jsonp",
       "version": "2.0.0"
     },
     "view": {
@@ -1162,8 +1170,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "G:\\stockApp\\node_modules\\egg\\config\\plugin.js",
-      "path": "G:\\stockApp\\node_modules\\egg-view",
+      "from": "D:\\stockApp\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\stockApp\\node_modules\\egg-view",
       "version": "2.1.3"
     },
     "reactssr": {
@@ -1173,8 +1181,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "G:\\stockApp\\config\\plugin.js",
-      "path": "G:\\stockApp\\node_modules\\egg-view-react-ssr",
+      "from": "D:\\stockApp\\config\\plugin.js",
+      "path": "D:\\stockApp\\node_modules\\egg-view-react-ssr",
       "version": "3.1.0"
     },
     "mysql": {
@@ -1184,8 +1192,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "G:\\stockApp\\config\\plugin.js",
-      "path": "G:\\stockApp\\node_modules\\egg-mysql",
+      "from": "D:\\stockApp\\config\\plugin.js",
+      "path": "D:\\stockApp\\node_modules\\egg-mysql",
       "version": "3.0.0"
     },
     "cors": {
@@ -1195,8 +1203,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "G:\\stockApp\\config\\plugin.local.js",
-      "path": "G:\\stockApp\\node_modules\\egg-cors",
+      "from": "D:\\stockApp\\config\\plugin.local.js",
+      "path": "D:\\stockApp\\node_modules\\egg-cors",
       "version": "2.2.3"
     },
     "webpack": {
@@ -1208,8 +1216,8 @@
       "env": [
         "local"
       ],
-      "from": "G:\\stockApp\\config\\plugin.local.js",
-      "path": "G:\\stockApp\\node_modules\\egg-webpack",
+      "from": "D:\\stockApp\\config\\plugin.local.js",
+      "path": "D:\\stockApp\\node_modules\\egg-webpack",
       "version": "4.5.5"
     },
     "webpackreact": {
@@ -1221,8 +1229,8 @@
       "env": [
         "local"
       ],
-      "from": "G:\\stockApp\\config\\plugin.local.js",
-      "path": "G:\\stockApp\\node_modules\\egg-webpack-react",
+      "from": "D:\\stockApp\\config\\plugin.local.js",
+      "path": "D:\\stockApp\\node_modules\\egg-webpack-react",
       "version": "3.0.0"
     }
   }

@@ -15,5 +15,9 @@ module.exports = app => {
     	const result = await this.service.article.getStock(page, pageSize, sort, type);
     	this.ctx.body = result;
     }
+
+    async rank(ctx){
+      await ctx.render('rank.js');
+    }
   };
 };

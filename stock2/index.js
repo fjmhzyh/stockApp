@@ -48,6 +48,14 @@ const StockModel = sequelize.define('Stock', {
     type: DataTypes.DECIMAL(6, 2),
     defaultValue: null
   },
+  three_year_average_rank: {
+    type: DataTypes.INTEGER,
+    defaultValue: null
+  },
+  five_year_average_rank: {
+    type: DataTypes.INTEGER,
+    defaultValue: null
+  },
   stock_rise_2020: {
     type: DataTypes.DECIMAL(6, 2),
     defaultValue: null
@@ -139,19 +147,6 @@ const findUrl = 'http://www.iwencai.com/unifiedwap/unified-wap/v2/stock-pick/fin
 
 
 
-const form = {
-  query: '2019涨跌幅排名',
-  question: 300677,
-  perpage: 100,
-  query_type: 'stock',
-  comp_id: 5623539,
-  source: 'Ths_iwencai_Xuangu',
-  uuid:24087,
-  sort_key: '区间涨跌幅:前复权[20190102-20191231]',
-  sort_order: 'desc',
-  iwc_token:'0ac952b516135454623488226',
-  condition:[{"chunkedResult":"2019涨跌幅排名","opName":"sort","opProperty":"从大到小排名","uiText":"2019年01月02日到2019年12月31日区间涨跌幅从大到小排名","sonSize":1,"queryText":"2019年01月02日到2019年12月31日区间涨跌幅从大到小排名","relatedSize":1},{"dateText":"2019年","indexName":"区间涨跌幅:前复权","indexProperties":["起始交易日期 20190102","截止交易日期 20191231"],"dateUnit":"年","source":"new_parser","type":"index","indexPropertiesMap":{"起始交易日期":"20190102","截止交易日期":"20191231"},"reportType":"TRADE_DAILY","dateType":"+区间","valueType":"_浮点型数值(%)","domain":"abs_股票领域","sonSize":0,"relatedSize":0,"tag":"[2019年]区间涨跌幅:前复权"}]
-}
 
 
 
@@ -167,8 +162,70 @@ async function test(argument) {
 	}
 }
 
-var id = 1;
+var id = 2;
 // test();
+// calcRise();
+calcRank();
+
+async function calcRank(){
+
+  if(id == 1){
+    await sequelize.authenticate();
+    await sequelize.sync();
+  }
+
+  var three_year_average_rank = '';
+  var five_year_average_rank = '';
+
+  const stock = await StockModel.findOne({ where: { id: id } });
+  const stock_rank_2020 = Number(stock.stock_rank_2020);
+  const stock_rank_2019 = Number(stock.stock_rank_2019);
+  const stock_rank_2018 = Number(stock.stock_rank_2018);
+  const stock_rank_2017 = Number(stock.stock_rank_2017);
+  const stock_rank_2016 = Number(stock.stock_rank_2016);
+
+
+  if(stock_rank_2018){
+    three_year_average_rank = Math.ceil((stock_rank_2018+stock_rank_2019+stock_rank_2020)/3);
+  }else {
+    three_year_average_rank = Math.ceil((stock_rank_2019+stock_rank_2020)/2);
+    five_year_average_rank = null;
+  }
+
+  if(!stock_rank_2017){
+    five_year_average_rank = null;
+  }
+
+  if(!stock_rank_2016){
+    five_year_average_rank = null;
+  }
+
+  five_year_average_rank = Math.ceil((stock_rank_2016+stock_rank_2017+stock_rank_2018+stock_rank_2019+stock_rank_2020)/5);
+
+  var row = {
+    three_year_average_rank: three_year_average_rank,
+    five_year_average_rank: five_year_average_rank
+  }
+
+
+  // console.log('row', row)
+
+
+  try{
+    await StockModel.update(row, {
+      where: { id: id }
+    });
+    console.log(`${id}: 更新${stock.name}成功!`)
+    id = id + 1;
+    if(id<502){
+      calcRank()
+    } else {
+      console.log('更新完成!')
+    } 
+  }catch(ex){
+    console.log(`${id}: 更新${stock.name}失败!`)
+  }
+}
 
 
 async function calcRise(){
@@ -207,11 +264,7 @@ async function calcRise(){
 	}
 
 
-console.log('stock_rise_2020', typeof stock_rise_2020)
-console.log('stock_rise_2019', stock_rise_2019)
-console.log('stock_rise_2018', stock_rise_2018)
-console.log('row', row)
-		console.log('row', row)
+	// console.log('row', row)
 
   try{
 		await StockModel.update(row, {
@@ -227,11 +280,8 @@ console.log('row', row)
   }catch(ex){
 		console.log(`${id}: 更新${stock.name}失败!`)
   }
-
 }
 
-
-calcRise();
 
 
 async function updateStock(){

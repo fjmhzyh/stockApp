@@ -19,8 +19,21 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/intro",
-    "regexp": "/^\\/intro(?:\\/(?=$))?$/",
+    "path": "/rise",
+    "regexp": "/^\\/rise(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/rank",
+    "regexp": "/^\\/rank(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

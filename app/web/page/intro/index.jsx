@@ -6,8 +6,9 @@ import Header from 'component/header'
 import '../../asset/css/blog.css'
 import './index.css'
 import request from '../../framework/request.js';
+import { Chart, Axis, Tooltip, Geom, Legend } from 'bizcharts';
 
-import { Table, Pagination, Form, Row, Col, Input, Button, Select, Radio  } from 'antd';
+import { Table, Pagination, Form, Row, Col, Input, Button, Select, Radio,Modal   } from 'antd';
 import 'antd/dist/antd.css';
 
 
@@ -18,6 +19,23 @@ function renderRise(text) {
   return <span className={className}>{content}</span>
 }
 
+
+const scale = {
+  value: { alias:'排名'  },
+  year: { type: 'linear', tickCount: 10 },
+};
+
+
+const riseScale = {
+  value: { 
+    alias:'涨幅',
+    formatter: (text)=>{
+      return `${text}%`;
+    }
+  },
+  year: { type: 'linear', tickCount: 10 },
+};
+
 class Intro extends Component {
 
   state={
@@ -27,14 +45,20 @@ class Intro extends Component {
     sort:'three',
     type: 'one',
     total: 500,
+    rank: '',
+    visible:false,
+    chartData: { rankData: [], riseData: [], stock:{} },
+    market: null,
+    rankChart:null,
+    riseChart: null,
   }
 
   columns = [
     {
-      title: '序号',
+      title: '序',
       dataIndex: '',
       fixed: 'left',
-      width: 80,
+      width: 40,
       render: (a,b, index)=>{
         return (this.state.page-1)*this.state.pageSize + index+1
       }
@@ -46,30 +70,50 @@ class Intro extends Component {
       fixed: 'left',
     },
     {
+      title: '代码',
+      dataIndex: 'code',
+      width: 100,
+      fixed: 'left',
+    },
+    {
       title: '股票名称',
       dataIndex: 'name',
-      width: 100,
+      width: 120,
       fixed: 'left',
     },
-    {
-      title: '当前股价',
-      dataIndex: 'price',
-      width: 100,
-      fixed: 'left',
-    },
+    // {
+    //   title: '当前股价',
+    //   dataIndex: 'price',
+    //   width: 100,
+    //   fixed: 'left',
+    // },
     {
       title: '近三年平均涨幅',
-      width: 140,
-      fixed: 'left',
+      width: 180,
+      // fixed: 'left',
       dataIndex: 'three_year_average_rise',
       render: renderRise
     },
     {
       title: '近五年平均涨幅',
-      width: 140,
-      fixed: 'left',
+      width: 180,
+      // fixed: 'left',
       dataIndex: 'five_year_average_rise',
       render: renderRise
+    },
+    {
+      title: '近三年平均排名',
+      width: 190,
+      // fixed: 'left',
+      dataIndex: 'three_year_average_rank',
+      // render: renderRise
+    },
+    {
+      title: '近五年平均排名',
+      width: 190,
+      // fixed: 'left',
+      dataIndex: 'five_year_average_rank',
+      // render: renderRise
     },
     {
       title: '2020涨幅',
@@ -130,9 +174,32 @@ class Intro extends Component {
       width: 100,
       dataIndex: 'stock_rise_2011',
       render: renderRise
-    }
+    },
+    {
+      title: '操作',
+      key: 'operation',
+      fixed: 'right',
+      width: 120,
+      render: (text,item) => <span className="operation" onClick={()=>{this.showModal(item)}}>查看详情</span>,
+    },
   ];
 
+
+
+  showModal = (item) => {
+    console.log('item', item)
+    var chartData = this.convertData(item);
+    this.setState({visible: true, chartData: chartData}, ()=>{
+      setTimeout(()=>{
+        this.state.rankChart.forceFit();
+        this.state.riseChart.forceFit()
+      }, 100)
+    })
+  };
+
+  hideModal = () => {
+    this.setState({visible: false, })
+  };
 
   componentDidMount(){
     // console.log('get', get)
@@ -140,6 +207,55 @@ class Intro extends Component {
   }
 
 
+  getRankChart = (chart) =>{
+    this.setState({rankChart: chart})
+    console.log('rankChart', chart)
+  }
+
+
+  getRiseChart = (chart) =>{
+    this.setState({riseChart: chart})
+  }
+
+  convertData = (item)=>{
+    var market = this.state.market;
+    var rankData= [
+      { type: item.name, year:2020, value: item.stock_rank_2020 },
+      { type: item.name, year:2019, value: item.stock_rank_2019 },
+      { type: item.name, year:2018, value: item.stock_rank_2018 },
+      { type: item.name, year:2017, value: item.stock_rank_2017 },
+      { type: item.name, year:2016, value: item.stock_rank_2016 },
+      { type: item.name, year:2015, value: item.stock_rank_2015 },
+      { type: item.name, year:2014, value: item.stock_rank_2014 },
+      { type: item.name, year:2013, value: item.stock_rank_2013 },
+      { type: item.name, year:2012, value: item.stock_rank_2012 },
+      { type: item.name, year:2011, value: item.stock_rank_2011 },
+    ];
+    var riseData = [
+      { type: item.name, year:2020, value: item.stock_rise_2020 },
+      { type: item.name, year:2019, value: item.stock_rise_2019 },
+      { type: item.name, year:2018, value: item.stock_rise_2018 },
+      { type: item.name, year:2017, value: item.stock_rise_2017 },
+      { type: item.name, year:2016, value: item.stock_rise_2016 },
+      { type: item.name, year:2015, value: item.stock_rise_2015 },
+      { type: item.name, year:2014, value: item.stock_rise_2014 },
+      { type: item.name, year:2013, value: item.stock_rise_2013 },
+      { type: item.name, year:2012, value: item.stock_rise_2012 },
+      { type: item.name, year:2011, value: item.stock_rise_2011 },
+      { type: market.name, year:2020, value: market.stock_rise_2020 },
+      { type: market.name, year:2019, value: market.stock_rise_2019 },
+      { type: market.name, year:2018, value: market.stock_rise_2018 },
+      { type: market.name, year:2017, value: market.stock_rise_2017 },
+      { type: market.name, year:2016, value: market.stock_rise_2016 },
+      { type: market.name, year:2015, value: market.stock_rise_2015 },
+      { type: market.name, year:2014, value: market.stock_rise_2014 },
+      { type: market.name, year:2013, value: market.stock_rise_2013 },
+      { type: market.name, year:2012, value: market.stock_rise_2012 },
+      { type: market.name, year:2011, value: market.stock_rise_2011 },
+    ]
+
+    return { stock: item, rankData, riseData };
+  }
 
 
   fetchData = ()=>{
@@ -147,10 +263,13 @@ class Intro extends Component {
     var pageSize = this.state.pageSize;
     var sort = this.state.sort;
     var type = this.state.type;
-    request.get(`${window.location.origin}/api/list?page=${page}&pageSize=${pageSize}&sort=${sort}&type=${type}`).then(res=>{
+    request
+    .get(`${window.location.origin}/api/list?page=${page}&pageSize=${pageSize}&sort=${sort}&type=${type}`)
+    .then(res=>{
       this.setState({
         list:res.data.list,
-        total: res.data.total
+        total: res.data.total,
+        market: res.data.market
       })
     })
   }
@@ -173,6 +292,17 @@ class Intro extends Component {
     const sort = this.state.sort;
     const type = this.state.type;
 
+    const chartData = this.state.chartData;
+
+    console.log('chartData', chartData)
+
+    var test =[
+      { type: '序列1', year: '1991', value: 3 },
+      { type: '序列1', year: '1992', value: 4 },
+      { type: '序列1', year: '1993', value: 3.5 },
+      { type: '序列1', year: '1994', value: 5 },
+    ]
+
     var pagination = {
       current: this.state.page,
       total: this.state.total,
@@ -185,11 +315,35 @@ class Intro extends Component {
     }
     return <Layout>
       <div id="stock-app">
+        <Modal title={`股票详情 - ${chartData.stock.name}`} width={'60%'} 
+          visible={this.state.visible} centered footer={null} onCancel={this.hideModal}>
+          <Chart height={300} padding={[ 20, 30, 60, 70]}
+            data={chartData.rankData} scale={scale} forceFit onGetG2Instance={this.getRankChart} >
+            <Axis name="year" />
+            <Axis name="value" title={true} />
+            <Legend />
+            <Tooltip shared crosshairs={{ type: 'x' }} showCrosshairs={true} />
+            <Geom type="line" position="year*value" size={2} color="type" />
+            <Geom type="point" position="year*value" size={4} shape={'circle'} color="type" style={{ stroke: '#fff', lineWidth: 1 }}/>
+          </Chart>
+
+          <Chart height={300} padding={[ 20, 30, 60, 70]}
+            data={chartData.riseData} scale={riseScale} forceFit onGetG2Instance={this.getRiseChart} >
+            <Axis name="year" />
+            <Axis name="value" title={true} />
+            <Legend />
+            <Tooltip shared crosshairs={{ type: 'x' }} showCrosshairs={true} />
+            <Geom type="line" position="year*value" size={2} color="type" />
+            <Geom type="point" position="year*value" size={4} shape={'circle'} color="type" style={{ stroke: '#fff', lineWidth: 1 }}/>
+          </Chart>
+        </Modal>
         <div className="search-bar">
           <Select className='my-select' value={sort} onChange={this.sortChange} >
             <Select.Option value="one">近一年涨幅</Select.Option>
             <Select.Option value="three">近三年平均涨幅</Select.Option>
             <Select.Option value="five">近五年平均涨幅</Select.Option>
+            <Select.Option value="rank3">近三年平均排名</Select.Option>
+            <Select.Option value="rank5">近五年平均排名</Select.Option>
           </Select>
 
           <Radio.Group className="my-radio" buttonStyle="solid" value={type} onChange={this.typeChange}>
@@ -199,8 +353,9 @@ class Intro extends Component {
           </Radio.Group>
         </div>
         <Table columns={this.columns} dataSource={data} pagination={pagination} rowKey={record => record.code} 
-            scroll={{ x: true, y: 600}} />
+            scroll={{ x: 3000, y: 600}} sticky/>
       </div>
+
     </Layout>
   }
 }
