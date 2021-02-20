@@ -1569,3 +1569,937 @@ name: "ER_BAD_FIELD_ERRORError"
 pid: 1508
 hostname: DESKTOP-41PC3A7
 
+2021-02-20 09:07:58,654 ERROR 3756 [intro.js] server render bundle error, try client render, the server render error ReferenceError: onCodeChange is not defined
+    at Intro.render (evalmachine.<anonymous>:969:17)
+    at processChild (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3134:18)
+    at resolve (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3373:29)
+    at Object.renderToString (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3988:27)
+    at Engine.renderToString (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:133:27)
+    at Engine.renderElement (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:110:17)
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:29:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.index (D:\stockApp\app\controller\intro\intro.js:6:7)
+2021-02-20 09:08:08,153 ERROR 3756 [intro.js] server render bundle error, try client render, the server render error ReferenceError: onCodeChange is not defined
+    at Intro.render (evalmachine.<anonymous>:969:17)
+    at processChild (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3134:18)
+    at resolve (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3373:29)
+    at Object.renderToString (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3988:27)
+    at Engine.renderToString (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:133:27)
+    at Engine.renderElement (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:110:17)
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:29:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.index (D:\stockApp\app\controller\intro\intro.js:6:7)
+2021-02-20 09:35:18,268 ERROR 6388 [-/::1/-/62ms GET /api/list?page=1&pageSize=30&sort=three%20%20%20%20%20%20&type=one&marketType=all&time=all&code=%E8%B4%B5%E5%B7%9E%E8%8C%85%E5%8F%B0] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column '贵州茅台' in 'where clause'
+    at Query.Sequence._packetToError (D:\stockApp\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\stockApp\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\stockApp\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\stockApp\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\stockApp\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\stockApp\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+    --------------------
+    at Pool.query (D:\stockApp\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\stockApp\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (D:\stockApp\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\stockApp\node_modules\co\index.js:65:19)
+    at D:\stockApp\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (D:\stockApp\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as query] (D:\stockApp\node_modules\co\index.js:30:15)
+    at ArticeService.getStock (D:\stockApp\app\service\article.js:55:46)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async IntroController.list (D:\stockApp\app\controller\intro\intro.js:11:21)
+    sql: select * from stock where name=贵州茅台
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column '贵州茅台' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from stock where name=贵州茅台"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 6388
+hostname: DESKTOP-41PC3A7
+
+2021-02-20 09:58:48,747 ERROR 2436 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 2436
+hostname: DESKTOP-41PC3A7
+
+2021-02-20 10:27:38,246 ERROR 9516 [-/::1/-/1ms GET /api/mark?id=2&marked=0] nodejs.ReferenceError: params is not defined
+    at ArticeService.markStock (D:\stockApp\app\service\article.js:127:25)
+    at IntroController.mark (D:\stockApp\app\controller\intro\intro.js:16:49)
+    at Object.callFn (D:\stockApp\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\stockApp\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\stockApp\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\stockApp\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\stockApp\node_modules\koa-compose\index.js:44:32)
+    at next (D:\stockApp\node_modules\koa-compose\index.js:45:18)
+    at D:\stockApp\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\stockApp\node_modules\koa-compose\index.js:44:32)
+    at D:\stockApp\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\stockApp\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\stockApp\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\stockApp\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at Object.<anonymous> (D:\stockApp\app\middleware\access.js:9:5)
+
+pid: 9516
+hostname: DESKTOP-41PC3A7
+
+2021-02-20 10:27:46,256 ERROR 9516 [-/::1/-/2ms GET /api/mark?id=2&marked=0] nodejs.ReferenceError: params is not defined
+    at ArticeService.markStock (D:\stockApp\app\service\article.js:127:25)
+    at IntroController.mark (D:\stockApp\app\controller\intro\intro.js:16:49)
+    at Object.callFn (D:\stockApp\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\stockApp\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\stockApp\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\stockApp\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\stockApp\node_modules\koa-compose\index.js:44:32)
+    at next (D:\stockApp\node_modules\koa-compose\index.js:45:18)
+    at D:\stockApp\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\stockApp\node_modules\koa-compose\index.js:44:32)
+    at D:\stockApp\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\stockApp\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\stockApp\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at createGenerator (D:\stockApp\node_modules\koa-convert\index.js:24:16)
+    at createGenerator.next (<anonymous>)
+    at Object.<anonymous> (D:\stockApp\app\middleware\access.js:9:5)
+
+pid: 9516
+hostname: DESKTOP-41PC3A7
+
+2021-02-20 10:34:57,147 ERROR 5456 [intro.js] server render bundle error, try client render, the server render error Error: Cannot find module 'component/Sidebar'
+    at webpackMissingModule (evalmachine.<anonymous>:214:45)
+    at Module../app/web/page/intro/index.jsx (evalmachine.<anonymous>:214:137)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at Module../node_modules/babel-loader/lib/index.js?{"envName":"node","cacheDirectory":"C:\\Users\\QSYF03\\AppData\\Local\\Temp\\easywebpack\\stockApp\\dev\\cache\\server\\babel-loader"}!./node_modules/react-entry-template-loader/index.js?templateFile=,renderMode=ssr!./app/web/page/intro/index.jsx (evalmachine.<anonymous>:886:97)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at evalmachine.<anonymous>:84:18
+    at evalmachine.<anonymous>:87:10
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:24:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.index (D:\stockApp\app\controller\intro\intro.js:6:7) {
+  code: 'MODULE_NOT_FOUND'
+}
+2021-02-20 10:36:35,473 ERROR 5456 [intro.js] server render bundle error, try client render, the server render error Error: Cannot find module 'component/Sidebar'
+    at webpackMissingModule (evalmachine.<anonymous>:270:45)
+    at Module../app/web/component/layout/default.jsx (evalmachine.<anonymous>:270:137)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at Module../app/web/component/layout/blog.jsx (evalmachine.<anonymous>:246:66)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at Module../app/web/page/intro/index.jsx (evalmachine.<anonymous>:442:79)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at Module../node_modules/babel-loader/lib/index.js?{"envName":"node","cacheDirectory":"C:\\Users\\QSYF03\\AppData\\Local\\Temp\\easywebpack\\stockApp\\dev\\cache\\server\\babel-loader"}!./node_modules/react-entry-template-loader/index.js?templateFile=,renderMode=ssr!./app/web/page/intro/index.jsx (evalmachine.<anonymous>:1129:97)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at evalmachine.<anonymous>:84:18
+    at evalmachine.<anonymous>:87:10
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:24:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12) {
+  code: 'MODULE_NOT_FOUND'
+}
+2021-02-20 10:36:57,499 ERROR 5456 [intro.js] server render bundle error, try client render, the server render error Error: Cannot find module 'component/Sidebar'
+    at webpackMissingModule (evalmachine.<anonymous>:270:45)
+    at Module../app/web/component/layout/default.jsx (evalmachine.<anonymous>:270:137)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at Module../app/web/component/layout/blog.jsx (evalmachine.<anonymous>:246:66)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at Module../app/web/page/intro/index.jsx (evalmachine.<anonymous>:442:79)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at Module../node_modules/babel-loader/lib/index.js?{"envName":"node","cacheDirectory":"C:\\Users\\QSYF03\\AppData\\Local\\Temp\\easywebpack\\stockApp\\dev\\cache\\server\\babel-loader"}!./node_modules/react-entry-template-loader/index.js?templateFile=,renderMode=ssr!./app/web/page/intro/index.jsx (evalmachine.<anonymous>:1129:97)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at evalmachine.<anonymous>:84:18
+    at evalmachine.<anonymous>:87:10
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:24:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12) {
+  code: 'MODULE_NOT_FOUND'
+}
+2021-02-20 11:20:00,645 ERROR 5456 [intro.js] server render bundle error, try client render, the server render error ReferenceError: window is not defined
+    at Sidebar.render (evalmachine.<anonymous>:354:15)
+    at processChild (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3134:18)
+    at resolve (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3373:29)
+    at Object.renderToString (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3988:27)
+    at Engine.renderToString (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:133:27)
+    at Engine.renderElement (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:110:17)
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:29:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.index (D:\stockApp\app\controller\intro\intro.js:6:7)
+2021-02-20 11:20:14,976 ERROR 5456 [intro.js] server render bundle error, try client render, the server render error ReferenceError: window is not defined
+    at Sidebar.render (evalmachine.<anonymous>:354:15)
+    at processChild (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3134:18)
+    at resolve (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3373:29)
+    at Object.renderToString (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3988:27)
+    at Engine.renderToString (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:133:27)
+    at Engine.renderElement (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:110:17)
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:29:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.index (D:\stockApp\app\controller\intro\intro.js:6:7)
+2021-02-20 11:20:25,417 ERROR 5456 [intro.js] server render bundle error, try client render, the server render error ReferenceError: window is not defined
+    at Sidebar.render (evalmachine.<anonymous>:354:15)
+    at processChild (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3134:18)
+    at resolve (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3373:29)
+    at Object.renderToString (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3988:27)
+    at Engine.renderToString (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:133:27)
+    at Engine.renderElement (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:110:17)
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:29:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.index (D:\stockApp\app\controller\intro\intro.js:6:7)
+2021-02-20 11:20:46,531 ERROR 5456 [intro.js] server render bundle error, try client render, the server render error ReferenceError: window is not defined
+    at Sidebar.render (evalmachine.<anonymous>:354:15)
+    at processChild (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3134:18)
+    at resolve (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3373:29)
+    at Object.renderToString (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3988:27)
+    at Engine.renderToString (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:133:27)
+    at Engine.renderElement (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:110:17)
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:29:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.index (D:\stockApp\app\controller\intro\intro.js:6:7)
+2021-02-20 11:21:27,618 ERROR 5456 [intro.js] server render bundle error, try client render, the server render error ReferenceError: window is not defined
+    at Sidebar.render (evalmachine.<anonymous>:354:15)
+    at processChild (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3134:18)
+    at resolve (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3373:29)
+    at Object.renderToString (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3988:27)
+    at Engine.renderToString (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:133:27)
+    at Engine.renderElement (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:110:17)
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:29:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.index (D:\stockApp\app\controller\intro\intro.js:6:7)
+2021-02-20 11:21:43,083 ERROR 5456 [intro.js] server render bundle error, try client render, the server render error ReferenceError: window is not defined
+    at Sidebar.render (evalmachine.<anonymous>:354:15)
+    at processChild (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3134:18)
+    at resolve (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3373:29)
+    at Object.renderToString (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3988:27)
+    at Engine.renderToString (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:133:27)
+    at Engine.renderElement (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:110:17)
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:29:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.index (D:\stockApp\app\controller\intro\intro.js:6:7)
+2021-02-20 11:21:45,278 ERROR 5456 [intro.js] server render bundle error, try client render, the server render error ReferenceError: window is not defined
+    at Sidebar.render (evalmachine.<anonymous>:354:15)
+    at processChild (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3134:18)
+    at resolve (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3373:29)
+    at Object.renderToString (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3988:27)
+    at Engine.renderToString (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:133:27)
+    at Engine.renderElement (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:110:17)
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:29:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.index (D:\stockApp\app\controller\intro\intro.js:6:7)
+2021-02-20 11:21:54,545 ERROR 5456 [intro.js] server render bundle error, try client render, the server render error ReferenceError: window is not defined
+    at Sidebar.render (evalmachine.<anonymous>:354:15)
+    at processChild (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3134:18)
+    at resolve (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3373:29)
+    at Object.renderToString (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3988:27)
+    at Engine.renderToString (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:133:27)
+    at Engine.renderElement (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:110:17)
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:29:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.index (D:\stockApp\app\controller\intro\intro.js:6:7)
+2021-02-20 11:22:29,355 ERROR 5568 [intro.js] server render bundle error, try client render, the server render error ReferenceError: window is not defined
+    at Sidebar.render (evalmachine.<anonymous>:354:15)
+    at processChild (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3134:18)
+    at resolve (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3373:29)
+    at Object.renderToString (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3988:27)
+    at Engine.renderToString (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:133:27)
+    at Engine.renderElement (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:110:17)
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:29:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.index (D:\stockApp\app\controller\intro\intro.js:6:7)
+2021-02-20 11:22:57,705 ERROR 5568 [intro.js] server render bundle error, try client render, the server render error ReferenceError: window is not defined
+    at Sidebar.render (evalmachine.<anonymous>:354:15)
+    at processChild (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3134:18)
+    at resolve (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3373:29)
+    at Object.renderToString (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3988:27)
+    at Engine.renderToString (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:133:27)
+    at Engine.renderElement (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:110:17)
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:29:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.index (D:\stockApp\app\controller\intro\intro.js:6:7)
+2021-02-20 11:23:00,374 ERROR 5568 [intro.js] server render bundle error, try client render, the server render error ReferenceError: window is not defined
+    at Sidebar.render (evalmachine.<anonymous>:354:15)
+    at processChild (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3134:18)
+    at resolve (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3373:29)
+    at Object.renderToString (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3988:27)
+    at Engine.renderToString (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:133:27)
+    at Engine.renderElement (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:110:17)
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:29:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.index (D:\stockApp\app\controller\intro\intro.js:6:7)
+2021-02-20 11:23:47,564 ERROR 5568 [intro.js] server render bundle error, try client render, the server render error ReferenceError: window is not defined
+    at Sidebar.render (evalmachine.<anonymous>:354:15)
+    at processChild (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3134:18)
+    at resolve (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3373:29)
+    at Object.renderToString (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3988:27)
+    at Engine.renderToString (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:133:27)
+    at Engine.renderElement (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:110:17)
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:29:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.index (D:\stockApp\app\controller\intro\intro.js:6:7)
+2021-02-20 11:23:59,017 ERROR 5568 [intro.js] server render bundle error, try client render, the server render error ReferenceError: window is not defined
+    at Sidebar.render (evalmachine.<anonymous>:354:15)
+    at processChild (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3134:18)
+    at resolve (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3373:29)
+    at Object.renderToString (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3988:27)
+    at Engine.renderToString (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:133:27)
+    at Engine.renderElement (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:110:17)
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:29:24)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.index (D:\stockApp\app\controller\intro\intro.js:6:7)
+2021-02-20 11:24:20,243 ERROR 5568 [intro.js] server render bundle error, try client render, the server render error ReferenceError: window is not defined
+    at Sidebar.render (evalmachine.<anonymous>:354:15)
+    at processChild (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3134:18)
+    at resolve (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3373:29)
+    at Object.renderToString (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3988:27)
+    at Engine.renderToString (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:133:27)
+    at Engine.renderElement (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:110:17)
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:29:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.index (D:\stockApp\app\controller\intro\intro.js:6:7)
+2021-02-20 11:24:23,171 ERROR 5568 [intro.js] server render bundle error, try client render, the server render error ReferenceError: window is not defined
+    at Sidebar.render (evalmachine.<anonymous>:354:15)
+    at processChild (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3134:18)
+    at resolve (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3373:29)
+    at Object.renderToString (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3988:27)
+    at Engine.renderToString (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:133:27)
+    at Engine.renderElement (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:110:17)
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:29:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.index (D:\stockApp\app\controller\intro\intro.js:6:7)
+2021-02-20 11:25:03,239 ERROR 5568 [intro.js] server render bundle error, try client render, the server render error ReferenceError: window is not defined
+    at Sidebar.render (evalmachine.<anonymous>:350:15)
+    at processChild (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3134:18)
+    at resolve (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3373:29)
+    at Object.renderToString (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3988:27)
+    at Engine.renderToString (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:133:27)
+    at Engine.renderElement (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:110:17)
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:29:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.index (D:\stockApp\app\controller\intro\intro.js:6:7)
+2021-02-20 11:25:42,513 ERROR 5568 [intro.js] server render bundle error, try client render, the server render error Error: Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: D:\stockApp\app\web\component\layout\default.jsx: Unexpected token (19:1)
+
+[0m [90m 17 |[39m       [33m<[39m[33m/[39m[33mhtml[39m[33m>[39m[33m;[39m[0m
+[0m [90m 18 |[39m   }[0m
+[0m[31m[1m>[22m[39m[90m 19 |[39m }[0m
+[0m [90m    |[39m  [31m[1m^[22m[39m[0m
+    at Object._raise (D:\stockApp\node_modules\@babel\parser\lib\index.js:776:17)
+    at Object.raiseWithData (D:\stockApp\node_modules\@babel\parser\lib\index.js:769:17)
+    at Object.raise (D:\stockApp\node_modules\@babel\parser\lib\index.js:737:17)
+    at Object.unexpected (D:\stockApp\node_modules\@babel\parser\lib\index.js:9253:16)
+    at Object.parseIdentifierName (D:\stockApp\node_modules\@babel\parser\lib\index.js:11512:18)
+    at Object.parseIdentifier (D:\stockApp\node_modules\@babel\parser\lib\index.js:11485:23)
+    at Object.parseMaybePrivateName (D:\stockApp\node_modules\@babel\parser\lib\index.js:10813:19)
+    at Object.parsePropertyName (D:\stockApp\node_modules\@babel\parser\lib\index.js:11298:155)
+    at Object.parseClassElementName (D:\stockApp\node_modules\@babel\parser\lib\index.js:12814:22)
+    at Object.parseClassMemberWithIsStatic (D:\stockApp\node_modules\@babel\parser\lib\index.js:12732:22)
+    at Object.parseClassMember (D:\stockApp\node_modules\@babel\parser\lib\index.js:12702:10)
+    at D:\stockApp\node_modules\@babel\parser\lib\index.js:12647:14
+    at Object.withTopicForbiddingContext (D:\stockApp\node_modules\@babel\parser\lib\index.js:11686:14)
+    at Object.parseClassBody (D:\stockApp\node_modules\@babel\parser\lib\index.js:12624:10)
+    at Object.parseClass (D:\stockApp\node_modules\@babel\parser\lib\index.js:12597:22)
+    at Object.parseExportDefaultExpression (D:\stockApp\node_modules\@babel\parser\lib\index.js:13042:19)
+    at Object../app/web/component/layout/default.jsx (evalmachine.<anonymous>:265:7)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at Module../app/web/component/layout/blog.jsx (evalmachine.<anonymous>:246:66)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at Module../app/web/page/intro/index.jsx (evalmachine.<anonymous>:346:79)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at Module../node_modules/babel-loader/lib/index.js?{"envName":"node","cacheDirectory":"C:\\Users\\QSYF03\\AppData\\Local\\Temp\\easywebpack\\stockApp\\dev\\cache\\server\\babel-loader"}!./node_modules/react-entry-template-loader/index.js?templateFile=,renderMode=ssr!./app/web/page/intro/index.jsx (evalmachine.<anonymous>:1031:97)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at evalmachine.<anonymous>:84:18
+    at evalmachine.<anonymous>:87:10
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:24:35)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+2021-02-20 11:25:57,643 ERROR 5568 [intro.js] server render bundle error, try client render, the server render error Error: Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: D:\stockApp\app\web\component\layout\default.jsx: Unexpected token (19:1)
+
+[0m [90m 17 |[39m       [33m<[39m[33m/[39m[33mhtml[39m[33m>[39m[33m;[39m[0m
+[0m [90m 18 |[39m   }[0m
+[0m[31m[1m>[22m[39m[90m 19 |[39m }[0m
+[0m [90m    |[39m  [31m[1m^[22m[39m[0m
+    at Object._raise (D:\stockApp\node_modules\@babel\parser\lib\index.js:776:17)
+    at Object.raiseWithData (D:\stockApp\node_modules\@babel\parser\lib\index.js:769:17)
+    at Object.raise (D:\stockApp\node_modules\@babel\parser\lib\index.js:737:17)
+    at Object.unexpected (D:\stockApp\node_modules\@babel\parser\lib\index.js:9253:16)
+    at Object.parseIdentifierName (D:\stockApp\node_modules\@babel\parser\lib\index.js:11512:18)
+    at Object.parseIdentifier (D:\stockApp\node_modules\@babel\parser\lib\index.js:11485:23)
+    at Object.parseMaybePrivateName (D:\stockApp\node_modules\@babel\parser\lib\index.js:10813:19)
+    at Object.parsePropertyName (D:\stockApp\node_modules\@babel\parser\lib\index.js:11298:155)
+    at Object.parseClassElementName (D:\stockApp\node_modules\@babel\parser\lib\index.js:12814:22)
+    at Object.parseClassMemberWithIsStatic (D:\stockApp\node_modules\@babel\parser\lib\index.js:12732:22)
+    at Object.parseClassMember (D:\stockApp\node_modules\@babel\parser\lib\index.js:12702:10)
+    at D:\stockApp\node_modules\@babel\parser\lib\index.js:12647:14
+    at Object.withTopicForbiddingContext (D:\stockApp\node_modules\@babel\parser\lib\index.js:11686:14)
+    at Object.parseClassBody (D:\stockApp\node_modules\@babel\parser\lib\index.js:12624:10)
+    at Object.parseClass (D:\stockApp\node_modules\@babel\parser\lib\index.js:12597:22)
+    at Object.parseExportDefaultExpression (D:\stockApp\node_modules\@babel\parser\lib\index.js:13042:19)
+    at Object../app/web/component/layout/default.jsx (evalmachine.<anonymous>:265:7)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at Module../app/web/component/layout/blog.jsx (evalmachine.<anonymous>:246:66)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at Module../app/web/page/intro/index.jsx (evalmachine.<anonymous>:346:79)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at Module../node_modules/babel-loader/lib/index.js?{"envName":"node","cacheDirectory":"C:\\Users\\QSYF03\\AppData\\Local\\Temp\\easywebpack\\stockApp\\dev\\cache\\server\\babel-loader"}!./node_modules/react-entry-template-loader/index.js?templateFile=,renderMode=ssr!./app/web/page/intro/index.jsx (evalmachine.<anonymous>:1031:97)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at evalmachine.<anonymous>:84:18
+    at evalmachine.<anonymous>:87:10
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:24:35)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+2021-02-20 13:13:14,584 ERROR 1120 [collection.js] server render bundle error, try client render, the server render error Error: read webpack memory file[D:\stockApp\app\view\collection.js] content is empty, please check if the file exists
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:18:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.collection (D:\stockApp\app\controller\intro\intro.js:21:7)
+2021-02-20 13:44:54,407 ERROR 6860 [collection.js] server render bundle error, try client render, the server render error ReferenceError: Must call super constructor in derived class before accessing 'this' or returning from derived constructor
+    at new Sidebar (evalmachine.<anonymous>:356:5)
+    at processChild (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:2995:14)
+    at resolve (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3373:29)
+    at Object.renderToString (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3988:27)
+    at Engine.renderToString (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:133:27)
+    at Engine.renderElement (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:110:17)
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:29:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.collection (D:\stockApp\app\controller\intro\intro.js:21:7)
+2021-02-20 13:48:55,533 ERROR 6860 [collection.js] server render bundle error, try client render, the server render error ReferenceError: Must call super constructor in derived class before accessing 'this' or returning from derived constructor
+    at new Sidebar (evalmachine.<anonymous>:356:5)
+    at processChild (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:2995:14)
+    at resolve (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3373:29)
+    at Object.renderToString (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3988:27)
+    at Engine.renderToString (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:133:27)
+    at Engine.renderElement (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:110:17)
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:29:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.collection (D:\stockApp\app\controller\intro\intro.js:21:7)
+2021-02-20 13:49:19,453 ERROR 6860 [collection.js] server render bundle error, try client render, the server render error ReferenceError: list is not defined
+    at new Sidebar (evalmachine.<anonymous>:359:13)
+    at processChild (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:2995:14)
+    at resolve (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3373:29)
+    at Object.renderToString (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3988:27)
+    at Engine.renderToString (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:133:27)
+    at Engine.renderElement (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:110:17)
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:29:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.collection (D:\stockApp\app\controller\intro\intro.js:21:7)
+2021-02-20 13:49:36,223 ERROR 6860 [collection.js] server render bundle error, try client render, the server render error ReferenceError: list is not defined
+    at new Sidebar (evalmachine.<anonymous>:359:13)
+    at processChild (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:2995:14)
+    at resolve (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3373:29)
+    at Object.renderToString (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3988:27)
+    at Engine.renderToString (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:133:27)
+    at Engine.renderElement (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:110:17)
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:29:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.collection (D:\stockApp\app\controller\intro\intro.js:21:7)
+2021-02-20 14:07:51,159 ERROR 6860 [collection.js] server render bundle error, try client render, the server render error ReferenceError: ref is not defined
+    at Layout.render (evalmachine.<anonymous>:307:14)
+    at processChild (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3134:18)
+    at resolve (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3373:29)
+    at Object.renderToString (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3988:27)
+    at Engine.renderToString (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:133:27)
+    at Engine.renderElement (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:110:17)
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:29:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.collection (D:\stockApp\app\controller\intro\intro.js:21:7)
+2021-02-20 14:08:01,241 ERROR 6860 [collection.js] server render bundle error, try client render, the server render error ReferenceError: ref is not defined
+    at Layout.render (evalmachine.<anonymous>:307:14)
+    at processChild (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3134:18)
+    at resolve (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3373:29)
+    at Object.renderToString (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3988:27)
+    at Engine.renderToString (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:133:27)
+    at Engine.renderElement (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:110:17)
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:29:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.collection (D:\stockApp\app\controller\intro\intro.js:21:7)
+2021-02-20 14:09:43,330 ERROR 6860 [collection.js] server render bundle error, try client render, the server render error ReferenceError: ref is not defined
+    at Layout.render (evalmachine.<anonymous>:311:14)
+    at processChild (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3134:18)
+    at resolve (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3373:29)
+    at Object.renderToString (D:\stockApp\node_modules\react-dom\cjs\react-dom-server.node.development.js:3988:27)
+    at Engine.renderToString (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:133:27)
+    at Engine.renderElement (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:110:17)
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:29:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.collection (D:\stockApp\app\controller\intro\intro.js:21:7)
+2021-02-20 14:13:13,914 ERROR 6860 [intro.js] server render bundle error, try client render, the server render error Error: Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: D:\stockApp\app\web\page\intro\index.jsx: Unterminated JSX contents (426:13)
+
+[0m [90m 424 |[39m       [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 425 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 426 |[39m     [33m<[39m[33m/[39m[33mLayout[39m[33m>[39m[0m
+[0m [90m     |[39m              [31m[1m^[22m[39m[0m
+[0m [90m 427 |[39m   }[0m
+[0m [90m 428 |[39m }[0m
+[0m [90m 429 |[39m[0m
+    at Object._raise (D:\stockApp\node_modules\@babel\parser\lib\index.js:776:17)
+    at Object.raiseWithData (D:\stockApp\node_modules\@babel\parser\lib\index.js:769:17)
+    at Object.raise (D:\stockApp\node_modules\@babel\parser\lib\index.js:737:17)
+    at Object.jsxReadToken (D:\stockApp\node_modules\@babel\parser\lib\index.js:4619:20)
+    at Object.getTokenFromCode (D:\stockApp\node_modules\@babel\parser\lib\index.js:5005:19)
+    at Object.nextToken (D:\stockApp\node_modules\@babel\parser\lib\index.js:8036:12)
+    at Object.next (D:\stockApp\node_modules\@babel\parser\lib\index.js:7966:10)
+    at Object.eat (D:\stockApp\node_modules\@babel\parser\lib\index.js:7971:12)
+    at Object.expect (D:\stockApp\node_modules\@babel\parser\lib\index.js:9239:10)
+    at Object.jsxParseClosingElementAt (D:\stockApp\node_modules\@babel\parser\lib\index.js:4903:10)
+    at Object.jsxParseElementAt (D:\stockApp\node_modules\@babel\parser\lib\index.js:4922:37)
+    at Object.jsxParseElementAt (D:\stockApp\node_modules\@babel\parser\lib\index.js:4926:32)
+    at Object.jsxParseElement (D:\stockApp\node_modules\@babel\parser\lib\index.js:4984:17)
+    at Object.parseExprAtom (D:\stockApp\node_modules\@babel\parser\lib\index.js:4991:19)
+    at Object.parseExprSubscripts (D:\stockApp\node_modules\@babel\parser\lib\index.js:10318:23)
+    at Object.parseUpdate (D:\stockApp\node_modules\@babel\parser\lib\index.js:10298:21)
+    at Object../node_modules/babel-loader/lib/index.js?{"envName":"node","cacheDirectory":"C:\\Users\\QSYF03\\AppData\\Local\\Temp\\easywebpack\\stockApp\\dev\\cache\\server\\babel-loader"}!./node_modules/react-entry-template-loader/index.js?templateFile=,renderMode=ssr!./app/web/page/intro/index.jsx (evalmachine.<anonymous>:96:7)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at evalmachine.<anonymous>:84:18
+    at evalmachine.<anonymous>:87:10
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:24:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.index (D:\stockApp\app\controller\intro\intro.js:6:7)
+2021-02-20 14:13:25,003 ERROR 6860 [intro.js] server render bundle error, try client render, the server render error Error: Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: D:\stockApp\app\web\page\intro\index.jsx: Unterminated JSX contents (426:13)
+
+[0m [90m 424 |[39m       [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 425 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 426 |[39m     [33m<[39m[33m/[39m[33mLayout[39m[33m>[39m[0m
+[0m [90m     |[39m              [31m[1m^[22m[39m[0m
+[0m [90m 427 |[39m   }[0m
+[0m [90m 428 |[39m }[0m
+[0m [90m 429 |[39m[0m
+    at Object._raise (D:\stockApp\node_modules\@babel\parser\lib\index.js:776:17)
+    at Object.raiseWithData (D:\stockApp\node_modules\@babel\parser\lib\index.js:769:17)
+    at Object.raise (D:\stockApp\node_modules\@babel\parser\lib\index.js:737:17)
+    at Object.jsxReadToken (D:\stockApp\node_modules\@babel\parser\lib\index.js:4619:20)
+    at Object.getTokenFromCode (D:\stockApp\node_modules\@babel\parser\lib\index.js:5005:19)
+    at Object.nextToken (D:\stockApp\node_modules\@babel\parser\lib\index.js:8036:12)
+    at Object.next (D:\stockApp\node_modules\@babel\parser\lib\index.js:7966:10)
+    at Object.eat (D:\stockApp\node_modules\@babel\parser\lib\index.js:7971:12)
+    at Object.expect (D:\stockApp\node_modules\@babel\parser\lib\index.js:9239:10)
+    at Object.jsxParseClosingElementAt (D:\stockApp\node_modules\@babel\parser\lib\index.js:4903:10)
+    at Object.jsxParseElementAt (D:\stockApp\node_modules\@babel\parser\lib\index.js:4922:37)
+    at Object.jsxParseElementAt (D:\stockApp\node_modules\@babel\parser\lib\index.js:4926:32)
+    at Object.jsxParseElement (D:\stockApp\node_modules\@babel\parser\lib\index.js:4984:17)
+    at Object.parseExprAtom (D:\stockApp\node_modules\@babel\parser\lib\index.js:4991:19)
+    at Object.parseExprSubscripts (D:\stockApp\node_modules\@babel\parser\lib\index.js:10318:23)
+    at Object.parseUpdate (D:\stockApp\node_modules\@babel\parser\lib\index.js:10298:21)
+    at Object../node_modules/babel-loader/lib/index.js?{"envName":"node","cacheDirectory":"C:\\Users\\QSYF03\\AppData\\Local\\Temp\\easywebpack\\stockApp\\dev\\cache\\server\\babel-loader"}!./node_modules/react-entry-template-loader/index.js?templateFile=,renderMode=ssr!./app/web/page/intro/index.jsx (evalmachine.<anonymous>:96:7)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at evalmachine.<anonymous>:84:18
+    at evalmachine.<anonymous>:87:10
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:24:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.index (D:\stockApp\app\controller\intro\intro.js:6:7)
+2021-02-20 14:13:43,436 ERROR 6860 [intro.js] server render bundle error, try client render, the server render error Error: Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: D:\stockApp\app\web\page\intro\index.jsx: Unterminated JSX contents (426:13)
+
+[0m [90m 424 |[39m       [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 425 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 426 |[39m     [33m<[39m[33m/[39m[33mLayout[39m[33m>[39m[0m
+[0m [90m     |[39m              [31m[1m^[22m[39m[0m
+[0m [90m 427 |[39m   }[0m
+[0m [90m 428 |[39m }[0m
+[0m [90m 429 |[39m[0m
+    at Object._raise (D:\stockApp\node_modules\@babel\parser\lib\index.js:776:17)
+    at Object.raiseWithData (D:\stockApp\node_modules\@babel\parser\lib\index.js:769:17)
+    at Object.raise (D:\stockApp\node_modules\@babel\parser\lib\index.js:737:17)
+    at Object.jsxReadToken (D:\stockApp\node_modules\@babel\parser\lib\index.js:4619:20)
+    at Object.getTokenFromCode (D:\stockApp\node_modules\@babel\parser\lib\index.js:5005:19)
+    at Object.nextToken (D:\stockApp\node_modules\@babel\parser\lib\index.js:8036:12)
+    at Object.next (D:\stockApp\node_modules\@babel\parser\lib\index.js:7966:10)
+    at Object.eat (D:\stockApp\node_modules\@babel\parser\lib\index.js:7971:12)
+    at Object.expect (D:\stockApp\node_modules\@babel\parser\lib\index.js:9239:10)
+    at Object.jsxParseClosingElementAt (D:\stockApp\node_modules\@babel\parser\lib\index.js:4903:10)
+    at Object.jsxParseElementAt (D:\stockApp\node_modules\@babel\parser\lib\index.js:4922:37)
+    at Object.jsxParseElementAt (D:\stockApp\node_modules\@babel\parser\lib\index.js:4926:32)
+    at Object.jsxParseElement (D:\stockApp\node_modules\@babel\parser\lib\index.js:4984:17)
+    at Object.parseExprAtom (D:\stockApp\node_modules\@babel\parser\lib\index.js:4991:19)
+    at Object.parseExprSubscripts (D:\stockApp\node_modules\@babel\parser\lib\index.js:10318:23)
+    at Object.parseUpdate (D:\stockApp\node_modules\@babel\parser\lib\index.js:10298:21)
+    at Object../node_modules/babel-loader/lib/index.js?{"envName":"node","cacheDirectory":"C:\\Users\\QSYF03\\AppData\\Local\\Temp\\easywebpack\\stockApp\\dev\\cache\\server\\babel-loader"}!./node_modules/react-entry-template-loader/index.js?templateFile=,renderMode=ssr!./app/web/page/intro/index.jsx (evalmachine.<anonymous>:96:7)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at evalmachine.<anonymous>:84:18
+    at evalmachine.<anonymous>:87:10
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:24:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.index (D:\stockApp\app\controller\intro\intro.js:6:7)
+2021-02-20 14:13:52,658 ERROR 6860 [intro.js] server render bundle error, try client render, the server render error Error: Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: D:\stockApp\app\web\page\intro\index.jsx: Unterminated JSX contents (426:13)
+
+[0m [90m 424 |[39m       [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 425 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 426 |[39m     [33m<[39m[33m/[39m[33mLayout[39m[33m>[39m[0m
+[0m [90m     |[39m              [31m[1m^[22m[39m[0m
+[0m [90m 427 |[39m   }[0m
+[0m [90m 428 |[39m }[0m
+[0m [90m 429 |[39m[0m
+    at Object._raise (D:\stockApp\node_modules\@babel\parser\lib\index.js:776:17)
+    at Object.raiseWithData (D:\stockApp\node_modules\@babel\parser\lib\index.js:769:17)
+    at Object.raise (D:\stockApp\node_modules\@babel\parser\lib\index.js:737:17)
+    at Object.jsxReadToken (D:\stockApp\node_modules\@babel\parser\lib\index.js:4619:20)
+    at Object.getTokenFromCode (D:\stockApp\node_modules\@babel\parser\lib\index.js:5005:19)
+    at Object.nextToken (D:\stockApp\node_modules\@babel\parser\lib\index.js:8036:12)
+    at Object.next (D:\stockApp\node_modules\@babel\parser\lib\index.js:7966:10)
+    at Object.eat (D:\stockApp\node_modules\@babel\parser\lib\index.js:7971:12)
+    at Object.expect (D:\stockApp\node_modules\@babel\parser\lib\index.js:9239:10)
+    at Object.jsxParseClosingElementAt (D:\stockApp\node_modules\@babel\parser\lib\index.js:4903:10)
+    at Object.jsxParseElementAt (D:\stockApp\node_modules\@babel\parser\lib\index.js:4922:37)
+    at Object.jsxParseElementAt (D:\stockApp\node_modules\@babel\parser\lib\index.js:4926:32)
+    at Object.jsxParseElement (D:\stockApp\node_modules\@babel\parser\lib\index.js:4984:17)
+    at Object.parseExprAtom (D:\stockApp\node_modules\@babel\parser\lib\index.js:4991:19)
+    at Object.parseExprSubscripts (D:\stockApp\node_modules\@babel\parser\lib\index.js:10318:23)
+    at Object.parseUpdate (D:\stockApp\node_modules\@babel\parser\lib\index.js:10298:21)
+    at Object../node_modules/babel-loader/lib/index.js?{"envName":"node","cacheDirectory":"C:\\Users\\QSYF03\\AppData\\Local\\Temp\\easywebpack\\stockApp\\dev\\cache\\server\\babel-loader"}!./node_modules/react-entry-template-loader/index.js?templateFile=,renderMode=ssr!./app/web/page/intro/index.jsx (evalmachine.<anonymous>:96:7)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at evalmachine.<anonymous>:84:18
+    at evalmachine.<anonymous>:87:10
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:24:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.index (D:\stockApp\app\controller\intro\intro.js:6:7)
+2021-02-20 14:13:53,062 ERROR 6860 [intro.js] server render bundle error, try client render, the server render error Error: Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: D:\stockApp\app\web\page\intro\index.jsx: Unterminated JSX contents (426:13)
+
+[0m [90m 424 |[39m       [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 425 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 426 |[39m     [33m<[39m[33m/[39m[33mLayout[39m[33m>[39m[0m
+[0m [90m     |[39m              [31m[1m^[22m[39m[0m
+[0m [90m 427 |[39m   }[0m
+[0m [90m 428 |[39m }[0m
+[0m [90m 429 |[39m[0m
+    at Object._raise (D:\stockApp\node_modules\@babel\parser\lib\index.js:776:17)
+    at Object.raiseWithData (D:\stockApp\node_modules\@babel\parser\lib\index.js:769:17)
+    at Object.raise (D:\stockApp\node_modules\@babel\parser\lib\index.js:737:17)
+    at Object.jsxReadToken (D:\stockApp\node_modules\@babel\parser\lib\index.js:4619:20)
+    at Object.getTokenFromCode (D:\stockApp\node_modules\@babel\parser\lib\index.js:5005:19)
+    at Object.nextToken (D:\stockApp\node_modules\@babel\parser\lib\index.js:8036:12)
+    at Object.next (D:\stockApp\node_modules\@babel\parser\lib\index.js:7966:10)
+    at Object.eat (D:\stockApp\node_modules\@babel\parser\lib\index.js:7971:12)
+    at Object.expect (D:\stockApp\node_modules\@babel\parser\lib\index.js:9239:10)
+    at Object.jsxParseClosingElementAt (D:\stockApp\node_modules\@babel\parser\lib\index.js:4903:10)
+    at Object.jsxParseElementAt (D:\stockApp\node_modules\@babel\parser\lib\index.js:4922:37)
+    at Object.jsxParseElementAt (D:\stockApp\node_modules\@babel\parser\lib\index.js:4926:32)
+    at Object.jsxParseElement (D:\stockApp\node_modules\@babel\parser\lib\index.js:4984:17)
+    at Object.parseExprAtom (D:\stockApp\node_modules\@babel\parser\lib\index.js:4991:19)
+    at Object.parseExprSubscripts (D:\stockApp\node_modules\@babel\parser\lib\index.js:10318:23)
+    at Object.parseUpdate (D:\stockApp\node_modules\@babel\parser\lib\index.js:10298:21)
+    at Object../node_modules/babel-loader/lib/index.js?{"envName":"node","cacheDirectory":"C:\\Users\\QSYF03\\AppData\\Local\\Temp\\easywebpack\\stockApp\\dev\\cache\\server\\babel-loader"}!./node_modules/react-entry-template-loader/index.js?templateFile=,renderMode=ssr!./app/web/page/intro/index.jsx (evalmachine.<anonymous>:96:7)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at evalmachine.<anonymous>:84:18
+    at evalmachine.<anonymous>:87:10
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:24:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.index (D:\stockApp\app\controller\intro\intro.js:6:7)
+2021-02-20 14:13:53,422 ERROR 6860 [intro.js] server render bundle error, try client render, the server render error Error: Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: D:\stockApp\app\web\page\intro\index.jsx: Unterminated JSX contents (426:13)
+
+[0m [90m 424 |[39m       [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 425 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 426 |[39m     [33m<[39m[33m/[39m[33mLayout[39m[33m>[39m[0m
+[0m [90m     |[39m              [31m[1m^[22m[39m[0m
+[0m [90m 427 |[39m   }[0m
+[0m [90m 428 |[39m }[0m
+[0m [90m 429 |[39m[0m
+    at Object._raise (D:\stockApp\node_modules\@babel\parser\lib\index.js:776:17)
+    at Object.raiseWithData (D:\stockApp\node_modules\@babel\parser\lib\index.js:769:17)
+    at Object.raise (D:\stockApp\node_modules\@babel\parser\lib\index.js:737:17)
+    at Object.jsxReadToken (D:\stockApp\node_modules\@babel\parser\lib\index.js:4619:20)
+    at Object.getTokenFromCode (D:\stockApp\node_modules\@babel\parser\lib\index.js:5005:19)
+    at Object.nextToken (D:\stockApp\node_modules\@babel\parser\lib\index.js:8036:12)
+    at Object.next (D:\stockApp\node_modules\@babel\parser\lib\index.js:7966:10)
+    at Object.eat (D:\stockApp\node_modules\@babel\parser\lib\index.js:7971:12)
+    at Object.expect (D:\stockApp\node_modules\@babel\parser\lib\index.js:9239:10)
+    at Object.jsxParseClosingElementAt (D:\stockApp\node_modules\@babel\parser\lib\index.js:4903:10)
+    at Object.jsxParseElementAt (D:\stockApp\node_modules\@babel\parser\lib\index.js:4922:37)
+    at Object.jsxParseElementAt (D:\stockApp\node_modules\@babel\parser\lib\index.js:4926:32)
+    at Object.jsxParseElement (D:\stockApp\node_modules\@babel\parser\lib\index.js:4984:17)
+    at Object.parseExprAtom (D:\stockApp\node_modules\@babel\parser\lib\index.js:4991:19)
+    at Object.parseExprSubscripts (D:\stockApp\node_modules\@babel\parser\lib\index.js:10318:23)
+    at Object.parseUpdate (D:\stockApp\node_modules\@babel\parser\lib\index.js:10298:21)
+    at Object../node_modules/babel-loader/lib/index.js?{"envName":"node","cacheDirectory":"C:\\Users\\QSYF03\\AppData\\Local\\Temp\\easywebpack\\stockApp\\dev\\cache\\server\\babel-loader"}!./node_modules/react-entry-template-loader/index.js?templateFile=,renderMode=ssr!./app/web/page/intro/index.jsx (evalmachine.<anonymous>:96:7)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at evalmachine.<anonymous>:84:18
+    at evalmachine.<anonymous>:87:10
+    at Engine.app.react.render (D:\stockApp\node_modules\egg-webpack-react\app.js:24:35)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Engine.renderPage (D:\stockApp\node_modules\egg-view-react-ssr\lib\engine.js:93:79)
+    at async View.render (D:\stockApp\node_modules\egg-view-react-ssr\lib\view.js:11:14)
+    at async ContextView.[contextView#render] (D:\stockApp\node_modules\egg-view\lib\context_view.js:70:12)
+    at async IntroController.index (D:\stockApp\app\controller\intro\intro.js:6:7)
+2021-02-20 14:35:00,187 ERROR 4708 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 4708
+hostname: DESKTOP-41PC3A7
+
+2021-02-20 14:42:23,595 ERROR 2472 [-/::1/-/93ms GET /api/markedList?page=1&size=30&sort=three%20%20%20%20%20%20&type=one&marketType=all&time=all&code=] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where marked=1' at line 1
+    at Query.Sequence._packetToError (D:\stockApp\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\stockApp\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\stockApp\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\stockApp\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\stockApp\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\stockApp\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+    --------------------
+    at Pool.query (D:\stockApp\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\stockApp\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (D:\stockApp\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\stockApp\node_modules\co\index.js:65:19)
+    at D:\stockApp\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (D:\stockApp\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as query] (D:\stockApp\node_modules\co\index.js:30:15)
+    at ArticeService.getMarkedStock (D:\stockApp\app\service\article.js:134:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    sql: select count(*) from where marked=1;
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where marked=1' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select count(*) from where marked=1;"
+name: "ER_PARSE_ERRORError"
+pid: 2472
+hostname: DESKTOP-41PC3A7
+
+2021-02-20 14:42:37,199 ERROR 2472 [-/::1/-/98ms GET /api/markedList?page=1&size=30&sort=one%20%20%20%20%20%20&type=one&marketType=all&time=all&code=] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where marked=1' at line 1
+    at Query.Sequence._packetToError (D:\stockApp\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\stockApp\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\stockApp\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\stockApp\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\stockApp\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\stockApp\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+    --------------------
+    at Pool.query (D:\stockApp\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\stockApp\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (D:\stockApp\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\stockApp\node_modules\co\index.js:65:19)
+    at D:\stockApp\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (D:\stockApp\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as query] (D:\stockApp\node_modules\co\index.js:30:15)
+    at ArticeService.getMarkedStock (D:\stockApp\app\service\article.js:134:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    sql: select count(*) from where marked=1;
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where marked=1' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select count(*) from where marked=1;"
+name: "ER_PARSE_ERRORError"
+pid: 2472
+hostname: DESKTOP-41PC3A7
+

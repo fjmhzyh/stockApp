@@ -4,7 +4,7 @@ module.exports = {
   devtool: 'source-map',
   entry: {
     intro: 'app/web/page/intro/index.jsx',
-    rank: 'app/web/page/rank/index.jsx',
+    collection: 'app/web/page/collection/index.jsx',
   },
   plugins:[
     {

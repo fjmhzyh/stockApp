@@ -1,13 +1,5 @@
-.easy-intro-title {
-  margin: 40px auto;
-  text-align: center;
-}
 
-.easy-intro-info {
-  font-size: 16px;
-  width: 85%;
-  margin: auto;
-}
+
 
 .red{
 	color: red;
@@ -19,29 +11,44 @@
 
 
 body{
+  display: flex;
 	width: auto  !important;
 	height: auto !important;
-	padding: 20px;
-  overflow: hidden;
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
 	background: #f0f2f5 !important;
 }
 
 #app{
-	overflow: hidden;
-  background: #fff;
+  display: flex;
+  flex: 1;
+	overflow: auto;
+  background: #f0f2f5 !important;
 }
 
 #stock-app{
-	padding: 30px;
-	min-height: 900px;
-	overflow: hidden;
-	background: #fff;
+  display: flex;
+  flex: 1;
+	padding: 20px;
+	min-height: 600px;
+	overflow-x: hidden;
+  overflow-y: auto;
+	background: #f0f2f5 !important;
 }
 
+
+.stock-app-container{
+  flex: 1;
+  padding: 20px;
+  overflow: hidden;
+  background-color: #fff;
+}
 
 .search-bar{
 	margin-top:20px;
 	margin-bottom:20px;
+  background-color: #fff;
 }
 .my-select{
 	width: 240px;
@@ -51,7 +58,28 @@ body{
 	margin-left: 30px !important;
 }
 
+.my-search{
+  margin-left: 30px !important;
+  width: 200px !important;
+}
+
 .operation{
+  margin-right: 20px;
   color: #1890ff;
   cursor: pointer;
 }
+
+.cancel{
+  color: #999 !important;
+}
+
+.ant-input:focus, .ant-input-focused, .ant-input:hover,.ant-btn:hover, .ant-btn:focus {
+  border-color: #d9d9d9 !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.ant-input-group .ant-input{
+  z-index: 10 !important;
+}
+

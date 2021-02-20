@@ -1,0 +1,40 @@
+
+
+.sidebar{
+  width: 160px;
+  background: #000c17;
+}
+
+
+.sidebar-header{
+  height: 60px;
+  line-height: 60px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+  color:#fff;
+}
+
+.sidebar-item{
+  margin-bottom: 10px;
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.sidebar-item a{
+  display: inline-block;
+  font-size: 17px; 
+  text-indent: 26px; 
+  color: #fff;
+  user-select: none;
+}
+
+.sidebar-item:hover a{
+  color: rgb(255, 208, 75);
+}
+
+.sidebar-item.active a{
+  color: rgb(255, 208, 75);
+  border-left: 3px solid;
+}

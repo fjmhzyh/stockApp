@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
+import Sidebar from 'component/sidebar';
+import eventBus from '../../framework/eventBus.js';
+
 export default class Layout extends Component {
+
   render() {
     if(EASY_ENV_IS_NODE) {
       return <html>

@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 import Layout from 'component/layout/blog';
 import Header from 'component/header';
 import '../../asset/css/blog.css'
-import './index.css'
+import '../intro/index.css'
 import request from '../../framework/request.js';
 import eventBus from '../../framework/eventBus.js';
 import { Chart, Axis, Tooltip, Geom, Legend } from 'bizcharts';
@@ -288,7 +288,7 @@ class Intro extends Component {
   fetchData = ()=>{
     var { page, pageSize, sort, type, marketType, time, code} = this.state
     request
-    .get(`${window.location.origin}/api/list?page=${page}&size=${pageSize}&sort=${sort}
+    .get(`${window.location.origin}/api/markedList?page=${page}&size=${pageSize}&sort=${sort}
       &type=${type}&marketType=${marketType}&time=${time}&code=${code}`)
     .then(res=>{
       this.setState({
@@ -344,15 +344,6 @@ class Intro extends Component {
 
     const chartData = this.state.chartData;
 
-    // console.log('chartData', chartData)
-
-    var test =[
-      { type: '序列1', year: '1991', value: 3 },
-      { type: '序列1', year: '1992', value: 4 },
-      { type: '序列1', year: '1993', value: 3.5 },
-      { type: '序列1', year: '1994', value: 5 },
-    ]
-
     var pagination = {
       current: this.state.page,
       total: this.state.total,
@@ -364,7 +355,7 @@ class Intro extends Component {
       }
     }
     return <Layout>
-      <Sidebar page={'list'} />
+      <Sidebar page={'collection'} />
       <div id="stock-app">
         <Modal title={`股票详情 - ${chartData.stock.name}`} width={'60%'} 
           visible={this.state.visible} centered footer={null} onCancel={this.hideModal}>

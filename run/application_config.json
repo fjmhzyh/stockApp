@@ -249,15 +249,15 @@
           "entry": {
             "intro": [
               "react-hot-loader/patch",
-              "D:\\stockApp\\node_modules\\webpack-hot-middleware/client?path=http://127.0.0.1:9002/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "D:\\stockApp\\node_modules\\webpack-hot-middleware/client?path=http://127.0.0.1:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
               "D:\\stockApp\\node_modules\\@easy-team\\easywebpack\\utils\\hot.js",
               "babel-loader?{\"envName\":\"web\",\"cacheDirectory\":\"C:\\\\Users\\\\QSYF03\\\\AppData\\\\Local\\\\Temp\\\\easywebpack\\\\stockApp\\\\dev\\\\cache\\\\client\\\\babel-loader\"}!react-entry-template-loader?templateFile=,renderMode=ssr!D:\\stockApp\\app\\web\\page\\intro\\index.jsx"
             ],
-            "rank": [
+            "collection": [
               "react-hot-loader/patch",
-              "D:\\stockApp\\node_modules\\webpack-hot-middleware/client?path=http://127.0.0.1:9002/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "D:\\stockApp\\node_modules\\webpack-hot-middleware/client?path=http://127.0.0.1:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
               "D:\\stockApp\\node_modules\\@easy-team\\easywebpack\\utils\\hot.js",
-              "babel-loader?{\"envName\":\"web\",\"cacheDirectory\":\"C:\\\\Users\\\\QSYF03\\\\AppData\\\\Local\\\\Temp\\\\easywebpack\\\\stockApp\\\\dev\\\\cache\\\\client\\\\babel-loader\"}!react-entry-template-loader?templateFile=,renderMode=ssr!D:\\stockApp\\app\\web\\page\\rank\\index.jsx"
+              "babel-loader?{\"envName\":\"web\",\"cacheDirectory\":\"C:\\\\Users\\\\QSYF03\\\\AppData\\\\Local\\\\Temp\\\\easywebpack\\\\stockApp\\\\dev\\\\cache\\\\client\\\\babel-loader\"}!react-entry-template-loader?templateFile=,renderMode=ssr!D:\\stockApp\\app\\web\\page\\collection\\index.jsx"
             ]
           },
           "output": {
@@ -491,7 +491,7 @@
                 "EASY_ENV_IS_NODE": false,
                 "EASY_ENV_LOCAL_PUBLIC_PATH": "\"/public/\"",
                 "EASY_ENV_PUBLIC_PATH": "\"/public/\"",
-                "EASY_ENV_HOST_URL": "\"http://127.0.0.1:9002\""
+                "EASY_ENV_HOST_URL": "\"http://127.0.0.1:9000\""
               },
               "__plugin__": "DefinePlugin",
               "__lable__": "define"
@@ -515,7 +515,7 @@
                 "generate": null,
                 "sort": null,
                 "baseDir": "D:\\stockApp",
-                "host": "http://127.0.0.1:9002",
+                "host": "http://127.0.0.1:9000",
                 "proxy": true,
                 "buildPath": "D:\\stockApp\\public",
                 "publicPath": "/public/",
@@ -605,7 +605,7 @@
           "context": "D:\\stockApp",
           "entry": {
             "intro": "babel-loader?{\"envName\":\"node\",\"cacheDirectory\":\"C:\\\\Users\\\\QSYF03\\\\AppData\\\\Local\\\\Temp\\\\easywebpack\\\\stockApp\\\\dev\\\\cache\\\\server\\\\babel-loader\"}!react-entry-template-loader?templateFile=,renderMode=ssr!D:\\stockApp\\app\\web\\page\\intro\\index.jsx",
-            "rank": "babel-loader?{\"envName\":\"node\",\"cacheDirectory\":\"C:\\\\Users\\\\QSYF03\\\\AppData\\\\Local\\\\Temp\\\\easywebpack\\\\stockApp\\\\dev\\\\cache\\\\server\\\\babel-loader\"}!react-entry-template-loader?templateFile=,renderMode=ssr!D:\\stockApp\\app\\web\\page\\rank\\index.jsx"
+            "collection": "babel-loader?{\"envName\":\"node\",\"cacheDirectory\":\"C:\\\\Users\\\\QSYF03\\\\AppData\\\\Local\\\\Temp\\\\easywebpack\\\\stockApp\\\\dev\\\\cache\\\\server\\\\babel-loader\"}!react-entry-template-loader?templateFile=,renderMode=ssr!D:\\stockApp\\app\\web\\page\\collection\\index.jsx"
           },
           "output": {
             "libraryTarget": "commonjs",
@@ -828,7 +828,7 @@
                 "EASY_ENV_IS_NODE": true,
                 "EASY_ENV_LOCAL_PUBLIC_PATH": "\"/public/\"",
                 "EASY_ENV_PUBLIC_PATH": "\"/public/\"",
-                "EASY_ENV_HOST_URL": "\"http://127.0.0.1:9002\""
+                "EASY_ENV_HOST_URL": "\"http://127.0.0.1:9000\""
               },
               "__plugin__": "DefinePlugin",
               "__lable__": "define"

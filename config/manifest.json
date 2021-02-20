@@ -1,12 +1,12 @@
 {
+  "collection.js": "/public/js/chunk/collection.js",
+  "collection.js.map": "/public/js/chunk/collection.js.map",
   "common.css": "/public/css/common.css",
   "common.js": "/public/js/chunk/common.js",
   "common.css.map": "/public/css/common.css.map",
   "common.js.map": "/public/js/chunk/common.js.map",
   "intro.js": "/public/js/chunk/intro.js",
   "intro.js.map": "/public/js/chunk/intro.js.map",
-  "rank.js": "/public/js/chunk/rank.js",
-  "rank.js.map": "/public/js/chunk/rank.js.map",
   "runtime.js": "/public/js/runtime.js",
   "runtime.js.map": "/public/js/runtime.js.map",
   "deps": {
@@ -20,11 +20,11 @@
         "/public/css/common.css"
       ]
     },
-    "rank.js": {
+    "collection.js": {
       "js": [
         "/public/js/runtime.js",
         "/public/js/chunk/common.js",
-        "/public/js/chunk/rank.js"
+        "/public/js/chunk/collection.js"
       ],
       "css": [
         "/public/css/common.css"

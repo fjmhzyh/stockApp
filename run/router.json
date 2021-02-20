@@ -19,6 +19,32 @@
       "GET"
     ],
     "paramNames": [],
+    "path": "/api/mark",
+    "regexp": "/^\\/api\\/mark(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/markedList",
+    "regexp": "/^\\/api\\/markedList(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
     "path": "/rise",
     "regexp": "/^\\/rise(?:\\/(?=$))?$/",
     "stack": [
@@ -32,8 +58,8 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/rank",
-    "regexp": "/^\\/rank(?:\\/(?=$))?$/",
+    "path": "/collection",
+    "regexp": "/^\\/collection(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
