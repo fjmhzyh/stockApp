@@ -1,0 +1,12 @@
+2021-03-16 04:30:01,447 INFO 8924 [Timer] D:\stockApp\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 86398557ms at 2021-03-17 04:30:00.004
+2021-03-16 04:30:01,444 INFO 4944 [Job#16158402014433002149222855001] D:\stockApp\node_modules\egg-multipart\app\schedule\clean_tmpdir.js executing by app
+2021-03-16 04:30:01,452 INFO 4944 [Job#16158402014433002149222855001] D:\stockApp\node_modules\egg-multipart\app\schedule\clean_tmpdir.js execute succeed, used 8ms. 
+2021-03-17 08:33:59,618 INFO 4944 [Job#16159412395774012531902610002] D:\stockApp\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2021-03-17 08:33:59,620 INFO 4944 [Job#16159412395884012532015522992] D:\stockApp\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2021-03-17 08:33:59,622 INFO 4944 [Job#16159412395924012532057158002] D:\stockApp\node_modules\egg-multipart\app\schedule\clean_tmpdir.js executing by app
+2021-03-17 08:33:59,633 INFO 4944 [Job#16159412395774012531902610002] D:\stockApp\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 14ms. 
+2021-03-17 08:33:59,636 INFO 4944 [Job#16159412395924012532057158002] D:\stockApp\node_modules\egg-multipart\app\schedule\clean_tmpdir.js execute succeed, used 14ms. 
+2021-03-17 08:33:59,637 INFO 4944 [Job#16159412395884012532015522992] D:\stockApp\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 17ms. 
+2021-03-17 08:33:59,588 INFO 8924 [Timer] D:\stockApp\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 55560421ms at 2021-03-18 00:00:00.009
+2021-03-17 08:33:59,592 INFO 8924 [Timer] D:\stockApp\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 55561412ms at 2021-03-18 00:00:01.004
+2021-03-17 08:33:59,595 INFO 8924 [Timer] D:\stockApp\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 71760408ms at 2021-03-18 04:30:00.003

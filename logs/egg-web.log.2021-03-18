@@ -1,0 +1,7 @@
+2021-03-18 08:30:41,191 INFO 16692 [egg-logrotator] app logger reload: got log-reload message
+2021-03-19 08:48:12,348 WARN 16692 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-03-19 08:48:14,413 INFO 16692 [egg-logrotator] clean all log before 31 days
+2021-03-19 08:48:15,547 INFO 16692 [-/127.0.0.1/-/120ms SCHEDULE /__schedule?path=D:\stockApp\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "C:\\Users\\QSYF03\\AppData\\Local\\Temp\\egg-multipart-tmp\\stockApp"
+2021-03-19 08:48:15,554 INFO 16692 [-/127.0.0.1/-/127ms SCHEDULE /__schedule?path=D:\stockApp\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2021-03-19 08:48:15,602 INFO 16692 [egg-logrotator] broadcast log-reload
+2021-03-19 08:48:15,604 INFO 16692 [egg-logrotator] rotate files success by DayRotator, files ["D:\\stockApp\\logs\\common-error.log -> D:\\stockApp\\logs\\common-error.log.2021-03-18","D:\\stockApp\\logs\\stockApp-web.log -> D:\\stockApp\\logs\\stockApp-web.log.2021-03-18","D:\\stockApp\\logs\\egg-web.log -> D:\\stockApp\\logs\\egg-web.log.2021-03-18","D:\\stockApp\\logs\\egg-schedule.log -> D:\\stockApp\\logs\\egg-schedule.log.2021-03-18","D:\\stockApp\\logs\\egg-agent.log -> D:\\stockApp\\logs\\egg-agent.log.2021-03-18"]

@@ -1,0 +1,17 @@
+2021-02-22 14:16:41,233 ERROR 4708 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 4708
+hostname: DESKTOP-41PC3A7
+
+2021-02-23 08:33:34,530 ERROR 4708 nodejs.ClusterClientNoResponseError: client no response in 55772767ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\stockApp\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 4708
+hostname: DESKTOP-41PC3A7
+

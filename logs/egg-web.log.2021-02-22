@@ -1,0 +1,41 @@
+2021-02-22 08:27:30,984 INFO 12672 [egg-logrotator] app logger reload: got log-reload message
+2021-02-22 08:27:31,265 INFO 12672 [-/127.0.0.1/-/4618ms SCHEDULE /__schedule?path=D:\stockApp\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2021-02-22 14:16:38,851 INFO 12852 [egg:logger] init all loggers with options: {"dir":"D:\\stockApp\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"stockApp-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-22 14:16:38,874 INFO 12852 [egg-multipart] stream mode enable
+2021-02-22 14:16:38,876 INFO 12852 [egg-mysql] connecting Pika@116.62.226.6:3306/stock
+2021-02-22 14:16:39,008 INFO 12852 [egg-static] starting static serve /public/ -> D:\stockApp\public
+2021-02-22 14:16:39,010 INFO 12852 [egg-security] use csrf middleware
+2021-02-22 14:16:39,011 INFO 12852 [egg-security] use methodnoallow middleware
+2021-02-22 14:16:39,011 INFO 12852 [egg-security] use noopen middleware
+2021-02-22 14:16:39,011 INFO 12852 [egg-security] use nosniff middleware
+2021-02-22 14:16:39,012 INFO 12852 [egg-security] use xssProtection middleware
+2021-02-22 14:16:39,012 INFO 12852 [egg-security] use xframe middleware
+2021-02-22 14:16:39,013 INFO 12852 [egg-security] use dta middleware
+2021-02-22 14:16:39,013 INFO 12852 [egg-security] compose 7 middlewares into one security middleware
+2021-02-22 14:16:39,059 INFO 12852 [egg:core] dump config after load, 41ms
+2021-02-22 14:16:39,073 INFO 12852 [egg-watcher:application] watcher start success
+2021-02-22 14:16:39,109 INFO 12852 [egg-mysql] instance[0] status OK, rds currentTime: Mon Feb 22 2021 14:16:39 GMT+0800 (GMT+08:00)
+2021-02-22 14:16:39,127 INFO 12852 [egg:core] dump config after ready, 12ms
+2021-02-22 14:16:41,150 INFO 9204 [egg:logger] init all loggers with options: {"dir":"D:\\stockApp\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"stockApp-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-22 14:16:41,173 INFO 9204 [egg-multipart] stream mode enable
+2021-02-22 14:16:41,174 INFO 9204 [egg-mysql] connecting Pika@116.62.226.6:3306/stock
+2021-02-22 14:16:41,297 INFO 9204 [egg-static] starting static serve /public/ -> D:\stockApp\public
+2021-02-22 14:16:41,299 INFO 9204 [egg-security] use csrf middleware
+2021-02-22 14:16:41,299 INFO 9204 [egg-security] use methodnoallow middleware
+2021-02-22 14:16:41,300 INFO 9204 [egg-security] use noopen middleware
+2021-02-22 14:16:41,300 INFO 9204 [egg-security] use nosniff middleware
+2021-02-22 14:16:41,300 INFO 9204 [egg-security] use xssProtection middleware
+2021-02-22 14:16:41,301 INFO 9204 [egg-security] use xframe middleware
+2021-02-22 14:16:41,301 INFO 9204 [egg-security] use dta middleware
+2021-02-22 14:16:41,301 INFO 9204 [egg-security] compose 7 middlewares into one security middleware
+2021-02-22 14:16:41,408 INFO 9204 [egg:core] dump config after load, 101ms
+2021-02-22 14:16:41,439 INFO 9204 [egg-watcher:application] watcher start success
+2021-02-22 14:16:41,478 INFO 9204 [egg-mysql] instance[0] status OK, rds currentTime: Mon Feb 22 2021 14:16:41 GMT+0800 (GMT+08:00)
+2021-02-22 14:16:41,487 INFO 9204 [egg:core] dump config after ready, 7ms
+2021-02-23 08:33:34,507 WARN 9204 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-02-23 08:33:34,511 WARN 9204 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-02-23 08:33:34,527 INFO 9204 [egg-logrotator] clean all log before 31 days
+2021-02-23 08:33:34,529 INFO 9204 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=D:\stockApp\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "C:\\Users\\QSYF03\\AppData\\Local\\Temp\\egg-multipart-tmp\\stockApp"
+2021-02-23 08:33:34,533 INFO 9204 [-/127.0.0.1/-/5ms SCHEDULE /__schedule?path=D:\stockApp\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2021-02-23 08:33:34,533 INFO 9204 [egg-logrotator] broadcast log-reload
+2021-02-23 08:33:34,534 INFO 9204 [egg-logrotator] rotate files success by DayRotator, files ["D:\\stockApp\\logs\\common-error.log -> D:\\stockApp\\logs\\common-error.log.2021-02-22","D:\\stockApp\\logs\\stockApp-web.log -> D:\\stockApp\\logs\\stockApp-web.log.2021-02-22","D:\\stockApp\\logs\\egg-web.log -> D:\\stockApp\\logs\\egg-web.log.2021-02-22","D:\\stockApp\\logs\\egg-schedule.log -> D:\\stockApp\\logs\\egg-schedule.log.2021-02-22","D:\\stockApp\\logs\\egg-agent.log -> D:\\stockApp\\logs\\egg-agent.log.2021-02-22"]

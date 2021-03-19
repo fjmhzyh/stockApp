@@ -1,0 +1,68 @@
+2021-03-17 08:36:35,483 ERROR 8924 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 8924
+hostname: DESKTOP-41PC3A7
+
+2021-03-17 09:56:38,729 ERROR 16692 [-/::1/-/112ms GET /api/markedList?page=1&size=30&sort=three%20%20%20%20%20%20&type=one&marketType=all&time=all&code=] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'marked' in 'where clause'
+    at Query.Sequence._packetToError (D:\stockApp\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\stockApp\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\stockApp\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\stockApp\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\stockApp\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\stockApp\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\stockApp\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+    --------------------
+    at Pool.query (D:\stockApp\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\stockApp\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\stockApp\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (D:\stockApp\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\stockApp\node_modules\co\index.js:65:19)
+    at D:\stockApp\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (D:\stockApp\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as query] (D:\stockApp\node_modules\co\index.js:30:15)
+    at ArticeService.getMarkedStock (D:\stockApp\app\service\article.js:196:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async IntroController.markedList (D:\stockApp\app\controller\intro\intro.js:15:22)
+    sql: select * from stock where  marked=1   
+          ORDER BY three_year_average_rise DESC LIMIT 0, 30;
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'marked' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from stock where  marked=1   \n          ORDER BY three_year_average_rise DESC LIMIT 0, 30;"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 16692
+hostname: DESKTOP-41PC3A7
+
+2021-03-17 13:02:26,654 ERROR 18388 nodejs.ClusterClientNoResponseError: client no response in 2565539ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\stockApp\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 18388
+hostname: DESKTOP-41PC3A7
+
+2021-03-18 08:30:40,534 ERROR 18388 nodejs.ClusterClientNoResponseError: client no response in 54243776ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\stockApp\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 18388
+hostname: DESKTOP-41PC3A7
+

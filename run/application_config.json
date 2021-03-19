@@ -240,7 +240,7 @@
     "webpack": {
       "port": 9000,
       "proxy": {
-        "host": "http://127.0.0.1:9000",
+        "host": "http://127.0.0.1:9001",
         "match": "/^\\/public\\//"
       },
       "webpackConfigList": [

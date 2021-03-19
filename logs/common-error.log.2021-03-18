@@ -1,0 +1,8 @@
+2021-03-19 08:48:15,600 ERROR 18388 nodejs.ClusterClientNoResponseError: client no response in 56067370ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\stockApp\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 18388
+hostname: DESKTOP-41PC3A7
+

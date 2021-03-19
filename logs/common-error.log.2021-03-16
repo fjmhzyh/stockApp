@@ -1,0 +1,8 @@
+2021-03-17 08:34:04,121 ERROR 8924 nodejs.ClusterClientNoResponseError: client no response in 55653257ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\stockApp\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 8924
+hostname: DESKTOP-41PC3A7
+

@@ -40,7 +40,7 @@ module.exports = class ArticeService extends egg.Service {
     var { page, size, sort, type,marketType, time,code } = params;
     var pageSize = size?size:20;
     var offset = (page-1)*pageSize>0?(page-1)*pageSize-1: 0;
-    const market = await this.app.mysql.get('stock', { id: 1 });
+    const market = await this.app.mysql.get('stock', { id: 4192 });
 
     var marketTypeFilter = '';
     var timeFilter = '';
@@ -126,7 +126,7 @@ module.exports = class ArticeService extends egg.Service {
     var { page, size, sort, type,marketType, time,code } = params;
     var pageSize = size?size:20;
     var offset = (page-1)*pageSize>0?(page-1)*pageSize-1: 0;
-    const market = await this.app.mysql.get('stock', { id: 1 });
+    const market = await this.app.mysql.get('stock', { id: 4192 });
 
 
 var marketTypeFilter = '';
